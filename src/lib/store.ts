@@ -10,8 +10,10 @@ export type Note = { id: string; created_at: string; author: string; text: strin
 export type StoreState = { checks: Record<string, Check>; notes: Note[]; mode: 'supabase' | 'local'; online: boolean; syncing: boolean; queued: number; error: string | null; config: Record<string, string> }
 type Op = { kind: 'check'; check: Check } | { kind: 'note'; note: Note }
 
-const URL = import.meta.env.VITE_SUPABASE_URL as string | undefined
-const KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined
+// Valeurs nettoyées : un BOM ou un retour chariot glissé dans un secret GitHub casse l’en-tête apikey.
+const clean = (v: unknown) => (typeof v === 'string' ? v.replace(/^﻿/, '').trim() : undefined) || undefined
+const URL = clean(import.meta.env.VITE_SUPABASE_URL)
+const KEY = clean(import.meta.env.VITE_SUPABASE_ANON_KEY)
 const LS = { checks: 'sl:checks', notes: 'sl:notes', queue: 'sl:queue' }
 
 function load<T>(k: string, def: T): T { try { const v = localStorage.getItem(k); return v ? (JSON.parse(v) as T) : def } catch { return def } }
