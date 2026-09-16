@@ -2,7 +2,7 @@
 // Source principale : Flightradar24 (point de données du site, sans clé, CORS ouvert — non officiel, peut changer sans préavis).
 // Secours : AirLabs si une clé est configurée (compte gratuit, 1 000 requêtes / mois).
 import { useEffect, useState, useSyncExternalStore } from 'react'
-import { mParts, toDate } from './time'
+import { hmOf, mParts, toDate } from './time'
 
 /** Extrait les numéros de vol d'un libellé (« AF1876 (CDG) ×16 + TO3018 (Orly) ×2 » → AF1876, TO3018).
  *  Un suffixe lettre du plan de vol client (« AT412R », « AT413M ») est retiré : le vol suivi est AT412 / AT413. */
@@ -85,8 +85,7 @@ export function useApiError() { return useSyncExternalStore(l => { errListeners.
 // Marrakech (arrivée : destination RAK ; départ : origine RAK — écarte les correspondances comme AF718 CDG → DSS),
 // puis celle dont l'horaire prévu est le plus proche de la vague. Heures converties en heure du Maroc.
 const HOME = 'RAK'
-const fmtMa = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Africa/Casablanca', hour: '2-digit', minute: '2-digit', hour12: false })
-const hmEpoch = (e?: number | null) => (e ? fmtMa.format(new Date(e * 1000)).replace('h', ':') : undefined)
+const hmEpoch = (e?: number | null) => (e ? hmOf(e * 1000) : undefined)
 type Fr24Item = { identification?: { number?: { default?: string } }; airport?: { origin?: { code?: { iata?: string } }; destination?: { code?: { iata?: string } } }; status?: { live?: boolean; text?: string; generic?: { status?: { text?: string; type?: string } } }; time?: { scheduled?: { departure?: number | null; arrival?: number | null }; estimated?: { departure?: number | null; arrival?: number | null }; real?: { departure?: number | null; arrival?: number | null }; other?: { eta?: number | null } } }
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms))
 async function fetchFr24(code: string, ref: Date, type: FlightType): Promise<FlightStatus | null> {

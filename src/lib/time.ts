@@ -1,26 +1,35 @@
 import type { Sequence } from './types'
 
+// HEURE LÉGALE DU MAROC — calcul manuel, sans dépendre de la base de fuseaux du téléphone.
+// Décret n° 2.26.530 (BO du 29/06/2026) : dans la nuit du samedi 19 au dimanche 20 septembre 2026, à 02:00 (UTC+1)
+// les horloges reculent à 01:00 et le Royaume reste définitivement à GMT. Les téléphones dont la base de fuseaux
+// n'est pas à jour continueront d'afficher UTC+1 : l'app fait foi.
 export const TZ = 'Africa/Casablanca'
-const fmt = new Intl.DateTimeFormat('fr-FR', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
+export const SWITCH_UTC = Date.UTC(2026, 8, 20, 1, 0, 0) // 20/09/2026 01:00 UTC = 02:00 UTC+1 → 01:00 GMT
+export const offsetMs = (d: Date) => (d.getTime() < SWITCH_UTC ? 3_600_000 : 0)
+export const offsetLabel = (d: Date) => (d.getTime() < SWITCH_UTC ? 'UTC+1' : 'GMT')
+/** Décalage entre l'heure du téléphone et l'heure légale du Maroc (minutes ; 0 = téléphone juste). */
+export const phoneDriftMin = (d: Date) => Math.round((-d.getTimezoneOffset() * 60_000 - offsetMs(d)) / 60_000)
 
-/** Date/heure au Maroc : { date: 'YYYY-MM-DD', time: 'HH:MM', ddmm } */
+const p2 = (n: number) => String(n).padStart(2, '0')
+/** Date/heure légale au Maroc : { date: 'YYYY-MM-DD', time: 'HH:MM', ddmm } */
 export function mParts(d: Date) {
-  const p: Record<string, string> = {}
-  fmt.formatToParts(d).forEach(x => { p[x.type] = x.value })
-  return { date: `${p.year}-${p.month}-${p.day}`, time: `${p.hour}:${p.minute}`, ddmm: `${p.day}/${p.month}` }
+  const t = new Date(d.getTime() + offsetMs(d))
+  const date = `${t.getUTCFullYear()}-${p2(t.getUTCMonth() + 1)}-${p2(t.getUTCDate())}`
+  return { date, time: `${p2(t.getUTCHours())}:${p2(t.getUTCMinutes())}`, ddmm: `${p2(t.getUTCDate())}/${p2(t.getUTCMonth() + 1)}` }
 }
-/** Construit une Date à partir d'une date et d'une heure Maroc (UTC+1 en continu — pas de changement d'heure le 20/09, contrairement à la fiche transport V3) */
-export const toDate = (date: string, time: string) => new Date(`${date}T${time}:00+01:00`)
+/** Construit une Date à partir d'une date et d'une heure légale marocaine (UTC+1 jusqu'au 19/09 inclus, GMT à partir du 20/09). */
+export const toDate = (date: string, time: string) => new Date(`${date}T${time}:00${date >= '2026-09-20' ? '+00:00' : '+01:00'}`)
+export const hmOf = (ms: number) => mParts(new Date(ms)).time
 
 export const J: Record<string, string> = {
-  '2026-09-03': 'J-5', '2026-09-05': 'J-3', '2026-09-06': 'J-2', '2026-09-07': 'J-1', '2026-09-08': 'J1',
-  '2026-09-09': 'J2', '2026-09-10': 'J3', '2026-09-11': 'J4', '2026-09-12': 'J+1', '2026-09-13': 'J+2',
+  '2026-09-16': 'J-1', '2026-09-17': 'J1', '2026-09-18': 'J2', '2026-09-19': 'J3', '2026-09-20': 'J4', '2026-09-21': 'J5',
 }
 export const DAYS = Object.keys(J)
 const WD = ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.']
 export const ddmm = (date: string) => `${date.slice(8, 10)}/${date.slice(5, 7)}`
 export function dayShort(date: string) {
-  const d = new Date(date + 'T12:00:00+01:00')
+  const d = toDate(date, '12:00')
   return `${WD[d.getUTCDay()]} ${ddmm(date)}`
 }
 export const dayLabel = (date: string) => `${dayShort(date)}${J[date] ? ' — ' + J[date] : ''}`

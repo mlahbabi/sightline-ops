@@ -24,9 +24,9 @@ export default function Transport() {
   const openId = hash.slice(1)
   return (
     <div>
-      <PageTitle title="Transport" sub="Fiche Najib V3 du 15/09 corrigée · heure UTC+1 sans changement" right={<a className="btn text-xs min-h-9 px-3" href={`tel:${transport.contactDispatch.tel}`}>📞 {transport.contactDispatch.nom}</a>} />
+      <PageTitle title="Transport" sub="Fiche Najib V3 du 15/09 · nouvelle heure (GMT) dès le 20/09" right={<a className="btn text-xs min-h-9 px-3" href={`tel:${transport.contactDispatch.tel}`}>📞 {transport.contactDispatch.nom}</a>} />
       <button type="button" onClick={() => setRules(r => !r)} className="w-full card border-alert-orange/50 px-3 py-2 text-left text-sm mb-2">
-        <b>Règles d'or</b> · dépose aéroport H-2 minimum · pancarte « Sightline » · UTC+1 sans changement · ne jamais partir incomplet sans validation MRCO {rules ? '▾' : '▸'}
+        <b>Règles d'or</b> · dépose aéroport H-2 minimum · pancarte « Sightline » · GMT dès le 20/09 · ne jamais partir incomplet sans validation MRCO {rules ? '▾' : '▸'}
         {rules && <ul className="mt-2 space-y-1 text-xs text-ivory/85">{transport.regles.map(r => <li key={r}>• {r}</li>)}</ul>}
       </button>
       <Chips items={DAYS_T} value={day} onChange={d => { setDay(d); setSp({ d }) }} render={d => <span>{d.slice(8, 10)}/{d.slice(5, 7)}<span className="ml-1 text-[10px] opacity-70">{jOf(d)}</span></span>} />

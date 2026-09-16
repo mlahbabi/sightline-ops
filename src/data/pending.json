@@ -4,9 +4,9 @@
  "items": [
   {
    "id": "pd01",
-   "sujet": "HEURE : la fiche transport V3 annonce un passage à GMT dans la nuit du 19 au 20/09 — FAUX (le Maroc reste en UTC+1, GMT seulement pendant le Ramadan). Corriger auprès de Najib et Ssi Brahim AVANT samedi, sinon chauffeurs 1 h en retard les 20 et 21/09 (vol 09:55)",
-   "responsable": "Mehdi → Najib",
-   "echeance": "2026-09-16",
+   "sujet": "HEURE : passage à GMT confirmé (décret 2.26.530, vérifié en ligne le 16/09) dans la nuit du 19 au 20/09 — les téléphones non mis à jour resteront à UTC+1 : au réveil du 20/09, aligner les 4 téléphones MRCO sur l’heure de l’app (bandeau rouge si écart) et rappeler la nouvelle heure à Najib, Ssi Brahim, le camp Agafay (petit-déj 08:30) et La Kasbah (petit-déj 05:15)",
+   "responsable": "Mehdi / Eva",
+   "echeance": "2026-09-19",
    "level": "alerte"
   },
   {

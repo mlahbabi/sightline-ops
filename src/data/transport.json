@@ -2,7 +2,7 @@
  "version": "V1.0 — 16/09/2026",
  "updatedAt": "2026-09-16T18:00:00+01:00",
  "regles": [
-  "HEURE : le Maroc reste en UTC+1 pendant toute l'opération (heure du téléphone). La fiche transport V3 annonce à tort un passage à GMT dans la nuit du 19 au 20 : NE PAS reculer les montres. Vérification croisée avec Eva / Mehdi avant chaque prise en charge des 20 et 21/09.",
+  "HEURE : nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — passage définitif à GMT (décret 2.26.530). Tous les horaires des 20 et 21/09 sont en nouvelle heure. Vérification croisée des montres avec Eva / Mehdi avant chaque prise en charge des 20 et 21/09 ; l’app Sightline Ops affiche l’heure légale.",
   "Départ aéroport : dépose à RAK au minimum 2 h avant décollage (La Kasbah By Beldi → RAK ~45–50 min).",
   "Arrivée J1 : accueil en zone arrivées avec pancarte « Sightline », chauffeurs en place à l'atterrissage, sortie passagers +30 à 40 min. Suivi du vol en temps réel.",
   "4×4 : J3 = self drive (invités au volant, 5 pax max par véhicule, aucun alcool pour les conducteurs) · J4 = 4 pax max par véhicule avec chauffeur, sans bagages, sans exception.",
@@ -238,7 +238,7 @@
    ],
    "paxEstime": "19",
    "vehicule": "5 × 4×4 (CAR 1-5) + véhicule MRCO",
-   "note": "Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition nominative ⚠️ à établir. Heure : UTC+1, pas de changement.",
+   "note": "Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition nominative ⚠️ à établir. Heure : nouvelle heure (GMT).",
    "origine": "Yes We Camp Agafay",
    "destination": "La Kasbah By Beldi",
    "level": "critique"
@@ -285,7 +285,7 @@
     "ruigrok"
    ],
    "vehicule": "2 × 17 pl (BUS 1 / BUS 2)",
-   "note": "Chauffeurs en place 05:45, bagages 06:00, départ groupé 06:20, trajet ~45–50 min, dépose ~07:10 (H-2:45). Transavia → Eindhoven 15:35. HEURE : UTC+1, pas de changement.",
+   "note": "Chauffeurs en place 05:45, bagages 06:00, départ groupé 06:20, trajet ~45–50 min, dépose ~07:10 (H-2:45). Transavia → Eindhoven 15:35. HEURE : nouvelle heure (GMT) — chauffeurs prévenus.",
    "origine": "La Kasbah By Beldi",
    "destination": "Aéroport RAK",
    "level": "critique"

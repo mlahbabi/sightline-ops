@@ -51,12 +51,12 @@
    "date": "2026-09-16",
    "start": "19:30",
    "end": "20:00",
-   "title": "Appel Najib : flotte confirmée + CORRECTION heure",
+   "title": "Appel Najib : flotte confirmée + rappel du changement d’heure",
    "lieu": "Téléphone",
    "effectif": "",
    "type": "orga",
    "level": "critique",
-   "details": "Confirmer la disponibilité : 2 × 17 pl (17, 18, 21/09), 4 × 4×4 self drive (19/09), 5 × 4×4 + véhicule bagages (20/09). HEURE : le Maroc reste en UTC+1 (heure du téléphone). La fiche transport V3 annonce à tort un passage à GMT : ne PAS reculer les montres. Sans cette correction, les chauffeurs se présentent 1 h en retard les 20 et 21/09 (vol 09:55).",
+   "details": "Confirmer la disponibilité : 2 × 17 pl (17, 18, 21/09), 4 × 4×4 self drive (19/09), 5 × 4×4 + véhicule bagages (20/09). HEURE : dans la nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — le Maroc passe définitivement à GMT (décret 2.26.530, vérifié en ligne le 16/09). Les horaires des 20 et 21/09 sont en nouvelle heure. Les téléphones non mis à jour peuvent rester à UTC+1 : l’app calcule l’heure légale et fait foi. Les chauffeurs doivent se présenter en NOUVELLE heure les 20 et 21/09 (montres et véhicules reculés d’une heure), vérification croisée avec Eva / Mehdi avant chaque prise en charge.",
    "checklist": [
     {
      "id": "s0916-najib-c1",
@@ -64,7 +64,7 @@
     },
     {
      "id": "s0916-najib-c2",
-     "label": "Correction heure transmise et comprise (pas de changement le 20/09)"
+     "label": "Changement d’heure du 20/09 rappelé et compris (nouvelle heure GMT)"
     },
     {
      "id": "s0916-najib-c3",
@@ -876,7 +876,7 @@
    "effectif": "19",
    "type": "activite",
    "level": "critique",
-   "details": "4 × 4×4, les invités conduisent : Jeep 1 (5), Jeep 2 (5), Jeep 3 (4), Jeep 4 (5) — voir Personnes → Jeep. Règles : pas de conduite risquée, rester dans le convoi, AUCUN alcool pour les conducteurs (assurance). Ssi Brahim en tête. Pancartes véhicules CAR 1 à 4. HEURE : le Maroc reste en UTC+1 (heure du téléphone). La fiche transport V3 annonce à tort un passage à GMT : ne PAS reculer les montres.",
+   "details": "4 × 4×4, les invités conduisent : Jeep 1 (5), Jeep 2 (5), Jeep 3 (4), Jeep 4 (5) — voir Personnes → Jeep. Règles : pas de conduite risquée, rester dans le convoi, AUCUN alcool pour les conducteurs (assurance). Ssi Brahim en tête. Pancartes véhicules CAR 1 à 4. HEURE : dans la nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — le Maroc passe définitivement à GMT (décret 2.26.530, vérifié en ligne le 16/09). Les horaires des 20 et 21/09 sont en nouvelle heure. Les téléphones non mis à jour peuvent rester à UTC+1 : l’app calcule l’heure légale et fait foi.",
    "checklist": [
     {
      "id": "s0919-brief4x4-c1",
@@ -1143,12 +1143,12 @@
    "date": "2026-09-19",
    "start": "22:00",
    "end": "22:15",
-   "title": "RAPPEL HEURE : aucun changement cette nuit",
+   "title": "RAPPEL HEURE : cette nuit 02:00 → 01:00, passage à GMT",
    "lieu": "Yes We Camp Agafay",
    "effectif": "",
    "type": "orga",
    "level": "critique",
-   "details": "HEURE : le Maroc reste en UTC+1 (heure du téléphone). La fiche transport V3 annonce à tort un passage à GMT : ne PAS reculer les montres. Vérifier que les téléphones sont en réglage automatique. Confirmer par message à Najib et Ssi Brahim : chauffeurs à 10:30 / 11:00 en heure du téléphone.",
+   "details": "HEURE : dans la nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — le Maroc passe définitivement à GMT (décret 2.26.530, vérifié en ligne le 16/09). Les horaires des 20 et 21/09 sont en nouvelle heure. Les téléphones non mis à jour peuvent rester à UTC+1 : l’app calcule l’heure légale et fait foi. Confirmer par message à Najib et Ssi Brahim : véhicule bagages 10:30 et convoi 11:00 en NOUVELLE heure (GMT). Au réveil, comparer l’heure du téléphone à celle de l’app (bandeau rouge si écart).",
    "checklist": [
     {
      "id": "s0919-heure-c1",
@@ -1160,7 +1160,11 @@
     },
     {
      "id": "s0919-heure-c3",
-     "label": "Téléphones MRCO en heure automatique"
+     "label": "Groupe prévenu (réveil, petit-déjeuner 08:30 nouvelle heure)"
+    },
+    {
+     "id": "s0919-heure-c4",
+     "label": "Au réveil : téléphones MRCO à l’heure de l’app"
     }
    ],
    "persons": [],
@@ -1316,7 +1320,7 @@
    "effectif": "19",
    "type": "transport",
    "level": "critique",
-   "details": "Véhicule : 5 × 4×4 (CAR 1-5) + véhicule MRCO. Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition nominative ⚠️ à établir. Heure : UTC+1, pas de changement.",
+   "details": "Véhicule : 5 × 4×4 (CAR 1-5) + véhicule MRCO. Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition nominative ⚠️ à établir. Heure : nouvelle heure (GMT).",
    "checklist": [
     {
      "id": "p0920-1100-c1",
@@ -1573,7 +1577,7 @@
    "effectif": "19 + 2",
    "type": "orga",
    "level": "critique",
-   "details": "Chauffeurs 2 × 17 pl en place à 05:45, chargement bagages à 06:00. HEURE : le Maroc reste en UTC+1 (heure du téléphone). La fiche transport V3 annonce à tort un passage à GMT : ne PAS reculer les montres.",
+   "details": "Chauffeurs 2 × 17 pl en place à 05:45, chargement bagages à 06:00. HEURE : dans la nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — le Maroc passe définitivement à GMT (décret 2.26.530, vérifié en ligne le 16/09). Les horaires des 20 et 21/09 sont en nouvelle heure. Les téléphones non mis à jour peuvent rester à UTC+1 : l’app calcule l’heure légale et fait foi.",
    "checklist": [
     {
      "id": "s0921-petitdej-c1",
@@ -1625,7 +1629,7 @@
    "effectif": "19",
    "type": "transport",
    "level": "critique",
-   "details": "Véhicule : 2 × 17 pl (BUS 1 / BUS 2). Chauffeurs en place 05:45, bagages 06:00, départ groupé 06:20, trajet ~45–50 min, dépose ~07:10 (H-2:45). Transavia → Eindhoven 15:35. HEURE : UTC+1, pas de changement.",
+   "details": "Véhicule : 2 × 17 pl (BUS 1 / BUS 2). Chauffeurs en place 05:45, bagages 06:00, départ groupé 06:20, trajet ~45–50 min, dépose ~07:10 (H-2:45). Transavia → Eindhoven 15:35. HEURE : nouvelle heure (GMT) — chauffeurs prévenus.",
    "checklist": [
     {
      "id": "w0921-0620-c1",
