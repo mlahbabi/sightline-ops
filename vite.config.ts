@@ -14,7 +14,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['pmd-white.png', 'pmd-black.png', 'apple-touch-icon.png'],
+      includeAssets: ['sightline.png', 'favicon.png', 'apple-touch-icon.png'],
       manifest: {
         name: 'Sightline Ops — Marrakech & Agafay',
         short_name: 'Sightline Ops',

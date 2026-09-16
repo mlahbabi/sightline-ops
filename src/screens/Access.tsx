@@ -24,7 +24,7 @@ export default function Access({ onDone }: { onDone: () => void }) {
   if (ok && user) { onDone(); return null }
   return (
     <div className="min-h-dvh flex flex-col items-center justify-center p-6 text-center safe-top">
-      <div className="text-6xl font-bold mb-2"><span className="text-lavender">3</span>0</div>
+      <img src={`${import.meta.env.BASE_URL}sightline.png`} alt="Sightline Productions — 30 ans" className="w-40 rounded-3xl mb-5" />
       <h1 className="text-2xl font-bold mb-1">Sightline Ops</h1>
       <p className="text-warm text-sm mb-6">Sightline Productions · Marrakech & Agafay · 17 → 21 septembre 2026<br />Outil terrain MRCO — usage interne</p>
       {!ok ? (
