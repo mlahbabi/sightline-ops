@@ -20,7 +20,7 @@ export default function Programme() {
   }), [day, mine, filter, user])
   return (
     <div>
-      <PageTitle title="Programme" sub="Timeline minute par minute · 03 → 13/09" />
+      <PageTitle title="Programme" sub="Timeline minute par minute · 16 → 21/09" />
       <Chips items={DAYS} value={day} onChange={setDay} render={d => <span>{d.slice(8, 10)}/{d.slice(5, 7)}<span className="ml-1 text-[10px] opacity-70">{jOf(d)}</span></span>} />
       <div className="flex flex-wrap gap-2 py-2">
         <button type="button" className={`chip ${mine ? 'chip-on' : ''}`} onClick={() => setMine(m => !m)}>👤 Mon planning</button>
