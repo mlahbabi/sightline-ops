@@ -59,7 +59,7 @@ export const TTL = 5 * 60_000
 
 // ---- Clé AirLabs (secours) : saisie sur l'appareil (Plus → Réglages), configuration partagée Supabase, variable de build.
 import { getState } from './store'
-export const AIRLABS_LS = 'pmd:airlabs'
+export const AIRLABS_LS = 'sl:airlabs'
 const envKey = (import.meta.env.VITE_AIRLABS_KEY as string | undefined) || '09a1fc3f-c1ef-4336-9b26-2961d0cdc229'
 const readKey = () => { try { return (localStorage.getItem(AIRLABS_LS) || getState().config.airlabs_key || envKey).trim() } catch { return envKey } }
 let KEY = readKey()

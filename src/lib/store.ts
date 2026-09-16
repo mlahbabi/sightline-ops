@@ -12,7 +12,7 @@ type Op = { kind: 'check'; check: Check } | { kind: 'note'; note: Note }
 
 const URL = import.meta.env.VITE_SUPABASE_URL as string | undefined
 const KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined
-const LS = { checks: 'pmd:checks', notes: 'pmd:notes', queue: 'pmd:queue' }
+const LS = { checks: 'sl:checks', notes: 'sl:notes', queue: 'sl:queue' }
 
 function load<T>(k: string, def: T): T { try { const v = localStorage.getItem(k); return v ? (JSON.parse(v) as T) : def } catch { return def } }
 function save(k: string, v: unknown) { try { localStorage.setItem(k, JSON.stringify(v)) } catch { /* quota */ } }
@@ -26,7 +26,7 @@ let state: StoreState = {
   syncing: false,
   queued: queue.length,
   error: null,
-  config: load<Record<string, string>>('pmd:config', {}),
+  config: load<Record<string, string>>('sl:config', {}),
 }
 const listeners = new Set<() => void>()
 const emit = () => listeners.forEach(l => l())
@@ -70,7 +70,7 @@ export async function refresh() {
     set({ checks, notes, error: null }); save(LS.checks, checks); save(LS.notes, notes)
     // Configuration partagée (ex. clé de suivi des vols) : table config(key, value), facultative
     const { data: cfg } = await sb.from('config').select('key,value')
-    if (cfg) { const config: Record<string, string> = {}; (cfg as { key: string; value: string }[]).forEach(c => { config[c.key] = c.value }); set({ config }); save('pmd:config', config) }
+    if (cfg) { const config: Record<string, string> = {}; (cfg as { key: string; value: string }[]).forEach(c => { config[c.key] = c.value }); set({ config }); save('sl:config', config) }
   } catch (e) {
     set({ error: 'Synchro Supabase impossible — données locales affichées' })
   } finally { set({ syncing: false }) }

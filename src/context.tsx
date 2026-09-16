@@ -13,14 +13,14 @@ type Ctx = {
 const AppCtx = createContext<Ctx | null>(null)
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  const [user, setUserState] = useState(() => localStorage.getItem('pmd:user') || '')
+  const [user, setUserState] = useState(() => localStorage.getItem('sl:user') || '')
   const [sim, setSim] = useState<{ base: number; at: number } | null>(null)
   const [tick, setTick] = useState(() => Date.now())
   useEffect(() => { const t = setInterval(() => setTick(Date.now()), 10_000); return () => clearInterval(t) }, [])
   useEffect(() => { void store.initStore() }, [])
   const st = useSyncExternalStore(store.subscribe, store.getState)
   const now = useMemo(() => (sim ? new Date(sim.base + (tick - sim.at)) : new Date(tick)), [sim, tick])
-  const setUser = useCallback((u: string) => { localStorage.setItem('pmd:user', u); setUserState(u) }, [])
+  const setUser = useCallback((u: string) => { localStorage.setItem('sl:user', u); setUserState(u) }, [])
   const setSimulated = useCallback((d: Date | null) => { const t = Date.now(); setTick(t); setSim(d ? { base: d.getTime(), at: t } : null) }, [])
   const toggle = useCallback((itemId: string, done: boolean) => store.toggleCheck(itemId, done, user || '?'), [user])
   const addNote = useCallback((text: string, level: NoteLevel, itemId: string | null = null) => store.addNote(text, level, user || '?', itemId), [user])

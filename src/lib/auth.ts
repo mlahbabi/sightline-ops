@@ -10,7 +10,7 @@ export async function sha256(s: string) {
   return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('')
 }
 
-const K = { access: 'pmd:access', fails: 'pmd:fails', lock: 'pmd:lock' }
+const K = { access: 'sl:access', fails: 'sl:fails', lock: 'sl:lock' }
 export const hasAccess = () => localStorage.getItem(K.access) === '1'
 export const grantAccess = () => { localStorage.setItem(K.access, '1'); localStorage.removeItem(K.fails); localStorage.removeItem(K.lock) }
 export const revokeAccess = () => localStorage.removeItem(K.access)

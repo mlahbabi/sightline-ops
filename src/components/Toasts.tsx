@@ -10,7 +10,7 @@ import { deltaOf, etaOf, fetchStatus, flightCodes, isActive, statusLabel, useApi
 
 const TTL = 20_000
 type Toast = { id: string; title: string; body: string; tone: 'red' | 'orange' | 'yellow' | 'lav'; to?: string; at: number }
-const LS_FIRED = 'pmd:fired'
+const LS_FIRED = 'sl:fired'
 const loadFired = (): string[] => { try { return JSON.parse(sessionStorage.getItem(LS_FIRED) || '[]') } catch { return [] } }
 const saveFired = (s: Set<string>) => { try { sessionStorage.setItem(LS_FIRED, JSON.stringify([...s].slice(-500))) } catch { /* ignore */ } }
 
