@@ -1,91 +1,37 @@
-# DATA_CHECK — PMD Ops (Partners’ Meeting, Marrakech, 07 → 13 septembre 2026)
+# DATA_CHECK — Sightline Ops (V1.1, 16/09/2026)
 
-## Mise à jour du 07/09/2026 (V2.0) — emails « Derniers changements » de Clémence Pierron (06/09) + 4 fichiers du 07/09
+Sources lues intégralement : itinéraire Uyuni Travels (02/09, 7 p.), fiche transport Najib V3 (15/09), rooming 2Ciels V5 (16/09), rooming La Kasbah By Beldi (16/09), pack imprimeur (30 PDF, 15/09), réponses de Mehdi du 16/09.
 
-Fichiers comparés ligne à ligne aux versions du 03/09 : `PLAN DE TABLE PMEETING -070926.xlsx`, `Teambuilding - 070926.xlsx`, `Liste participants VF - pour envoi Mehdi - 070926.xlsx`, `Conso Plans-de-Vol … 070926.xlsx`. La liste des nuitées à jour et les plans de table intégrant Tonka et Ondias annoncés « pour demain » par Clémence le 06/09 soir ne sont pas encore reçus.
+## Vérifications faites
 
-### Changements intégrés
+| Point | Résultat |
+|---|---|
+| Effectif | 19 clients nommés dans les deux rooming lists, identiques dans les deux hôtels. Pamela (agence) ne vient pas. 12 chambres 2Ciels, 13 chambres Kasbah dont ch. 13 staff MRCO. |
+| Vol aller FR5895 17/09 | Flightradar24 : Eindhoven 10:50 → Marrakech 13:35 (12:35 UTC = 13:35 UTC+1). Conforme à l'itinéraire et à la fiche transport. |
+| Vol retour HV6534 21/09 | Flightradar24 : programmé 10:55 UTC → Eindhoven 15:35 (13:35 UTC). Itinéraire et fiche transport : décollage **09:55**. Écart d'une heure sur le départ, arrivée identique → **pd12**, à faire confirmer par Uyuni. Prise en charge 06:20 valable dans les deux cas. |
+| Changement d'heure 19→20/09 | **Confirmé en ligne** (décret 2.26.530, BO du 29/06/2026, presse marocaine du 04/09) : 02:00 → 01:00, GMT définitif. La fiche transport V3 est juste. La base de fuseaux de Node/ICU utilisée pour un premier contrôle était périmée : l'app calcule l'heure légale elle-même. |
+| Régimes | 9 personnes sur 19. Allergie critique Wim Wildenbeest (noix, fruits à coque, arachides, EpiPen) : menus 1 (noix), 4 (amande) et pâtisseries marocaines signalés ⚠️. Wim ne dîne pas à la Kasbah (repas personnel). |
+| Plan de table / navettes | Sans objet (pas de plan de table, un seul groupe). |
+| Termes financiers | Aucun montant repris ; l'itinéraire mentionne des boissons « réglées par le groupe », repris sans montant. |
 
-| # | Changement | Source | Impact dans l'app |
-|---|---|---|---|
-| 1 | **Afef Bedhiafi annulée** | Email 06/09 + retirée des 4 fichiers | Fiche supprimée. −4 nuitées (08→12). Vagues 08/09 18:10 AT413 (7 pax) et 12/09 08:15 (8 pax). Diaffa T5 = 8, Rôtisserie T2 = 9. Équipe TB 5 = 5 pax (40 au total). |
-| 2 | **Michel Elmaleh** : arrivée TO9800 13:40 Orly (au lieu de AF1876 17:50), départ AF1277 10:40 le 11/09 (au lieu de AF1777 06:10) | Email 06/09 + plans de vol | Nouvelle vague 08/09 13:40 (Vito commun avec TB7522 13:50 : 3 pax). AF1876 17:50 = 18 pax. Le 11/09 : vague 03:45 = Djibo seule ; vague 07:50 = Zouari, Watat, Elmaleh. |
-| 3 | **Tshiamala Tonka** : arrive le 07/09 par IB1853 (Madrid) 17:05 ; reste une nuit de plus ; repart le 11/09 par AF1877 18:55 | Email 06/09 soir (urgent) + plans de vol | Nouvelle vague 07/09 17:05 (même Vito que 17:50 et 18:10). Course du 10/09 16:30 supprimée. Ajouté à la navette Beldi 16:25 du 11/09 (8 pax). +1 nuitée. À compter au déjeuner du 10, Marrakech Express, Rôtisserie, Beldi : table Rôtisserie et équipe ⚠️ (plans à jour attendus). |
-| 4 | **Fanny Ondias** revient (avait annulé) ; gère seule hébergement et transferts ; à compter à toutes les séquences | Email 06/09 soir | Fiche créée (participant, sans chambre, sans transfert aéroport). Tables Diaffa / Rôtisserie, équipe TB, bureau : ⚠️. Effectifs repas +1. |
-| 5 | **Mohamed-Ali Malouche** : arrive en voiture avec un associé marocain (plus sur AF1776 23:15) | Plans de vol 07/09 (non mentionné dans l'email) | Vague 08/09 23:15 = Bernardini, Ibraima (2 pax, late dinner 2). Départ 11/09 navette 13:35 inchangé. |
-| 6 | **Brahim Benjelloun Touimi** = la chambre du 09→10 | Liste participants VF 07/09 (nuit du 9 au 10 cochée) | Entrée « Invité dîner 09/09 » fusionnée dans sa fiche. Point n°4 clos. |
-| 7 | **Jonathan Righi** : « Pas d'agneau » désormais dans la liste client | Liste VF 07/09 + email | Régime confirmé ; option de secours demandée par Clémence pour Diaffa (plat alternatif) et Beldi. |
-| 8 | **Julien Kopp** : « repartirait a priori en train vers Casa le jeudi 10 matin » | Email 06/09 | Toujours placé Rôtisserie T6/P8 et dans la navette 14h30 dans les fichiers du 07/09 : ⚠️ à trancher (point n°1). |
-| 9 | **Diaffa** : verre d'accueil 15 min, **5 prises de parole** en début de dîner, **pas d'after** | Email 06/09 | Timeline et checklist mises à jour ; 5e prise de parole ⚠️ (4 identifiées : Bellefqih + 3 invités). |
-| 10 | **Rôtisserie** : mot d'intro du CEO (sans équipement) → dîner → after avec 2 points de bar séparés | Email 06/09 | Timeline mise à jour (Dupont-Noel = CEO). |
-| 11 | Pas d'écrans supplémentaires à l'hôtel | Email 06/09 | Noté dans le setup du 08/09 et la plénière. |
+## Écarts et hypothèses (tous dans Plus → Points en attente)
 
-### Décisions de Mehdi du 07/09 (V2.1)
+1. **pd01** — Changement d'heure : aligner les 4 téléphones MRCO sur l'app au réveil du 20/09 ; rappeler la nouvelle heure à Najib, Ssi Brahim, le camp (petit-déj 08:30) et la Kasbah (petit-déj 05:15).
+2. **pd02** — Jeep 1 (J3) déduite par différence : Tammo van Brakel, Arjen Hofma, Pascal Rintjema, Marcel Vellekoop, Otte Stoltenborg. Mehdi n'a listé que les jeeps 2, 3 et 4.
+3. **pd03** — J4 : répartition 5 véhicules 4/4/4/4/3 à établir (les jeeps du J3 sont à 5).
+4. **pd04** — Véhicule bagages J4 : type à confirmer par Najib ; encadrant MRCO à bord à désigner.
+5. **pd05** — Convoi J3 avec Ssi Brahim ; numéros de Najib et de Ssi Brahim absents des documents.
+6. **pd06** — Cartes allergie : reconfirmer la liste des régimes avec Pamela avant impression ; Wim aux autres repas ?
+7. **pd07** — Chambre 12 (2Ciels et Kasbah) attribuée sur place : noter l'occupant.
+8. **pd08** — Attribution des 12 tentes Agafay non communiquée.
+9. **pd09** — Horaires des soirées J1/J2 à réconfirmer à J-1 à Najib (fiche V3).
+10. **pd10** — Adresses / téléphones manquants : Petanque Social Club, Comptoir Darna, Relais du Lac, Yes We Camp, La Kasbah By Beldi.
+11. **pd12** — HV6534 : 09:55 (documents) ou 10:55 GMT (Flightradar24) ?
 
-- Kopp : laissé partout (déjeuner, navette 14h30, Rôtisserie T6/P8) avec badge ⚠️ tant que Clémence n'a pas confirmé le départ en train.
-- Tonka : reste dans la navette retour 14h30 (fichier du 07/09), pas au Marrakech Express.
-- Ondias : monte dans les bus de groupe (Diaffa 20:00, Médina 12:15, Beldi 11:45).
-- Roll-ups plans de table : le nom de Bedhiafi est masqué sur place par une étiquette (pas de réimpression).
-- 5e prise de parole à Diaffa : David Dupont-Noel (CEO).
+## Hypothèses prises
 
-### Mise à jour du 07/09 midi (V2.4) — emails Clémence 07/09 07:47 et 09:46 + fichiers « 080926 »
-
-| Changement | Source | Impact |
-|---|---|---|
-| Elmaleh : aucun transfert à l'arrivée (part directement en clientèle), transfert retour seulement | Email 07:47 + plans de vol | Vague 08/09 13:50 TB7522 = Bourtourault, Villeminot (2 pax). Retour 11/09 07:50 inchangé. |
-| Ondias placée : Diaffa T3 place 7 (Chaste passe en 8), Rôtisserie T2 place 11, équipe 5 ; Partner Audit Abidjan | Email 07:47 + plan de table + teambuilding | Diaffa 65 placés (9·8·8·8·8·8·8·8), Rôtisserie 60 (6 × 10), Marrakech Express 42 (7 × 6). |
-| Tonka placé : Rôtisserie T5 place 4 (Meizou → Ndoye → Bourtourault décalés), équipe 7 | Idem | ⚠️ Le fichier le laisse aussi dans la navette 14h30 : point n°26 à trancher avec Clémence. |
-| Sayam : Rôtisserie T2 place 9 → 8 | Plan de table | Le doublon Sayam / Sall Plantagenet est résolu. Reste le doublon Diaffa T8 place 8. |
-| Mavungu : AT639 depuis Paris (et non via Casa) ; vol retour du 13/09 va changer, il attend une place | Email 09:46 + plans de vol | ⚠️ point n°27. |
-| Nuitée supplémentaire de Tonka confirmée dans la liste client (58 chambres la nuit du 10→11) | Liste VF 080926 | Conforme à l'app (196 nuitées). |
-
-Les plans de table et les équipes sont désormais lus directement dans les fichiers client (plus de saisie manuelle) : toute nouvelle version se réintègre en relançant le générateur.
-
-### Totaux de contrôle (V2)
-
-| Indicateur | 03/09 | 07/09 | Source |
-|---|---|---|---|
-| Fiches | 66 | 65 (56 participants, 2 orga Deloitte, 4 intervenants, 3 invités externes) | JSON |
-| Nuitées Radisson | 199 | 196 (1·1·1·1·5·52·62·58·13·2) | Liste VF 07/09 + Tonka +1 |
-| Marrakech Express | 41 / 7 équipes | 40 placés (6·6·6·6·5·6·5) + Tonka et Ondias à placer | Teambuilding 07/09 |
-| Navette 14h30 | 18 | 18 (Kopp et Tonka à reconfirmer) | Teambuilding 07/09 |
-| Dîner Diaffa | 65 | 64 placés + Ondias = 65 | Plan de table 07/09 |
-| Dîner Rôtisserie | 59 | 58 placés + Tonka + Ondias = 60 | Plan de table 07/09 |
-| Déjeuner Grand Bazar | 59 | 60 (Kopp ⚠️) | — |
-| Déjeuner Beldi | 50 confirmés / ~52 | ~52 (−Bedhiafi +Tonka +Ondias) | — |
-| Vagues aéroport | 29 | 29 (+17:05 IB1853, +13:40 TO9800, −16:30 Tonka, fusion 13:40/13:50) | Dispatch V5 (app) |
-
-### À faire hors app (signalé dans Points en attente)
-
-- Dispatch V5 à transmettre à Simohamed **avant 17:05 aujourd'hui** (Tonka IB1853).
-- Rooming V7 à transmettre au Radisson (196 nuitées).
-- Plans de table + teambuilding + nuitées à jour à recevoir de Clémence (Tonka, Ondias).
-- Signalétique : retirer les 2 cartes Bedhiafi ; cartes vierges Ondias ×2 et Tonka ×1 ; les roll-ups plans de table imprimés mentionnent encore Bedhiafi.
-
----
-
-## Vérification initiale du 03/09/2026 (V1.0)
-
-Vérification de `participants.json` (66 entrées, source principale) contre les fichiers sources datés 030926, par script Node (xlsx + mammoth). Règle de conflit appliquée : `participants.json` > xlsx/docx du 03/09 > reste.
-
-| Source | Rôle | Résultat |
-|---|---|---|
-| `participants.json` (fourni) | 66 entrées : 62 rooming + 1 invité chambre + 3 invités externes Diaffa | Base de l'app, enrichie des vols et des vagues de transfert |
-| Deloitte_Radisson_Rooming_Nuitees_V6_030926.xlsx | Séjours, nuitées, régimes, notes hôtel | 62 pax + 1 invité, 199 nuitées — conforme |
-| Liste participants VF - 030926.xlsx | Séjour client, teambuilding, contraintes | 62 lignes — conforme (écart Righi) |
-| Teambuilding liste du 030926.xlsx | 7 équipes / 41 pax ; navette 14h30 (18 pax) | conforme |
-| Plan de table des diners - 030926 def.xlsx | Onglet « mercredi 8 » = Diaffa 09/09 ; onglet « jeudi 9 » = Rôtisserie 10/09 | conforme (2 doublons de place dans la source) |
-| Conso Plans-de-Vol … -030926.xlsx | Vols arrivée/départ | 62 lignes — conforme (écart Kopp) |
-| MRCO_Dispatch_Transport_Sept2026_V4_030926.docx | 29 vagues aéroport + 6 transferts programme | conforme |
-| Deloitte_Radisson_Fiche_Fonction_V5_030926.docx | Salles, restauration, contingent | tarif, taxe de séjour et intitulé « séminaire des dirigeants » exclus |
-| Deloitte_PushMail_Programme_Participants_020926.docx | Programme officiel participants | libellés repris |
-| PMD_Signaletique_Imprimeur_V3 - 030926 B.zip | Signalétique | contenu interne nommé V2 |
-
-Écarts relevés le 03/09 et toujours valables : doublons de place Diaffa T8 (place 8) et Rôtisserie T2 (place 9) conservés et signalés en rouge ; Villeminot « F » dans le fichier client (homme) ; lignes « KO » du plan Rôtisserie ignorées ; nuit 12→13 = 2 chambres (fiche fonction V5 : 1) ; adresses Grand Bazar et Dar Essalam non fournies ; numéros de Clémence et Hajer absents de la spec.
-
-### Hypothèses
-
-1. Les 3 invités externes ont le statut « invité externe » (spec) ; Benjelloun Touimi est celui qui dort le 09/09 (liste client du 07/09).
-2. Les doublons de place sont conservés tels quels et signalés en rouge.
-3. Une séquence sans heure de fin reste « en cours » 45 min ou jusqu'à sa checklist à 100 % ; tous les départs aéroport et transferts groupés sont de niveau critique.
-4. (07/09) Elmaleh, arrivé à 13:40, partage le Vito de 13:50 (Bourtourault, Villeminot) ; Tonka, arrivé à 17:05, partage le Vito des vagues 17:50 et 18:10 ; Elmaleh rejoint la Vito de 07:50 le 11/09 (AF1277 10:40 = même dépose que AT402 10:40).
+- La « TL du groupe » citée par la rooming Kasbah est l'un des 19 clients (non identifié) ; l'accompagnatrice Uyuni ne vient pas.
+- Les horaires J4 et J5 des documents sont repris tels quels, en nouvelle heure (GMT), comme l'indique la fiche transport.
+- Le retour du Petanque Social Club (~00:00) est daté 17/09 23:55 pour rester dans la journée J1.
+- Statut « participant » pour les 19 ; Mehdi et Eva logent à la Kasbah (ch. 13) mais ne sont pas des fiches Personnes.
+- Données passeport et naissance reprises des rooming lists sur la fiche Personne (décision Mehdi 16/09).

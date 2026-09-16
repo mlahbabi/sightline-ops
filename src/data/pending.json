@@ -1,5 +1,5 @@
 {
- "version": "V1.0 — 16/09/2026",
+ "version": "V1.1 — 16/09/2026",
  "updatedAt": "2026-09-16T18:00:00+01:00",
  "items": [
   {
@@ -83,11 +83,11 @@
    "level": "normal"
   },
   {
-   "id": "pd11",
-   "sujet": "Menus 1 à 7 : transcrire le contenu des PDF du pack dans l'app (Plus → Menus)",
-   "responsable": "Mehdi (app)",
-   "echeance": "2026-09-17",
-   "level": "normal"
+   "id": "pd12",
+   "sujet": "HV6534 du 21/09 : itinéraire et fiche transport disent décollage 09:55 (nouvelle heure) ; Flightradar24 affiche un horaire programmé de 10:55 GMT (arrivée Eindhoven 15:35 inchangée) — faire confirmer l’heure du billet par Uyuni ; la prise en charge 06:20 reste valable dans les deux cas",
+   "responsable": "Mehdi → Uyuni",
+   "echeance": "2026-09-18",
+   "level": "alerte"
   }
  ]
 }
