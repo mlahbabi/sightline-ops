@@ -1,132 +1,57 @@
 {
- "version": "V2.32 — 11/09/2026",
- "updatedAt": "2026-09-11T10:15:00+01:00",
+ "version": "V1.0 — 16/09/2026",
+ "updatedAt": "2026-09-16T18:00:00+01:00",
  "membres": [
   "Mehdi",
-  "Mouad",
   "Eva",
-  "Farid"
+  "Farid",
+  "Mouad"
  ],
  "affectations": [
   {
-   "sequenceId": "p0909-1945",
-   "owner": "Eva",
-   "role": "accompagne le bus du départ anticipé 19:45 (6 pax) Radisson → Dar Diaffa",
-   "note": "Rassemblement lobby 19:35 : Batnini, Boisselier, De Beauvoir, Depouilly, Elmaleh, Pierron (Dupont-Noel rejoint directement le restaurant)"
-  },
-  {
-   "sequenceId": "p1009-1430",
-   "owner": "Eva",
-   "role": "retour anticipé Grand Bazar → Radisson 14:30 (18 pax, liste nominative)",
-   "note": "Avec Mouad. Pointer les 18 dans l app (Plus → Marrakech Express), ne pas partir incomplet sans validation."
-  },
-  {
-   "sequenceId": "p1009-1430",
-   "owner": "Mouad",
-   "role": "retour anticipé Grand Bazar → Radisson 14:30 (18 pax) — avec Eva",
-   "note": ""
-  },
-  {
-   "sequenceId": "w0709-1640",
-   "owner": "Farid",
-   "role": "accueil aéroport Mavungu (Vito)",
-   "note": ""
-  },
-  {
-   "sequenceId": "w0709-2325",
-   "owner": "Farid",
-   "role": "accueil aéroport Tonka 23:25 (Vito)",
-   "note": ""
-  },
-  {
-   "sequenceId": "w0709-1750",
+   "sequenceId": "s0917-rak",
    "owner": "Mehdi",
-   "role": "accueil Clémence & Hajer — véhicule Mehdi",
-   "note": ""
+   "role": "accueil aéroport (MRCO 2 pax)"
   },
   {
-   "sequenceId": "w0709-1750",
-   "owner": "Mouad",
-   "role": "accueil Clémence & Hajer — véhicule Mehdi",
-   "note": ""
+   "sequenceId": "s0917-rak",
+   "owner": "Eva",
+   "role": "accueil aéroport (MRCO 2 pax)"
+  },
+  {
+   "sequenceId": "s0916-najib",
+   "owner": "Mehdi",
+   "role": "appel Najib : flotte + correction heure"
   }
  ],
  "moments": [
   {
-   "sequenceId": "w0709-1640",
-   "label": "Accueil aéroport 07/09 (16:40 Mavungu, 17:05 Tonka, 17:50 Clémence & Hajer)"
+   "sequenceId": "s0917-rak",
+   "label": "Accueil aéroport 17/09 13:35"
   },
   {
-   "sequenceId": "w0809-1750",
-   "label": "Accueil aéroport 08/09 — vagues (09:35 → 23:15)"
+   "sequenceId": "s0917-setup-psc",
+   "label": "Setup Petanque Social Club 17/09"
   },
   {
-   "sequenceId": "s0909-accueil",
-   "label": "Bureau d'accueil 09/09 08:30"
+   "sequenceId": "s0918-ballon",
+   "label": "Montgolfière 18/09 05:30"
   },
   {
-   "sequenceId": "s0909-setup",
-   "label": "Setup Diaffa 18:00"
+   "sequenceId": "s0919-brief4x4",
+   "label": "Rallye 4×4 self drive 19/09"
   },
   {
-   "sequenceId": "p0909-2000",
-   "label": "Transfert Diaffa 20:00 + PM roll-up entrée + PM prises de parole"
+   "sequenceId": "s0920-luggage",
+   "label": "Véhicule bagages 20/09 (encadrant MRCO à bord)"
   },
   {
-   "sequenceId": "p0909-2300",
-   "label": "Retour Diaffa 23:00"
+   "sequenceId": "s0920-convoi",
+   "label": "Convoi 4×4 chauffeurs 20/09"
   },
   {
-   "sequenceId": "p1009-1215",
-   "label": "Transfert Grand Bazar 12:15"
-  },
-  {
-   "sequenceId": "p1009-1430",
-   "label": "Navette 14:30 (liste des 18)"
-  },
-  {
-   "sequenceId": "s1009-express",
-   "label": "Marrakech Express (suivi)"
-  },
-  {
-   "sequenceId": "p1009-1730",
-   "label": "Retour 17:30"
-  },
-  {
-   "sequenceId": "s1009-setup",
-   "label": "Setup Rôtisserie 18:30 + PM entrée"
-  },
-  {
-   "sequenceId": "w1109-0345",
-   "label": "Départs nuit 11/09 03:45"
-  },
-  {
-   "sequenceId": "s1109-checkout",
-   "label": "Bagagerie 11/09 08:00"
-  },
-  {
-   "sequenceId": "s1109-bagages",
-   "label": "Chargement 11:15"
-  },
-  {
-   "sequenceId": "p1109-1145",
-   "label": "Transfert Beldi 11:45"
-  },
-  {
-   "sequenceId": "w1109-1335",
-   "label": "Navette 13:35 (16 pax, H-2)"
-  },
-  {
-   "sequenceId": "w1109-1400",
-   "label": "Navettes 14:00 / 15:00 / 15:55 / 16:25"
-  },
-  {
-   "sequenceId": "w1209-0345",
-   "label": "Départs 12/09 & 13/09"
-  },
-  {
-   "sequenceId": "p0909-1945",
-   "label": "Départ anticipé Dar Diaffa 09/09 19:45 (6 pax)"
+   "sequenceId": "w0921-0620",
+   "label": "Transfert aéroport 21/09 06:20"
   }
  ]
 }

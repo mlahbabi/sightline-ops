@@ -1,5 +1,7 @@
 // État partagé (coches + fil terrain) : Supabase si configuré, sinon localStorage (« mode local »).
 // Dans les deux cas tout est mis en cache localement : lecture hors ligne, file d'attente d'écriture.
+// Tables Supabase préfixées par événement (projet partagé MRCO) : sightline_checks, sightline_notes, sightline_presence.
+const T = (n: string) => `${(import.meta.env.VITE_TABLE_PREFIX as string | undefined) ?? 'sightline_'}${n}`
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 
 export type Check = { item_id: string; done: boolean; done_by: string; done_at: string }
@@ -44,8 +46,8 @@ export async function initStore() {
       sb = createClient(URL, KEY)
       await refresh()
       sb.channel('pmd-ops')
-        .on('postgres_changes', { event: '*', schema: 'public', table: 'checks' }, payload => { const c = payload.new as Partial<Check>; if (c && c.item_id) applyCheck(c as Check, false) })
-        .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'notes' }, payload => { const n = payload.new as Note; if (n && n.id) applyNote(n, false) })
+        .on('postgres_changes', { event: '*', schema: 'public', table: T('checks') }, payload => { const c = payload.new as Partial<Check>; if (c && c.item_id) applyCheck(c as Check, false) })
+        .on('postgres_changes', { event: 'INSERT', schema: 'public', table: T('notes') }, payload => { const n = payload.new as Note; if (n && n.id) applyNote(n, false) })
         .subscribe()
       void flush()
     } catch (e) {
@@ -58,11 +60,11 @@ export async function refresh() {
   if (!sb) return
   set({ syncing: true })
   try {
-    const { data: cs, error: e1 } = await sb.from('checks').select('*')
+    const { data: cs, error: e1 } = await sb.from(T('checks')).select('*')
     if (e1) throw e1
     const checks = { ...state.checks }
     ;(cs as Check[]).forEach(c => { checks[c.item_id] = c })
-    const { data: ns, error: e2 } = await sb.from('notes').select('*').order('created_at', { ascending: false }).limit(300)
+    const { data: ns, error: e2 } = await sb.from(T('notes')).select('*').order('created_at', { ascending: false }).limit(300)
     if (e2) throw e2
     const notes = mergeNotes(state.notes, ns as Note[])
     set({ checks, notes, error: null }); save(LS.checks, checks); save(LS.notes, notes)
@@ -97,8 +99,8 @@ export async function flush() {
     while (queue.length) {
       const op = queue[0]
       const { error } = op.kind === 'check'
-        ? await sb.from('checks').upsert(op.check, { onConflict: 'item_id' })
-        : await sb.from('notes').upsert(op.note, { onConflict: 'id' })
+        ? await sb.from(T('checks')).upsert(op.check, { onConflict: 'item_id' })
+        : await sb.from(T('notes')).upsert(op.note, { onConflict: 'id' })
       if (error) break
       queue.shift(); save(LS.queue, queue); set({ queued: queue.length })
     }

@@ -16,11 +16,10 @@ export function PlusIndex() {
   const items = [
     { to: '/rooming', icon: '🏨', label: 'Desk & Rooming', sub: 'Arrivées du jour par vol, chambres par nuit, départs' },
     { to: '/plus/contacts', icon: '📇', label: 'Contacts', sub: 'MRCO, client, transport, lieux, prestataires' },
-    { to: '/plus/signaletique', icon: '🪧', label: 'Signalétique & matériel', sub: 'Inventaire à installer, coches partagées' },
+    { to: '/plus/signaletique', icon: '🪧', label: 'Signalétique & matériel', sub: 'Pack imprimeur Sightline 30, coches partagées' },
     { to: '/plus/equipe', icon: '🧑‍🤝‍🧑', label: 'Équipe MRCO', sub: 'Qui fait quoi — à compléter' },
     { to: '/plus/points', icon: '⚠️', label: 'Points en attente', sub: `${open} ouvert(s)` },
-    { to: '/plus/menus', icon: '🍽️', label: 'Menus', sub: 'Les 7 séquences de restauration' },
-    { to: '/plus/express', icon: '🧭', label: 'Marrakech Express', sub: '7 équipes · navette 14h30' },
+    { to: '/plus/menus', icon: '🍽️', label: 'Menus', sub: 'Les 8 repas du séjour' },
     { to: '/plus/reglages', icon: '⚙️', label: 'Réglages', sub: `Utilisateur : ${user} · ${store.mode === 'supabase' ? 'Supabase' : 'mode local'}` },
   ]
   return (

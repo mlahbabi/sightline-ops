@@ -3,7 +3,6 @@ import { CODE_HASH, grantAccess, hasAccess, lockUntil, registerFail, sha256 } fr
 import { team } from '../lib/data'
 import { useApp } from '../context'
 
-const base = import.meta.env.BASE_URL
 
 export default function Access({ onDone }: { onDone: () => void }) {
   const { user, setUser } = useApp()
@@ -25,9 +24,9 @@ export default function Access({ onDone }: { onDone: () => void }) {
   if (ok && user) { onDone(); return null }
   return (
     <div className="min-h-dvh flex flex-col items-center justify-center p-6 text-center safe-top">
-      <img src={`${base}pmd-white.png`} alt="Partner Matters DAF" className="w-56 max-w-[70vw] mb-6" />
-      <h1 className="text-2xl font-bold mb-1">PMD Ops</h1>
-      <p className="text-warm text-sm mb-6">Partners’ Meeting · Marrakech · 07 → 13 septembre 2026<br />Outil terrain MRCO — usage interne</p>
+      <div className="text-6xl font-bold mb-2"><span className="text-lavender">3</span>0</div>
+      <h1 className="text-2xl font-bold mb-1">Sightline Ops</h1>
+      <p className="text-warm text-sm mb-6">Sightline Productions · Marrakech & Agafay · 17 → 21 septembre 2026<br />Outil terrain MRCO — usage interne</p>
       {!ok ? (
         <form className="w-full max-w-xs space-y-3" onSubmit={e => { e.preventDefault(); void submit() }}>
           <input className="input text-center text-2xl tracking-[0.5em] font-bold" inputMode="numeric" pattern="[0-9]*" maxLength={6} autoFocus placeholder="••••••" value={code}

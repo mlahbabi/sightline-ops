@@ -53,7 +53,7 @@ export default function Personne() {
         <div className="card p-3 text-sm space-y-1">
           <div>🛏️ {nuits}</div>
           {p.note_hotel && <div className="text-lavender">🏨 {p.note_hotel}</div>}
-          {p.statut === 'invité externe' && !p.arrivee && <div className="text-warm">Pas d'hébergement (dîner Diaffa uniquement)</div>}
+          {p.statut === 'invité externe' && !p.arrivee && <div className="text-warm">Pas d'hébergement</div>}
         </div>
       </Section>
 
@@ -81,11 +81,11 @@ export default function Personne() {
         </div>
       </Section>
 
-      <Section title="Marrakech Express — 10/09">
+      <Section title="4×4 — rallye self drive 19/09">
         <div className="card p-3 text-sm">
-          {team ? <Link to="/plus/express" className="font-semibold text-lavender">Équipe {team.n} ({team.membres.length} pax)</Link>
-            : p.retour_radisson_1430 ? <span>Navette retour Radisson <b>14:30</b> (liste des 18)</span>
-            : <span className="text-warm">Ne participe pas (ni équipe, ni navette 14:30)</span>}
+          {team ? <span className="font-semibold text-lavender">Jeep {team.n} ({team.membres.length} pax) — CAR {team.n}</span>
+            : p.retour_radisson_1430 ? <span className="text-warm">Jeep non attribuée ⚠️</span>
+            : <span className="text-warm">Jeep non attribuée ⚠️</span>}
         </div>
       </Section>
 

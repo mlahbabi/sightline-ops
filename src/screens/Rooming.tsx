@@ -12,7 +12,7 @@ import { flightCodes } from '../lib/flights'
 
 const residents = people.filter(p => p.arrivee && p.depart).sort((a, b) => a.nom.localeCompare(b.nom, 'fr'))
 const nightOf = (day: string) => `${ddmm(day).slice(0, 2)}→${String(Number(day.slice(8, 10)) + 1).padStart(2, '0')}`
-const NIGHTS = DAYS.filter(d => d !== '2026-09-13')
+const NIGHTS = DAYS.filter(d => d !== '2026-09-21' && d !== '2026-09-16')
 
 function Row({ p, check, sub }: { p: Person; check?: { id: string; label: string }; sub: string }) {
   const label = (
@@ -33,7 +33,7 @@ export default function Rooming() {
   const today = mParts(now).date
   const [view, setView] = useState<'arrivees' | 'rooming' | 'departs'>('arrivees')
   const [day, setDay] = useState(DAYS.includes(today) ? today : today < DAYS[0] ? DAYS[0] : DAYS[DAYS.length - 1])
-  const [night, setNight] = useState<string>(DAYS.includes(today) && today !== '2026-09-13' ? today : '2026-09-09')
+  const [night, setNight] = useState<string>(DAYS.includes(today) && today !== '2026-09-21' && today !== '2026-09-16' ? today : '2026-09-17')
   const [q, setQ] = useState('')
 
   const arrivals = useMemo(() => residents.filter(p => p.arrivee === ddmm(day)), [day])
@@ -53,7 +53,7 @@ export default function Rooming() {
 
   return (
     <div>
-      <PageTitle title="Desk & Rooming" sub={`Radisson Blu Carré Eden · rooming ${participantsFile.version.split(' — ')[1]} · ${residents.length} hébergés · ${nightsTotal} nuitées`} />
+      <PageTitle title="Desk & Rooming" sub={`2Ciels 17→19 · Agafay 19→20 · La Kasbah By Beldi 20→21 · rooming ${participantsFile.version.split(' — ')[1]} · ${residents.length} hébergés · ${nightsTotal} nuitées`} />
       <Chips items={['arrivees', 'rooming', 'departs'] as const} value={view} onChange={setView} render={v => v === 'arrivees' ? '🛬 Arrivées' : v === 'rooming' ? '🛏️ Rooming' : '🛫 Départs'} />
 
       {view !== 'rooming' && (

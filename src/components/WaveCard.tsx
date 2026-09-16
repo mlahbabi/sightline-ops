@@ -40,7 +40,7 @@ export default function WaveCard({ wave, defaultOpen = false }: { wave: Wave; de
         <div className="px-3 pb-3 space-y-3 border-t border-line pt-3">
           {wave.note && <p className="text-sm">{wave.note}</p>}
           {wave.type !== 'programme' && <FlightPanel wave={wave} />}
-          {wave.type === 'arrivee' && <p className="text-xs text-warm">Pancarte « Partners’ Meeting » en zone arrivées · sortie passagers +30 à 40 min.</p>}
+          {wave.type === 'arrivee' && <p className="text-xs text-warm">Pancarte « Sightline » en zone arrivées · sortie passagers +30 à 40 min.</p>}
           {wave.type === 'depart' && <p className="text-xs text-warm">Dépose aéroport au minimum 2h00 avant le décollage.</p>}
           <div className="space-y-1.5">
             {steps.map((s, i) => <CheckRow key={s} itemId={ckId(`${wave.id}-c${i + 1}`)} label={s} />)}

@@ -1,137 +1,20 @@
 {
- "version": "V2.32 — 11/09/2026",
- "updatedAt": "2026-09-11T10:15:00+01:00",
+ "version": "V1.0 — 16/09/2026",
+ "updatedAt": "2026-09-16T18:00:00+01:00",
+ "diners": [],
  "items": [
   {
-   "id": "radisson",
-   "nom": "Radisson Blu Marrakech Carré Eden",
-   "adresse": "166-176 avenue Mohamed V, Guéliz, Marrakech",
-   "tel": "+212525077000",
-   "contacts": [
-    "Fatima Zahra Elbahri — M&E",
-    "Rachid Oubassou — Direction",
-    "Yassir Badaa / Lamia Elghazi — Réservations"
-   ],
-   "acces": "Dépose bus devant l'hôtel (parking + voiturier pour les rotations les 09, 10 et 11/09).",
+   "id": "rak",
+   "nom": "Aéroport Marrakech Ménara (RAK)",
+   "adresse": "Marrakech Ménara",
+   "acces": "Zone arrivées : pancarte « Sightline ». Terminal départs le 21/09 dès 07:10.",
    "quoi": [
-    "Hébergement : chambres Supérieures single BB, 196 nuitées après changements du 07/09 (rooming V7 à transmettre ⚠️), 4 sur-classements suite (dont Boisselier)",
-    "Salles réservées Deloitte 09/09 08:00–20:00 (écran hôtel) : Curcuma, Ras el hanout I, Ras el hanout II (« Design Think ») ; Coriandre I, Coriandre II (au nom de D. Dupont-Noel) ; Gingembre (au nom de B. Boisselier)",
-    "Plénière (cabaret 6 pers., sono 2 fixes + 2 HF, VP + écran, pas d'écrans supplémentaires) = Coriandre I + II ⚠️ hypothèse à confirmer ; 3 sous-commissions = Curcuma + Ras el hanout I & II",
-    "Salle Gingembre : réunion privée Boisselier 10/09 12:00–13:30",
-    "Atelier 10 pax 10/09 14:30–18:00 : salle Gingembre ⚠️ à confirmer (pas de nom dans les échanges hôtel)",
-    "Restaurant Lila : dîner J1 (52) et déjeuner J2 (62)",
-    "Bagagerie dédiée le 11/09 dès 08:00, chargement bus 11:15"
-   ],
-   "setup": [
-    "08/09 17:00–19:00 : signalétique + tests techniques plénière",
-    "09/09 08:30 : bureau d'accueil / enregistrement à l'entrée de la plénière",
-    "Roll-ups Welcome (entrée hôtel), Réunion (plénière), Générique"
+    "17/09 13:35 : arrivée FR5895 (Ryanair, Eindhoven)",
+    "21/09 09:55 : départ HV6534 (Transavia, Eindhoven — arrivée 15:35)"
    ],
    "jours": [
-    "2026-09-07",
-    "2026-09-08",
-    "2026-09-09",
-    "2026-09-10",
-    "2026-09-11",
-    "2026-09-12",
-    "2026-09-13"
-   ]
-  },
-  {
-   "id": "diaffa",
-   "nom": "Dar Diaffa",
-   "adresse": "1 rue Jbel Lakhdar, Médina, Marrakech",
-   "tel": "+212524386898",
-   "tel2": "+212665633090",
-   "email": "restaurantdiaffa@gmail.com",
-   "contacts": [
-    "Imane Rmili — propriétaire (Groupe Rmili)"
-   ],
-   "acces": "Dépose des 4 minibus rue Jbel Lakhdar, puis à pied.",
-   "quoi": [
-    "Dîner J2 mercredi 09/09 — 65 convives (64 placés + Ondias ⚠️), 8 tables",
-    "Verre d'accueil 15 min au rooftop (vin & bière, double vue Koutoubia) puis passage à table",
-    "5 prises de parole en début de dîner (Bellefqih + 3 invités + 1 ⚠️), micro HF Badr",
-    "Musique live + spectacle — pas d'after"
-   ],
-   "setup": [
-    "18:00 : roll-up plan de table à l'entrée + PM MRCO",
-    "Prismes n° de table ×8 en hauteur",
-    "Menus-marque-place : carte Bedhiafi (T5) à retirer, Ondias sur carte vierge",
-    "Colonnes son + 2 micros HF (Badr Khyat) — Diaffa n'a rien à louer"
-   ],
-   "plan": "diaffa",
-   "jours": [
-    "2026-09-09"
-   ]
-  },
-  {
-   "id": "grand-bazar",
-   "nom": "Le Grand Bazar",
-   "adresse": "Médina, Marrakech — point de RDV exact ⚠️ à confirmer",
-   "email": "com.legrandbazardemarrakech@gmail.com",
-   "contacts": [
-    "Fabien"
-   ],
-   "acces": "Aller groupé 12:15 depuis le Radisson (4 × 17 pl).",
-   "quoi": [
-    "Déjeuner J3 jeudi 10/09 — 60 pax (58 + Tonka + Ondias)",
-    "Brief + constitution des équipes Marrakech Express 14:20",
-    "Navette retour anticipé 14:30 (18 pax, liste à reconfirmer ⚠️)"
-   ],
-   "setup": [
-    "Liste nominative des 18 du retour 14:30 à remettre sur site"
-   ],
-   "jours": [
-    "2026-09-10"
-   ],
-   "aConfirmer": true
-  },
-  {
-   "id": "dar-essalam",
-   "nom": "Riad Dar Essalam",
-   "adresse": "Médina, Marrakech — adresse exacte ⚠️ à confirmer (EVO)",
-   "contacts": [
-    "Driss Alaoui — EVO"
-   ],
-   "acces": "Fin du parcours Marrakech Express (~16:45). Retour 17:30 en 3 × 17 pl.",
-   "quoi": [
-    "Thé à la menthe + annonce des scores / trophée",
-    "Fin ~17:10"
-   ],
-   "setup": [],
-   "jours": [
-    "2026-09-10"
-   ],
-   "aConfirmer": true
-  },
-  {
-   "id": "rotisserie",
-   "nom": "La Rôtisserie de la Paix",
-   "adresse": "68 rue Yougoslavie, Guéliz, Marrakech",
-   "tel": "+212653847421",
-   "email": "reservations@rotisseriedelapaix.com",
-   "contacts": [
-    "Fatima Zahra — commercial",
-    "Khalil — opérationnel",
-    "Imane Rmili — propriétaire"
-   ],
-   "acces": "À pied depuis le Radisson — aucun véhicule.",
-   "quoi": [
-    "Dîner J3 jeudi 10/09 — 60 convives (58 placés + Tonka + Ondias ⚠️), 6 tables",
-    "Mot d'intro du CEO (sans équipement) → dîner → after",
-    "DJ Badr Khyat",
-    "After : 2 points de bar séparés hors forfait (paiement individuel)"
-   ],
-   "setup": [
-    "18:30 : roll-up plan de table + PM MRCO à l'entrée",
-    "Prismes ×6",
-    "Menus-marque-place : carte Bedhiafi (T2) à retirer, Tonka + Ondias sur cartes vierges",
-    "DJ + son + micro HF Badr"
-   ],
-   "plan": "rotisserie",
-   "jours": [
-    "2026-09-10"
+    "2026-09-17",
+    "2026-09-21"
    ]
   },
   {
@@ -139,65 +22,129 @@
    "nom": "Beldi Country Club",
    "adresse": "Km 6 route du Barrage, Cherifia, Marrakech",
    "tel": "+212524383950",
-   "email": "contact@beldicountryclub.com",
-   "contacts": [
-    "Oumaima",
-    "Loubna — loubna@beldicountryclub.com"
-   ],
-   "acces": "Transfert 11:45 depuis le Radisson AVEC BAGAGES (4 × 17 pl). Beldi → RAK ~25 min.",
+   "acces": "Depuis RAK ~25 min. Bus gardés avec les bagages.",
    "quoi": [
-    "Déjeuner J4 vendredi 11/09 — ~52 (50 confirmés au Beldi ⚠️, −Bedhiafi +Tonka +Ondias)",
-    "Service dès 12:15–12:30, priorité aux 16 de la navette 13:35",
-    "Espace calme + wifi jusqu'à 16:25",
-    "5 navettes vers l'aéroport : 13:35, 14:00, 15:00, 15:55, 16:25"
-   ],
-   "setup": [
-    "Bagages restent dans les minibus sur le parking"
+    "17/09 14:30 thé de bienvenue + pâtisseries",
+    "17/09 14:45 déjeuner 3 plats dans les jardins — menu 2, chevalets 2"
    ],
    "jours": [
-    "2026-09-11"
+    "2026-09-17"
    ]
   },
   {
-   "id": "rak",
-   "nom": "Aéroport Marrakech Ménara (RAK)",
-   "adresse": "Marrakech Ménara",
-   "acces": "Radisson → RAK ~20 min ; Beldi → RAK ~25 min.",
+   "id": "2ciels",
+   "nom": "2Ciels Boutique Hotel & Spa",
+   "adresse": "Rue Oued El Makhazine, angle rue Imam Chafai, Marrakech",
+   "tel": "+212524359550",
+   "acces": "Nuits du 17 au 19/09 (2 nuits). Rooftop, piscine, spa.",
    "quoi": [
-    "Arrivées : accueil zone arrivées avec pancarte « Partners’ Meeting », chauffeur en place à l'atterrissage, sortie passagers +30 à 40 min",
-    "Départs : dépose au minimum 2h00 avant décollage (H-2)"
-   ],
-   "setup": [
-    "Pancartes aéroport A3 ×6"
+    "12 chambres Luxe, lits séparés : ch. 1, 4-10 twins ; ch. 2, 3, 11, 12 singles (ch. 12 attribuée sur place)",
+    "Allergie Wim Wildenbeest : petit-déjeuner et room service à briefer",
+    "Check-in 17/09 ~16:45 · check-out 19/09 08:00, bagages hors chambres 08:30 (transporteur 2Ciels → Agafay)",
+    "Départ montgolfière 18/09 05:45 (opérateur)"
    ],
    "jours": [
-    "2026-09-03",
-    "2026-09-07",
-    "2026-09-08",
-    "2026-09-09",
-    "2026-09-10",
-    "2026-09-11",
-    "2026-09-12",
-    "2026-09-13"
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19"
    ]
-  }
- ],
- "diners": [
-  {
-   "id": "diaffa",
-   "nom": "Dîner Dar Diaffa",
-   "date": "2026-09-09",
-   "tables": 8,
-   "champTable": "diaffa_table",
-   "champPlace": "diaffa_place"
   },
   {
-   "id": "rotisserie",
-   "nom": "Dîner Rôtisserie de la Paix",
-   "date": "2026-09-10",
-   "tables": 6,
-   "champTable": "rotisserie_table",
-   "champPlace": "rotisserie_place"
+   "id": "psc",
+   "nom": "Petanque Social Club",
+   "adresse": "Marrakech — adresse ⚠️ à confirmer",
+   "acces": "Club secret style années 1930.",
+   "quoi": [
+    "17/09 20:45 cocktail « 30th Anniversary »",
+    "17/09 21:15 dîner 4 plats — menu 1, chevalets 1, prisme bar A, totem bar B, sous-verres"
+   ],
+   "jours": [
+    "2026-09-17"
+   ],
+   "aConfirmer": true
+  },
+  {
+   "id": "grand-bazar",
+   "nom": "Le Grand Bazar",
+   "adresse": "Place Jemaa el-Fna, Médina, Marrakech",
+   "acces": "Dépose au plus proche de la place, puis à pied.",
+   "quoi": [
+    "18/09 12:30 déjeuner 3 plats — menu 3, chevalets 3",
+    "18/09 14:15 départ Medina Quest Adventure"
+   ],
+   "jours": [
+    "2026-09-18"
+   ]
+  },
+  {
+   "id": "darna",
+   "nom": "Le Comptoir Darna",
+   "adresse": "Avenue Echouhada, Hivernage, Marrakech ⚠️ à confirmer",
+   "acces": "Hivernage.",
+   "quoi": [
+    "18/09 20:30 dîner 4 plats + spectacle (musiciens, danseurs) — menu 4, chevalets 4"
+   ],
+   "jours": [
+    "2026-09-18"
+   ],
+   "aConfirmer": true
+  },
+  {
+   "id": "relais",
+   "nom": "Le Relais du Lac",
+   "adresse": "Lac Lalla Takerkoust",
+   "acces": "Terrasse au bord du lac, vue Atlas. 4×4 en standby.",
+   "quoi": [
+    "19/09 13:00 déjeuner 3 plats — menu 5, chevalets 5"
+   ],
+   "jours": [
+    "2026-09-19"
+   ]
+  },
+  {
+   "id": "agafay",
+   "nom": "Yes We Camp Agafay",
+   "adresse": "Désert d'Agafay — accès ⚠️ à confirmer",
+   "acces": "Arrivée du convoi 4×4 vers 17:00.",
+   "quoi": [
+    "Nuit du 19 au 20/09 : 12 tentes Top VIP (climatisation, salle de bain privée, staff 24/7) — attribution ⚠️",
+    "19/09 20:00 dîner 4 plats + soirée (tamtam, cracheur de feu, DJ), open bar 3 h — menu 6, chevalets 6",
+    "20/09 08:30 petit-déjeuner, 10:00 dromadaires, 10:30 véhicule bagages, 11:00 convoi"
+   ],
+   "jours": [
+    "2026-09-19",
+    "2026-09-20"
+   ],
+   "aConfirmer": true
+  },
+  {
+   "id": "imlil",
+   "nom": "Imlil — Sidi Fares (chez Adil)",
+   "adresse": "Vallée d'Imlil / Sidi Fares, Haut Atlas",
+   "acces": "Par Tahannaout / Asni. Ssi Brahim connaît Adil.",
+   "quoi": [
+    "20/09 12:00 marche guidée villages berbères",
+    "20/09 13:30 déjeuner berbère (softs inclus)"
+   ],
+   "jours": [
+    "2026-09-20"
+   ]
+  },
+  {
+   "id": "kasbah",
+   "nom": "La Kasbah By Beldi",
+   "adresse": "Route de Lalla Takerkoust — adresse exacte ⚠️ à confirmer",
+   "acces": "Redescente directe depuis Sidi Fares (~17:30). Vers RAK ~45–50 min.",
+   "quoi": [
+    "Nuit du 20 au 21/09 : 13 chambres (8 twins + 4 singles + 1 double staff MRCO)",
+    "20/09 20:30 dîner à Kasbah Talet (sur le domaine) — 18 couverts + 2 staff à part — menu 7, chevalets 7",
+    "21/09 petit-déjeuner 05:15, départ 06:20"
+   ],
+   "jours": [
+    "2026-09-20",
+    "2026-09-21"
+   ],
+   "aConfirmer": true
   }
  ]
 }

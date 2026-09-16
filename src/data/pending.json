@@ -1,283 +1,92 @@
 {
- "version": "V2.32 — 11/09/2026",
- "updatedAt": "2026-09-11T10:15:00+01:00",
+ "version": "V1.0 — 16/09/2026",
+ "updatedAt": "2026-09-16T18:00:00+01:00",
  "items": [
   {
    "id": "pd01",
-   "sujet": "Kopp : Clémence (06/09) dit « a priori en train vers Casa jeudi 10 matin » — confirmer, puis le retirer du déjeuner, de la navette 14h30 et de la Rôtisserie (T6/P8)",
-   "responsable": "Mehdi → Clémence",
-   "echeance": "2026-09-08",
-   "level": "alerte",
-   "persons": [
-    "kopp"
-   ]
+   "sujet": "HEURE : la fiche transport V3 annonce un passage à GMT dans la nuit du 19 au 20/09 — FAUX (le Maroc reste en UTC+1, GMT seulement pendant le Ramadan). Corriger auprès de Najib et Ssi Brahim AVANT samedi, sinon chauffeurs 1 h en retard les 20 et 21/09 (vol 09:55)",
+   "responsable": "Mehdi → Najib",
+   "echeance": "2026-09-16",
+   "level": "alerte"
   },
   {
    "id": "pd02",
-   "sujet": "Diaffa : confirmer par écrit à Imane la config finale (verre d'accueil 15 min rooftop vin & bière → 5 prises de parole → dîner, pas d'after)",
+   "sujet": "Jeep 1 (J3) déduite par différence : Tammo van Brakel, Arjen Hofma, Pascal Rintjema, Marcel Vellekoop, Otte Stoltenborg — à confirmer",
    "responsable": "Mehdi",
-   "echeance": "2026-09-08",
-   "level": "alerte"
+   "echeance": "2026-09-18",
+   "level": "alerte",
+   "persons": [
+    "van-brakel",
+    "hofma",
+    "rintjema-pascal",
+    "vellekoop",
+    "stoltenborg"
+   ]
   },
   {
    "id": "pd03",
-   "sujet": "3 invités externes Diaffa : mode d'arrivée / dépose rue Jbel Lakhdar ?",
-   "responsable": "Clémence",
-   "echeance": "2026-09-08",
-   "level": "normal",
-   "persons": [
-    "benjelloun-touimi",
-    "el-habti",
-    "fikrat"
-   ]
-  },
-  {
-   "id": "pd20",
-   "sujet": "Dispatch V5 à transmettre à Simohamed : AUJOURD'HUI Mavungu AT639 16:40 (Vito en place à 16:40, départ direct) + Tonka AT403 23:25 depuis Casa (Vito, late check-in), pas de Vito à 17:50 ; Elmaleh sans transfert le 08/09 (retour 11/09 07:50) ; Malouche en voiture ; Bedhiafi annulée ; Tonka départ 11/09",
-   "responsable": "Mehdi / Farid",
-   "echeance": "2026-09-07",
-   "level": "alerte",
-   "persons": [
-    "mavungu",
-    "tonka",
-    "elmaleh",
-    "malouche"
-   ]
-  },
-  {
-   "id": "pd21",
-   "sujet": "Radisson : rooming V7 (Bedhiafi annulée −4 nuits, Tonka +1 nuit 10→11, De Beauvoir +1 nuit 08→09, chambre 09→10 au nom de Benjelloun Touimi) — 197 nuitées",
-   "responsable": "Mehdi / Fatima Zahra",
-   "echeance": "2026-09-07",
-   "level": "alerte",
-   "persons": [
-    "tonka",
-    "de-beauvoir",
-    "benjelloun-touimi"
-   ]
-  },
-  {
-   "id": "pd26",
-   "sujet": "Tonka : le fichier client du 08/09 le met en équipe 7 du Marrakech Express ET dans la navette retour 14h30 — trancher avec Clémence (Mehdi avait choisi la navette)",
-   "responsable": "Mehdi → Clémence",
-   "echeance": "2026-09-08",
-   "level": "alerte",
-   "persons": [
-    "tonka"
-   ]
-  },
-  {
-   "id": "pd33",
-   "sujet": "Diaffa : NOUVEAU plan de table reçu le 09/09 (24 changements, table 1 = 10 VIP dont Boisselier, Gourd, De Beauvoir, Elmaleh, Bellefqih, Benjelloun Touimi, Fikrat, El Habti ; Bishop → T6, Tonka → T2) — roll-up plan de table et marque-places imprimés sur le plan précédent : à réimprimer ou corriger à la main avant 18:00",
+   "sujet": "J4 (20/09) : répartition nominative 5 véhicules de 4/4/4/4/3 à établir et transmettre à Najib / Ssi Brahim (les jeeps du J3 sont à 5)",
    "responsable": "Mehdi / Eva",
-   "echeance": "2026-09-09",
+   "echeance": "2026-09-19",
    "level": "alerte"
   },
   {
-   "id": "pd31",
-   "sujet": "Diaffa 09/09 : départ anticipé 19:45 (6 pax, Eva — Dupont-Noel rejoint directement le restaurant) — prévenir Simohamed : bus dédié à 19:45, puis 3 × 17 pl + Vito réserve à 20:00 pour 53 pax (58 places)",
-   "responsable": "Mehdi / Farid",
-   "echeance": "2026-09-09",
-   "level": "alerte",
-   "persons": [
-    "batnini",
-    "boisselier",
-    "de-beauvoir",
-    "depouilly",
-    "elmaleh",
-    "pierron"
-   ]
-  },
-  {
-   "id": "pd34",
-   "sujet": "Faouzi : rejoint-il aussi directement Dar Diaffa avec Dupont-Noel, Bellefqih et Belemqadem (même véhicule depuis Casa) ? Sinon accueil Radisson + bus 20:00",
-   "responsable": "Mehdi → Clémence",
-   "echeance": "2026-09-09",
-   "level": "alerte",
-   "persons": [
-    "faouzi"
-   ]
-  },
-  {
-   "id": "pd40",
-   "sujet": "Beldi 11/09 : retour Beldi → Radisson des ~15 qui restent (13 hébergés nuit 11→12 + C. Queron + Ondias) — horaire à fixer avec Simohamed (proposé 15:30, un 17 pl resté sur place)",
-   "responsable": "Mehdi / Farid",
-   "echeance": "2026-09-10",
-   "level": "alerte"
-  },
-  {
-   "id": "pd38",
-   "sujet": "Simohamed — 11/09 après-midi : UN SEUL 17 pl dédié pour 10 pax (Dupont-Noel annulé), Beldi 14:35 → Radisson 15:05 (attente 25 min) → RAK 15:50 ; les Vitos 15:00 et 15:55 et le bus 16:25 sont annulés",
-   "responsable": "Mehdi / Farid",
-   "echeance": "2026-09-10",
-   "level": "alerte"
-  },
-  {
-   "id": "pd37",
-   "sujet": "Caroline Queron (NOUVEAU 10/09) : Vito 09:40 le 11/09 à caler avec Simohamed (matin de pointe) ; chambre partagée avec Thierry à confirmer à l'hôtel ; départ 13/09 avec lui ? ; à compter au déjeuner Beldi ?",
-   "responsable": "Mehdi / Farid / Fatima Zahra",
-   "echeance": "2026-09-10",
-   "level": "alerte",
-   "persons": [
-    "queron-caroline",
-    "queron"
-   ]
-  },
-  {
-   "id": "pd36",
-   "sujet": "Simohamed : Vito de 07:10 du 10/09 non utilisé (Villeminot parti seul) — informer ; Bourtourault confirmé AT640 18:25 le 11/09 (Vito Beldi 15:55)",
-   "responsable": "Mehdi / Farid",
-   "echeance": "2026-09-10",
-   "level": "normal",
-   "persons": [
-    "villeminot",
-    "bourtourault"
-   ]
-  },
-  {
-   "id": "pd35",
-   "sujet": "Radisson desk : check-in tardif après le dîner (~23:30) pour Dupont-Noel, Bellefqih, Belemqadem — clés préparées, chambres VIP prêtes",
-   "responsable": "Mehdi / Fatima Zahra",
-   "echeance": "2026-09-09",
-   "level": "alerte",
-   "persons": [
-    "dupont-noel",
-    "bellefqih",
-    "belemqadem"
-   ]
-  },
-  {
-   "id": "pd30",
-   "sujet": "Radisson : confirmer avec Fatima Zahra la répartition des salles — plénière = Coriandre I + II ? sous-commissions = Curcuma + Ras el hanout I & II ? atelier 10 pax du 10/09 14:30 = Gingembre ?",
-   "responsable": "Mehdi / Fatima Zahra",
-   "echeance": "2026-09-09",
-   "level": "alerte"
-  },
-  {
-   "id": "pd29",
-   "sujet": "Balesme : vol décalé à 21:30 (TO3124) — nouvelle course à confirmer à Simohamed, dîner Lila tardif (~22:15) à signaler au restaurant",
-   "responsable": "Mehdi / Farid",
-   "echeance": "2026-09-08",
-   "level": "alerte",
-   "persons": [
-    "balesme"
-   ]
-  },
-  {
-   "id": "pd41",
-   "sujet": "Simohamed — 13/09 : 2 courses Vito au lieu d'une combinée : 08:15 Radisson → RAK Mavungu (AF1277 10:40, vérifié) ; 15:55 Radisson → RAK Queron (AF1877 18:55, + Caroline ⚠️)",
-   "responsable": "Mehdi / Farid",
-   "echeance": "2026-09-11",
-   "level": "alerte",
-   "persons": [
-    "mavungu",
-    "queron"
-   ]
-  },
-  {
-   "id": "pd25",
-   "sujet": "Effectifs à réaligner avec les prestataires : Grand Bazar 60, Rôtisserie 60, Beldi ~52 (50 confirmés), EVO 42",
-   "responsable": "Mehdi",
-   "echeance": "2026-09-08",
+   "id": "pd04",
+   "sujet": "Véhicule bagages J4 : type et capacité à confirmer par Najib (bagages 19 pax + MRCO) ; encadrant MRCO à bord à désigner",
+   "responsable": "Farid → Najib",
+   "echeance": "2026-09-18",
    "level": "alerte"
   },
   {
    "id": "pd05",
-   "sujet": "Boisselier 10/09 : menu 3 + softs choisi (08/09) — transmettre à l'hôtel ; salle Gingembre ou chambre pour la 2e partie ?",
-   "responsable": "Mehdi / Fatima Zahra",
-   "echeance": "2026-09-09",
-   "level": "normal",
-   "persons": [
-    "boisselier"
-   ]
-  },
-  {
-   "id": "pd06",
-   "sujet": "Radisson : sélection du buffet Lila du dîner J1 (08/09) à recevoir — celle du déjeuner J2 est reçue (buffet C + plats marocains)",
-   "responsable": "Fatima Zahra",
-   "echeance": "2026-09-08",
-   "level": "normal"
-  },
-  {
-   "id": "pd07",
-   "sujet": "Radisson : modalité late dinner 2 pax ~00:15 le 08/09 (Bernardini, Ibraima)",
-   "responsable": "Fatima Zahra",
-   "echeance": "2026-09-07",
-   "level": "normal",
-   "persons": [
-    "bernardini",
-    "ibraima"
-   ]
-  },
-  {
-   "id": "pd08",
-   "sujet": "Radisson : n° des chambres adjacentes Pierron / Batnini",
-   "responsable": "Fatima Zahra",
-   "echeance": "2026-09-07",
-   "level": "normal",
-   "persons": [
-    "pierron",
-    "batnini"
-   ]
-  },
-  {
-   "id": "pd09",
-   "sujet": "Radisson : formalisation contingent (13 chambres 11→12, 2 chambres 12→13) + plénière 10 & 11 (mise à disposition)",
-   "responsable": "Mehdi / Rachid",
-   "echeance": "2026-09-07",
+   "sujet": "Convoi J3 : véhicule d'assistance et position de l'encadrement MRCO à caler avec Ssi Brahim ; numéro de Ssi Brahim et de Najib à renseigner dans Contacts",
+   "responsable": "Mehdi",
+   "echeance": "2026-09-18",
    "level": "alerte"
   },
   {
+   "id": "pd06",
+   "sujet": "Cartes allergie (8 ex.) : faire reconfirmer la liste des régimes par Pamela avant impression ; Wim mange-t-il aux autres repas (il ne dîne pas à la Kasbah, repas personnel) ?",
+   "responsable": "Eva → Pamela",
+   "echeance": "2026-09-16",
+   "level": "alerte",
+   "persons": [
+    "wildenbeest"
+   ]
+  },
+  {
+   "id": "pd07",
+   "sujet": "Chambre 12 (2Ciels et Kasbah) attribuée sur place par le groupe : noter l'occupant à l'arrivée",
+   "responsable": "Eva",
+   "echeance": "2026-09-17",
+   "level": "normal"
+  },
+  {
+   "id": "pd08",
+   "sujet": "Attribution des 12 tentes Top VIP à Yes We Camp Agafay non communiquée",
+   "responsable": "Eva",
+   "echeance": "2026-09-18",
+   "level": "normal"
+  },
+  {
+   "id": "pd09",
+   "sujet": "Horaires des soirées J1 et J2 à réconfirmer à J-1 à Najib (fiche V3)",
+   "responsable": "Eva",
+   "echeance": "2026-09-16",
+   "level": "normal"
+  },
+  {
    "id": "pd10",
-   "sujet": "Micro HF Diaffa : Badr apporte 2 HF → informer Imane que Diaffa n'a rien à louer",
-   "responsable": "Mehdi",
-   "echeance": "2026-09-08",
+   "sujet": "Adresses et téléphones manquants : Petanque Social Club, Comptoir Darna, Relais du Lac, Yes We Camp, La Kasbah By Beldi",
+   "responsable": "Eva",
+   "echeance": "2026-09-17",
    "level": "normal"
   },
   {
    "id": "pd11",
-   "sujet": "Dîner orga lundi 07/09 (Clémence, Hajer + Tonka, Mavungu ?) : lieu près de l'hôtel",
-   "responsable": "MRCO",
-   "echeance": "2026-09-07",
-   "level": "alerte"
-  },
-  {
-   "id": "pd12",
-   "sujet": "Photographe Fabrice Gino : caler le créneau (Diaffa 09/09, verre de vin demandé par Mehdi)",
-   "responsable": "Mehdi",
-   "echeance": "2026-09-08",
-   "level": "normal"
-  },
-  {
-   "id": "pd13",
-   "sujet": "EVO : effectif 42 (7 équipes de 6, commande passée à 43) + point RDV exact Grand Bazar",
-   "responsable": "Mehdi → Driss",
-   "echeance": "2026-09-08",
-   "level": "normal"
-  },
-  {
-   "id": "pd15",
-   "sujet": "Doublon de place (sans impact impression) : Diaffa T8 place 8 (Chaghil Brasseur / N'Guessan). Le doublon Rôtisserie T2 est résolu dans le fichier du 08/09 (Sayam place 8).",
-   "responsable": "Clémence",
-   "echeance": "sur place",
-   "level": "normal",
-   "persons": [
-    "chaghil-brasseur",
-    "n-guessan"
-   ]
-  },
-  {
-   "id": "pd18",
-   "sujet": "Affectation équipe MRCO par moment (Plus → Équipe)",
-   "responsable": "Mehdi + équipe",
-   "echeance": "2026-09-07",
-   "level": "alerte"
-  },
-  {
-   "id": "pd19",
-   "sujet": "Signalétique : réception et contrôle des impressions (V2), cartes Bedhiafi à retirer, étiquettes à prévoir pour masquer son nom sur les 2 roll-ups plans de table",
-   "responsable": "Mehdi",
-   "echeance": "2026-09-07",
+   "sujet": "Menus 1 à 7 : transcrire le contenu des PDF du pack dans l'app (Plus → Menus)",
+   "responsable": "Mehdi (app)",
+   "echeance": "2026-09-17",
    "level": "normal"
   }
  ]

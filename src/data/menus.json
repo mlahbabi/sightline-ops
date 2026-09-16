@@ -1,63 +1,77 @@
 {
- "version": "V2.32 — 11/09/2026",
- "updatedAt": "2026-09-11T10:15:00+01:00",
+ "version": "V1.0 — 16/09/2026",
+ "updatedAt": "2026-09-16T18:00:00+01:00",
  "items": [
   {
-   "id": "m0809-diner",
-   "date": "2026-09-08",
-   "sequence": "Dîner J1",
-   "lieu": "Radisson — Restaurant Lila",
-   "menu": "Grand buffet saveurs marocaines & internationales (sélection à recevoir ⚠️). Table VIP de 4 réservée pour M. Ambroise Depouilly, chevalet à son nom.",
-   "boissons": "Softs + forfait vin marocain (½)",
+   "id": "m1",
+   "date": "2026-09-17",
+   "sequence": "Déjeuner J1",
+   "lieu": "Beldi Country Club",
+   "menu": "Menu 2 du pack imprimeur — 3 plats, en cours de transcription ⚠️",
+   "boissons": "Boissons réglées directement par le groupe",
    "aConfirmer": true
   },
   {
-   "id": "m0909-dej",
-   "date": "2026-09-09",
+   "id": "m2",
+   "date": "2026-09-17",
+   "sequence": "Dîner J1",
+   "lieu": "Petanque Social Club",
+   "menu": "Menu 1 du pack imprimeur — 4 plats, en cours de transcription ⚠️",
+   "boissons": "Cocktail « 30th Anniversary » 20:45 · boissons réglées par le groupe",
+   "aConfirmer": true
+  },
+  {
+   "id": "m3",
+   "date": "2026-09-18",
    "sequence": "Déjeuner J2",
-   "lieu": "Radisson — Restaurant Lila",
-   "menu": "Buffet international C (reçu le 08/09) — Entrées : salade de bœuf thaï, salade de fruits de mer, salade de pommes de terre à la moutarde à l'ancienne et calamars, assortiment de sushis, assortiment de mezzés, pâtes au fromage et charcuterie, crudités (carotte râpée, concombre, tomate, thon, oignon, chou blanc, chou rouge). Plats chauds : poissons variés, roulade de poulet aux duxelles sauce moutarde à l'ancienne, lasagnes de bœuf, légumes sautés, riz oriental, pommes grenaille rôties à la moutarde à l'ancienne. Desserts : fruits de saison, sélection de tartes, pâtisseries fines, assortiment de mini-tartelettes. EN PLUS, côté marocain : tajine de poulet, tangia marrakchia, tajine berbère, sélection de salades marocaines.",
-   "boissons": "Softs (inclus au forfait séminaire)"
-  },
-  {
-   "id": "m0909-diner",
-   "date": "2026-09-09",
-   "sequence": "Dîner J2",
-   "lieu": "Dar Diaffa",
-   "menu": "Sélection de fines salades marocaines & assortiment de briouates / Épaule d'agneau dorée au four (plat alternatif pour M. Righi — option de secours demandée par Clémence) / Pastilla au lait à la fleur d'oranger",
-   "boissons": "Forfait Premium : vins marocains & français, eaux, thé à la menthe. Verre d'accueil 15 min au rooftop (vin & bière). Pas d'after."
-  },
-  {
-   "id": "m1009-dej",
-   "date": "2026-09-10",
-   "sequence": "Déjeuner J3",
    "lieu": "Le Grand Bazar",
-   "menu": "Légumes grillés / Tajine de poulet / Mhalabia",
-   "boissons": "Softs"
+   "menu": "Menu 3 du pack imprimeur — 3 plats, en cours de transcription ⚠️",
+   "boissons": "Boissons réglées par le groupe",
+   "aConfirmer": true
   },
   {
-   "id": "m1009-vip",
-   "date": "2026-09-10",
-   "sequence": "Déjeuner VIP — M. Boisselier",
-   "lieu": "Radisson — salle Gingembre",
-   "menu": "Menu 3 (choisi le 08/09) : Salade de crevettes, suprêmes de pamplemousse et d'orange, vinaigrette à la framboise / Saint-Pierre rôti, risotto au safran, légumes de saison / Crème brûlée au safran et aux dattes",
-   "boissons": "Forfait boissons soft"
+   "id": "m4",
+   "date": "2026-09-18",
+   "sequence": "Dîner J2",
+   "lieu": "Le Comptoir Darna",
+   "menu": "Menu 4 du pack imprimeur — 4 plats + spectacle, en cours de transcription ⚠️",
+   "boissons": "Boissons réglées par le groupe",
+   "aConfirmer": true
   },
   {
-   "id": "m1009-diner",
-   "date": "2026-09-10",
+   "id": "m5",
+   "date": "2026-09-19",
+   "sequence": "Déjeuner J3",
+   "lieu": "Le Relais du Lac",
+   "menu": "Menu 5 du pack imprimeur — 3 plats, en cours de transcription ⚠️",
+   "boissons": "Boissons réglées par le groupe",
+   "aConfirmer": true
+  },
+  {
+   "id": "m6",
+   "date": "2026-09-19",
    "sequence": "Dîner J3",
-   "lieu": "Rôtisserie de la Paix",
-   "menu": "Carpaccio de saumon aux agrumes / Entrecôte grillée sauce béarnaise et frites maison / Pavlova aux fruits rouges",
-   "boissons": "Vins & eaux inclus ; after avec 2 points de bar séparés hors forfait, paiement individuel"
+   "lieu": "Yes We Camp Agafay",
+   "menu": "Menu 6 du pack imprimeur — 4 plats, en cours de transcription ⚠️",
+   "boissons": "Forfait boissons + open bar 3 h (vin, bière, whisky, gin, vodka, softs) ; cocktails et spiritueux deluxe en supplément",
+   "aConfirmer": true
   },
   {
-   "id": "m1109-dej",
-   "date": "2026-09-11",
+   "id": "m7",
+   "date": "2026-09-20",
    "sequence": "Déjeuner J4",
-   "lieu": "Beldi Country Club",
-   "menu": "Pastilla aux légumes / Couscous royal (sans agneau pour M. Righi) / Assiette dégustation de desserts",
-   "boissons": "Softs"
+   "lieu": "Imlil / Sidi Fares — chez Adil",
+   "menu": "Déjeuner berbère (pas de menu imprimé)",
+   "boissons": "Softs inclus"
+  },
+  {
+   "id": "m8",
+   "date": "2026-09-20",
+   "sequence": "Dîner J4",
+   "lieu": "Kasbah Talet by Beldi",
+   "menu": "Menu 7 du pack imprimeur — 3 plats + pâtisseries marocaines, en cours de transcription ⚠️ · 18 couverts (Wim ne dîne pas) + 2 staff à part",
+   "boissons": "Boissons réglées par le groupe",
+   "aConfirmer": true
   }
  ]
 }

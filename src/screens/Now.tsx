@@ -41,9 +41,9 @@ export default function Now() {
       <header className="mb-4">
         <div className="flex items-start justify-between gap-2">
           <div>
-            <div className="text-xs text-warm uppercase tracking-wider">Partners’ Meeting · Marrakech</div>
+            <div className="text-xs text-warm uppercase tracking-wider">Sightline 30 · Marrakech & Agafay</div>
             <h1 className="text-2xl font-bold leading-tight">{dayLabel(today).replace(/ — /, ' · ')}{!jOf(today) && ''}</h1>
-            <div className="text-sm text-warm">{parts.time} heure du Maroc · Paris = +1h · 👤 {user}</div>
+            <div className="text-sm text-warm">{parts.time} heure du Maroc · Pays-Bas = +1h · 👤 {user}</div>
           </div>
           <button type="button" className="chip" onClick={() => setSimOpen(o => !o)}>🗓️ {simulated ? 'Simulation' : 'Simuler'}</button>
         </div>

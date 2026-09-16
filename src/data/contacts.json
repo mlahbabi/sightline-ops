@@ -1,52 +1,58 @@
 {
- "version": "V1.1 — 04/09/2026",
- "updatedAt": "2026-09-04T00:00:00+01:00",
+ "version": "V1.0 — 16/09/2026",
+ "updatedAt": "2026-09-16T18:00:00+01:00",
  "groupes": [
   {
    "nom": "MRCO",
    "contacts": [
     {
      "nom": "Mehdi Lahbabi",
-     "role": "Managing Partner — pilotage & client",
+     "role": "Managing Partner — pilotage & client · numéro d'urgence de l'itinéraire (24/7)",
      "tel": "+212663176313",
      "email": "mlahbabi@mrco.company"
     },
     {
      "nom": "Eva Brünnich",
-     "role": "Terrain & RP",
+     "role": "Field lead — terrain, hôtels, restaurants",
      "tel": "+212653876361",
      "email": "ebrunnich@mrco.company"
     },
     {
-     "nom": "Mouad Boullous",
-     "role": "Project Manager (freelance)",
-     "tel": "+212659042575",
-     "email": "mouad.boullous@gmail.com"
+     "nom": "Farid Lourida",
+     "role": "Logistique, transferts (contact aléas chauffeurs)",
+     "tel": "+212656966260",
+     "email": ""
     },
     {
-     "nom": "Farid Lourida",
-     "role": "Responsable logistique, transferts",
-     "tel": "+212656966260",
-     "email": "",
-     "aConfirmer": false
+     "nom": "Mouad Boullous",
+     "role": "Project Manager",
+     "tel": "+212659042575",
+     "email": ""
     }
    ]
   },
   {
-   "nom": "Client Deloitte",
-   "note": "Jamais de fournisseur nommé dans les échanges avec eux.",
+   "nom": "Client & agence",
    "contacts": [
     {
-     "nom": "Clémence Pierron",
-     "role": "HR Manager — décisionnaire (WhatsApp pour l'urgent)",
-     "tel": "",
-     "email": "cpierron@deloitte.fr"
+     "nom": "Uyuni Travels B.V.",
+     "role": "Agence organisatrice (Pays-Bas) — WhatsApp / téléphone",
+     "tel": "+31624521504",
+     "email": "contact@uyunitravels.com",
+     "note": "www.uyuni-incentivetravels.nl"
     },
     {
-     "nom": "Hajer Batnini",
-     "role": "Support orga",
+     "nom": "Pamela",
+     "role": "Uyuni — liste des régimes finale (cartes allergie) · ne vient pas sur place",
      "tel": "",
-     "email": "hbatnini@deloitte.fr"
+     "email": "",
+     "aConfirmer": true
+    },
+    {
+     "nom": "Sightline Productions",
+     "role": "Client — groupe de 19 (30 ans de l'entreprise)",
+     "tel": "",
+     "email": ""
     }
    ]
   },
@@ -54,151 +60,78 @@
    "nom": "Transport",
    "contacts": [
     {
-     "nom": "Simohamed",
-     "role": "Responsable dispatch",
-     "tel": "+212663298773",
-     "email": ""
-    },
-    {
      "nom": "Najib",
-     "role": "Transporteur (en second)",
+     "role": "Transporteur — 2 × 17 pl, 4×4, véhicule bagages",
      "tel": "",
+     "email": "",
+     "aConfirmer": true,
+     "note": "Numéro à renseigner"
+    },
+    {
+     "nom": "Ssi Brahim",
+     "role": "Chauffeur-pisteur référent 4×4 (19 et 20/09)",
+     "tel": "",
+     "email": "",
+     "aConfirmer": true
+    }
+   ]
+  },
+  {
+   "nom": "Lieux",
+   "contacts": [
+    {
+     "nom": "2Ciels Boutique Hotel & Spa",
+     "role": "Hôtel 17→19/09",
+     "tel": "+212524359550",
      "email": ""
-    }
-   ]
-  },
-  {
-   "nom": "Radisson Blu Marrakech Carré Eden",
-   "note": "166-176 av. Mohamed V — standard +212 525 077 000",
-   "contacts": [
-    {
-     "nom": "Standard hôtel",
-     "role": "Radisson Blu",
-     "tel": "+212525077000",
-     "email": ""
     },
-    {
-     "nom": "Fatima Zahra Elbahri",
-     "role": "M&E",
-     "tel": "",
-     "email": "fatimazahra.elbahri@radissonblu.com"
-    },
-    {
-     "nom": "Rachid Oubassou",
-     "role": "Direction",
-     "tel": "",
-     "email": "rachid.oubassou@radissonblu.com"
-    },
-    {
-     "nom": "Yassir Badaa / Lamia Elghazi",
-     "role": "Réservations",
-     "tel": "",
-     "email": "reservation.marrakech@radissonblu.com"
-    }
-   ]
-  },
-  {
-   "nom": "Groupe Rmili (Diaffa + Rôtisserie)",
-   "contacts": [
-    {
-     "nom": "Imane Rmili",
-     "role": "Propriétaire",
-     "tel": "",
-     "email": "imane.rmili@gmail.com"
-    },
-    {
-     "nom": "Dar Diaffa",
-     "role": "1 rue Jbel Lakhdar, Médina",
-     "tel": "+212524386898",
-     "tel2": "+212665633090",
-     "email": "restaurantdiaffa@gmail.com"
-    },
-    {
-     "nom": "Fatima Zahra (Rôtisserie)",
-     "role": "Commercial — 68 rue Yougoslavie, Guéliz",
-     "tel": "+212653847421",
-     "email": "reservations@rotisseriedelapaix.com"
-    },
-    {
-     "nom": "Khalil (Rôtisserie)",
-     "role": "Opérationnel",
-     "tel": "",
-     "email": ""
-    }
-   ]
-  },
-  {
-   "nom": "Son / DJ",
-   "contacts": [
-    {
-     "nom": "Badr Khyat",
-     "role": "Colonnes son + 2 micros HF (Diaffa) + DJ Rôtisserie",
-     "tel": "+212617010387",
-     "email": ""
-    }
-   ]
-  },
-  {
-   "nom": "Le Grand Bazar",
-   "contacts": [
-    {
-     "nom": "Fabien",
-     "role": "Le Grand Bazar",
-     "tel": "",
-     "email": "com.legrandbazardemarrakech@gmail.com"
-    }
-   ]
-  },
-  {
-   "nom": "Marrakech Express (EVO / Evolution 2)",
-   "contacts": [
-    {
-     "nom": "Driss Alaoui",
-     "role": "EVO — responsable",
-     "tel": "+212662716669",
-     "tel2": "+212524457668",
-     "email": "d.alaouievo2@gmail.com"
-    },
-    {
-     "nom": "Andréa",
-     "role": "EVO — facilitatrice",
-     "tel": "",
-     "email": "evo2andrea@gmail.com"
-    },
-    {
-     "nom": "Rhita",
-     "role": "EVO — facilitatrice",
-     "tel": "",
-     "email": "evo2rhita@gmail.com"
-    }
-   ]
-  },
-  {
-   "nom": "Beldi Country Club",
-   "note": "Km 6 route du Barrage, Cherifia",
-   "contacts": [
     {
      "nom": "Beldi Country Club",
-     "role": "Standard",
+     "role": "Déjeuner 17/09",
      "tel": "+212524383950",
-     "email": "contact@beldicountryclub.com"
+     "email": ""
     },
     {
-     "nom": "Oumaima / Loubna",
-     "role": "Événements",
+     "nom": "Petanque Social Club",
+     "role": "Dîner 17/09",
      "tel": "",
-     "email": "loubna@beldicountryclub.com"
-    }
-   ]
-  },
-  {
-   "nom": "Photographe",
-   "contacts": [
+     "email": "",
+     "aConfirmer": true
+    },
     {
-     "nom": "Fabrice Gino",
-     "role": "Photographe (Diaffa 09/09, à caler avec Mehdi)",
-     "tel": "+212777278792",
-     "email": ""
+     "nom": "Le Grand Bazar",
+     "role": "Déjeuner 18/09",
+     "tel": "",
+     "email": "",
+     "aConfirmer": true
+    },
+    {
+     "nom": "Le Comptoir Darna",
+     "role": "Dîner 18/09",
+     "tel": "",
+     "email": "",
+     "aConfirmer": true
+    },
+    {
+     "nom": "Le Relais du Lac",
+     "role": "Déjeuner 19/09",
+     "tel": "",
+     "email": "",
+     "aConfirmer": true
+    },
+    {
+     "nom": "Yes We Camp Agafay",
+     "role": "Nuit 19→20/09",
+     "tel": "",
+     "email": "",
+     "aConfirmer": true
+    },
+    {
+     "nom": "La Kasbah By Beldi / Kasbah Talet",
+     "role": "Nuit 20→21/09 + dîner",
+     "tel": "",
+     "email": "",
+     "aConfirmer": true
     }
    ]
   }

@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // Base = nom du repo GitHub : l'app est servie sous https://mlahbabi.github.io/pmd-ops/
-const BASE = '/pmd-ops/'
+const BASE = '/sightline-ops/'
 
 export default defineConfig({
   base: BASE,
@@ -16,11 +16,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['pmd-white.png', 'pmd-black.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'PMD Ops — Partners’ Meeting',
-        short_name: 'PMD Ops',
+        name: 'Sightline Ops — Marrakech & Agafay',
+        short_name: 'Sightline Ops',
         description: 'Outil terrain MRCO — Partners’ Meeting Marrakech, 07 → 13 septembre 2026',
         lang: 'fr',
-        theme_color: '#050608',
+        theme_color: '#111114',
         background_color: '#050608',
         display: 'standalone',
         orientation: 'portrait',

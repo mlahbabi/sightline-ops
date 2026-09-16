@@ -9,7 +9,7 @@ export function mParts(d: Date) {
   fmt.formatToParts(d).forEach(x => { p[x.type] = x.value })
   return { date: `${p.year}-${p.month}-${p.day}`, time: `${p.hour}:${p.minute}`, ddmm: `${p.day}/${p.month}` }
 }
-/** Construit une Date à partir d'une date et d'une heure Maroc (UTC+1 en septembre 2026) */
+/** Construit une Date à partir d'une date et d'une heure Maroc (UTC+1 en continu — pas de changement d'heure le 20/09, contrairement à la fiche transport V3) */
 export const toDate = (date: string, time: string) => new Date(`${date}T${time}:00+01:00`)
 
 export const J: Record<string, string> = {
