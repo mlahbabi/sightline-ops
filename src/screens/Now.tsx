@@ -24,7 +24,7 @@ export default function Now() {
   const pinned = future.filter(x => x.st.pinned)
   const upcoming = [...pinned, ...future.filter(x => !x.st.pinned)].slice(0, Math.max(3, pinned.length))
   const critToday = daySeqs.filter(s => s.level === 'critique')
-  const pendingDue = pending.filter(p => !store.checks[`pending:${p.id}`]?.done && (p.echeance.includes('-') ? p.echeance <= today : today >= '2026-09-09'))
+  const pendingDue = pending.filter(p => !store.checks[`pending:${p.id}`]?.done && (p.echeance.includes('-') ? p.echeance <= today : today >= '2026-09-17'))
   const arrToday = people.filter(p => p.arrivee === ddmm(today) && p.depart)
   const depToday = people.filter(p => p.depart === ddmm(today) && p.arrivee)
   const occupiedToday = people.filter(p => sleepsOn(p, today)).length

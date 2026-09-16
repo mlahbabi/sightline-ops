@@ -5,7 +5,7 @@ import { DAYS } from '../lib/time'
 import type { Person } from '../lib/types'
 import { Badge, Chips, Empty, PageTitle, VipBadge, Warn } from '../components/ui'
 
-const STATUTS = ['tous', 'participant', 'organisation Deloitte', 'intervenant', 'invité externe'] as const
+const STATUTS = ['tous', 'participant', 'intervenant', 'invité externe'] as const
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
 
 function Row({ p }: { p: Person }) {
@@ -32,7 +32,7 @@ export default function Personnes() {
   const [statut, setStatut] = useState<(typeof STATUTS)[number]>('tous')
   const [vip, setVip] = useState(false)
   const [regime, setRegime] = useState(false)
-  const [ret, setRet] = useState(false)
+  const ret = false
   const [equipe, setEquipe] = useState<number | 0>(0)
   const [bureau, setBureau] = useState('')
   const [nuit, setNuit] = useState('')
@@ -65,10 +65,9 @@ export default function Personnes() {
             <select className="chip" value={statut} onChange={e => setStatut(e.target.value as (typeof STATUTS)[number])}>{STATUTS.map(s => <option key={s} value={s}>{s === 'tous' ? 'Statut : tous' : s}</option>)}</select>
             <button type="button" className={`chip ${vip ? 'chip-on' : ''}`} onClick={() => setVip(v => !v)}>VIP</button>
             <button type="button" className={`chip ${regime ? 'chip-on' : ''}`} onClick={() => setRegime(v => !v)}>Régime</button>
-            <button type="button" className={`chip ${ret ? 'chip-on' : ''}`} onClick={() => setRet(v => !v)}>Retour 14h30</button>
-            <select className="chip" value={equipe} onChange={e => setEquipe(Number(e.target.value))}><option value={0}>Équipe TB</option>{[1, 2, 3, 4, 5, 6, 7].map(n => <option key={n} value={n}>Équipe {n}</option>)}</select>
+            <select className="chip" value={equipe} onChange={e => setEquipe(Number(e.target.value))}><option value={0}>Jeep 4×4</option>{[1, 2, 3, 4].map(n => <option key={n} value={n}>Équipe {n}</option>)}</select>
             <select className="chip" value={bureau} onChange={e => setBureau(e.target.value)}><option value="">Bureau</option>{bureaux.map(b => <option key={b} value={b}>{b}</option>)}</select>
-            <select className="chip" value={nuit} onChange={e => setNuit(e.target.value)}><option value="">Nuit du…</option>{DAYS.filter(d => d !== '2026-09-13').map(d => <option key={d} value={d}>Nuit du {d.slice(8, 10)}/09</option>)}</select>
+            <select className="chip" value={nuit} onChange={e => setNuit(e.target.value)}><option value="">Nuit du…</option>{DAYS.filter(d => d !== '2026-09-21' && d !== '2026-09-16').map(d => <option key={d} value={d}>Nuit du {d.slice(8, 10)}/09</option>)}</select>
           </div>
           <div className="text-xs text-warm px-1 py-1">{list.length} résultat(s)</div>
           {list.length ? <div className="space-y-2">{list.map(p => <Row key={p.id} p={p} />)}</div> : <Empty>Aucun résultat.</Empty>}

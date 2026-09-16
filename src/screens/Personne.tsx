@@ -1,5 +1,5 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { personById, fullName, civ, waveById, diners, isPlaced, express, pending } from '../lib/data'
+import { personById, fullName, civ, waveById, diners, isPlaced, people, pending } from '../lib/data'
 import type { Leg } from '../lib/types'
 import { Badge, CheckRow, Empty, Section, VipBadge, Warn } from '../components/ui'
 import { useApp } from '../context'
@@ -19,7 +19,7 @@ export default function Personne() {
   const p = id ? personById.get(id) : undefined
   if (!p) return <Empty>Personne introuvable. <Link to="/personnes" className="underline">Retour</Link></Empty>
   const waves = (p.transferts || []).map(w => waveById.get(w)).filter(Boolean)
-  const team = express.equipes.find(e => e.membres.includes(p.id))
+  const team = p.equipe_tb ? { n: p.equipe_tb, membres: people.filter(x => x.equipe_tb === p.equipe_tb).map(x => x.id) } : undefined
   const pts = pending.filter(x => x.persons?.includes(p.id) && !store.checks[`pending:${x.id}`]?.done)
   const nuits = p.arrivee && p.depart ? `${p.nuitees ?? ''} nuit(s) · ${p.arrivee} → ${p.depart}` : 'séjour non communiqué'
   return (
@@ -53,6 +53,7 @@ export default function Personne() {
         <div className="card p-3 text-sm space-y-1">
           <div>🛏️ {nuits}</div>
           {p.note_hotel && <div className="text-lavender">🏨 {p.note_hotel}</div>}
+          {(p.passeport || p.naissance) && <div className="text-xs text-warm">🛂 Passeport {p.passeport || '—'} · né(e) le {p.naissance || '—'}</div>}
           {p.statut === 'invité externe' && !p.arrivee && <div className="text-warm">Pas d'hébergement</div>}
         </div>
       </Section>
