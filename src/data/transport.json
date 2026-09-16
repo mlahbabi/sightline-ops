@@ -1,0 +1,757 @@
+{
+ "version": "V2.32 — 11/09/2026",
+ "updatedAt": "2026-09-11T10:15:00+01:00",
+ "regles": [
+  "Départs : dépose à l'aéroport RAK au minimum 2h00 avant le décollage. Trajets : Radisson → RAK ~20 min ; Beldi → RAK ~25 min.",
+  "Arrivées : accueil en zone arrivées avec pancarte « Partners’ Meeting », chauffeur en place à l'heure d'atterrissage, sortie passagers +30 à 40 min. Suivi des vols en temps réel (retards fréquents sur correspondances Casa).",
+  "Véhicules : minibus 17 places ; Vito 5 places (4 pax + bagages recommandé).",
+  "Chauffeurs : tenue soignée, eau à bord, aucune info client au-delà de « Partners’ Meeting ».",
+  "Tout aléa → appel immédiat Eva ou Mehdi. Ne jamais partir incomplet sans validation MRCO.",
+  "Changements du 06-07/09 à transmettre à Simohamed (dispatch V5) : Tonka IB1853 17:05 le 07/09 et départ 11/09 ; Elmaleh TO9800 13:40 le 08/09 et AF1277 le 11/09 ; Malouche en voiture ; Bedhiafi annulée."
+ ],
+ "contactDispatch": {
+  "nom": "Simohamed",
+  "role": "Responsable dispatch",
+  "tel": "+212663298773"
+ },
+ "vagues": [
+  {
+   "id": "w0309-1750",
+   "date": "2026-09-03",
+   "heure": "17:50",
+   "type": "arrivee",
+   "vol": "AF1876 (CDG)",
+   "pax": [
+    "mboup"
+   ],
+   "vehicule": "1 Vito",
+   "note": "Effectué ✅",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "w0709-1640",
+   "date": "2026-09-07",
+   "heure": "16:40",
+   "type": "arrivee",
+   "vol": "AT639 (Paris)",
+   "pax": [
+    "mavungu"
+   ],
+   "vehicule": "1 Vito — Farid",
+   "note": "NOUVEAU (07/09) : vols depuis Kinshasa annulés, Mavungu n'est plus sur AT413M 18:10. Farid + chauffeur en place à 16:40, départ direct vers le Radisson dès sortie (~17:20). À transmettre à Simohamed.",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "critique"
+  },
+  {
+   "id": "w0709-1750",
+   "date": "2026-09-07",
+   "heure": "17:50",
+   "type": "arrivee",
+   "vol": "AF1876 (CDG)",
+   "pax": [
+    "batnini",
+    "pierron"
+   ],
+   "vehicule": "Véhicule de Mehdi — Mehdi + Mouad",
+   "note": "Accueil personnel de Clémence et Hajer (nos contacts client) par Mehdi et Mouad avec le véhicule de Mehdi. Pas de Vito : le transporteur est au courant.",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "important"
+  },
+  {
+   "id": "w0709-2325",
+   "date": "2026-09-07",
+   "heure": "23:25",
+   "type": "arrivee",
+   "vol": "AT403 (Casa)",
+   "pax": [
+    "tonka"
+   ],
+   "vehicule": "1 Vito — Farid",
+   "note": "NOUVEAU (07/09 après-midi) : Tonka n'est plus sur IB1853 17:05, il arrive de Casablanca à 23:25. Late check-in au Radisson (~00:15). À transmettre à Simohamed.",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "critique"
+  },
+  {
+   "id": "w0809-0935",
+   "date": "2026-09-08",
+   "heure": "09:35",
+   "type": "arrivee",
+   "vol": "AT409 (Casa)",
+   "pax": [
+    "ndoye",
+    "thiaw"
+   ],
+   "vehicule": "1 Vito",
+   "note": "Départ direct (n'attend plus le 09:40)",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "w0809-1305",
+   "date": "2026-09-08",
+   "heure": "13:05",
+   "type": "arrivee",
+   "vol": "AT411 (Casa)",
+   "pax": [
+    "akpatigbe"
+   ],
+   "vehicule": "1 Vito",
+   "note": "⚠️ March Bishop n'arrivera PAS à 13:05 comme prévu (info du 08/09) — nouvel horaire à reconfirmer avec Clémence. Akpatigbe seul sur cette course.",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "important"
+  },
+  {
+   "id": "w0809-1350",
+   "date": "2026-09-08",
+   "heure": "13:50",
+   "type": "arrivee",
+   "vol": "TB7522 (Orly — TUI)",
+   "pax": [
+    "bourtourault",
+    "villeminot"
+   ],
+   "vehicule": "1 Vito",
+   "note": "Elmaleh (TO9800 13:40) n'est PAS à prendre en charge : il part directement en clientèle (Clémence 07/09).",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "w0809-1515",
+   "date": "2026-09-08",
+   "heure": "15:15",
+   "type": "arrivee",
+   "vol": "AT749 (Orly)",
+   "pax": [
+    "chaghil-brasseur"
+   ],
+   "vehicule": "1 Vito",
+   "note": "",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "w0809-1750",
+   "date": "2026-09-08",
+   "heure": "17:50",
+   "type": "arrivee",
+   "vol": "AF1876 (CDG) ×17 + TO3018 (Orly) ×1",
+   "pax": [
+    "bledou",
+    "de-beauvoir",
+    "depouilly",
+    "djibo",
+    "foundoux",
+    "guinot",
+    "koudou",
+    "madre",
+    "meizou",
+    "n-guessan",
+    "nguema",
+    "niang",
+    "nzoimbengene",
+    "righi",
+    "sall-plantagenet",
+    "sayam",
+    "soppo-priso",
+    "lucas"
+   ],
+   "vehicule": "1 × 17 pl + 1 Vito",
+   "note": "Vague principale (18 pax : De Beauvoir ajouté, Elmaleh retiré, Balesme décalé à 21:30). Lucas seul sur TO3018 (Orly).",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "critique"
+  },
+  {
+   "id": "w0809-2130",
+   "date": "2026-09-08",
+   "heure": "21:30",
+   "type": "arrivee",
+   "vol": "TO3124 (Orly — Transavia)",
+   "pax": [
+    "balesme"
+   ],
+   "vehicule": "1 Vito",
+   "note": "NOUVEAU (08/09) : Balesme n'est plus sur TO3018 17:50, il arrive à 21:30. Course à ajouter — à transmettre à Simohamed. Dîner Lila : service souple, il arrive vers 22:15.",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "critique"
+  },
+  {
+   "id": "w0809-1810",
+   "date": "2026-09-08",
+   "heure": "18:10",
+   "type": "arrivee",
+   "vol": "AT413 (Casa)",
+   "pax": [
+    "koundi",
+    "maatoug",
+    "mejri",
+    "mtimet",
+    "sahli",
+    "watat",
+    "zouari",
+    "bishop"
+   ],
+   "vehicule": "1 × 17 pl",
+   "note": "8 pax : March Bishop confirmée sur AT413 (08/09, après avoir manqué AT411). Ou rotation du même 17 pl, récupération ~18:50.",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "important"
+  },
+  {
+   "id": "w0809-2315",
+   "date": "2026-09-08",
+   "heure": "23:15",
+   "type": "arrivee",
+   "vol": "AF1776 (CDG)",
+   "pax": [
+    "bernardini",
+    "ibraima"
+   ],
+   "vehicule": "1 Vito",
+   "note": "2 pax (Malouche arrive désormais en voiture). Late check-in + late dinner ~00:15",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "important"
+  },
+  {
+   "id": "w0909-0940",
+   "date": "2026-09-09",
+   "heure": "09:40",
+   "type": "arrivee",
+   "vol": "AF1276 (CDG)",
+   "pax": [
+    "boisselier"
+   ],
+   "vehicule": "1 Vito",
+   "note": "VIP ++++ : M. Boisselier (président du CA France), seul (De Beauvoir arrive désormais le 08/09).",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "important"
+  },
+  {
+   "id": "w0909-1420",
+   "date": "2026-09-09",
+   "heure": "14:20",
+   "type": "arrivee",
+   "vol": "TO9800 (Paris)",
+   "pax": [
+    "frery"
+   ],
+   "vehicule": "1 Vito",
+   "note": "Intervenant",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "w0909-1750",
+   "date": "2026-09-09",
+   "heure": "17:50",
+   "type": "arrivee",
+   "vol": "AF1876 (CDG)",
+   "pax": [
+    "gourd"
+   ],
+   "vehicule": "1 Vito",
+   "note": "À l'hôtel ~18:45, avant le départ dîner de 20:00.",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "w1009-1115",
+   "date": "2026-09-10",
+   "heure": "11:15",
+   "type": "depart",
+   "vol": "TO3015 — décollage 13:40",
+   "pax": [
+    "frery"
+   ],
+   "vehicule": "1 Vito",
+   "note": "",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1109-0345",
+   "date": "2026-09-11",
+   "heure": "03:45",
+   "type": "depart",
+   "vol": "AF1777 — décollage 06:10",
+   "pax": [
+    "djibo"
+   ],
+   "vehicule": "1 Vito",
+   "note": "1 pax (Elmaleh désormais sur AF1277 10:40)",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1109-0750",
+   "date": "2026-09-11",
+   "heure": "07:50",
+   "type": "depart",
+   "vol": "AT408 10:15 / AT402 10:40 / AF1277 10:40",
+   "pax": [
+    "zouari",
+    "watat",
+    "elmaleh"
+   ],
+   "vehicule": "1 Vito combiné",
+   "note": "Elmaleh ajouté (AF1277 10:40, changement du 06/09)",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1109-0940",
+   "date": "2026-09-11",
+   "heure": "09:40",
+   "type": "arrivee",
+   "vol": "AF1276 (CDG)",
+   "pax": [
+    "queron-caroline"
+   ],
+   "vehicule": "1 Vito",
+   "note": "NOUVEAU (10/09) : Caroline Queron, accompagnante de Thierry Queron. Matin de pointe (Vitos départs 03:45, 07:50, 10:10) — véhicule à confirmer avec Simohamed. À l'hôtel vers 10:30 pendant l'AG ; Beldi 11:45 avec le groupe ?",
+   "origine": "Aéroport RAK",
+   "destination": "Radisson Blu",
+   "level": "important"
+  },
+  {
+   "id": "w1109-1010",
+   "date": "2026-09-11",
+   "heure": "10:10",
+   "type": "depart",
+   "vol": "TO3013 — décollage 12:35",
+   "pax": [
+    "lucas"
+   ],
+   "vehicule": "1 Vito",
+   "note": "",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1109-1335",
+   "date": "2026-09-11",
+   "heure": "13:35",
+   "type": "depart",
+   "vol": "AF1077 ×15 + AF718 ×1 — décollage 16:00",
+   "pax": [
+    "bernardini",
+    "bledou",
+    "boisselier",
+    "de-beauvoir",
+    "gourd",
+    "guinot",
+    "jacquart",
+    "malouche",
+    "meizou",
+    "n-guessan",
+    "ndoye",
+    "nguema",
+    "nzoimbengene",
+    "sayam",
+    "soppo-priso",
+    "thiaw"
+   ],
+   "vehicule": "1 × 17 pl + 1 Vito bagages",
+   "note": "Embarquement 13:30, dépose 14:00 — H-2 strict, aucun retard possible. Thiaw sur AF718.",
+   "origine": "Beldi Country Club",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1109-1400",
+   "date": "2026-09-11",
+   "heure": "14:00",
+   "type": "depart",
+   "vol": "AT740 — décollage 16:25",
+   "pax": [
+    "chaghil-brasseur"
+   ],
+   "vehicule": "1 Vito",
+   "note": "",
+   "origine": "Beldi Country Club",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1109-1435",
+   "date": "2026-09-11",
+   "heure": "14:35",
+   "type": "depart",
+   "vol": "AT412 18:20 / AT640 18:30 / AF1877 18:55 ×8",
+   "pax": [
+    "akpatigbe",
+    "bourtourault",
+    "tonka",
+    "batnini",
+    "pierron",
+    "depouilly",
+    "righi",
+    "ibraima",
+    "foundoux",
+    "koudou"
+   ],
+   "vehicule": "1 × 17 pl DÉDIÉ (Beldi → Radisson → RAK)",
+   "note": "PLAN DU 10/09 (Mehdi) : ce groupe finit le déjeuner Beldi vers 14:30, repasse par Radisson, puis aéroport — un seul bus. TIMING : 14:30 fin du déjeuner · 14:35 départ Beldi · ~15:05 Radisson (bagages à la bagagerie, check-out) · 15:30 départ Radisson · ~15:50 dépose RAK (AT412 18:20 = H-2:30 ; AT640 18:30 et AF1877 18:55 : ~3 h avant, assumé). Bagages de ces 10 : laissés à la bagagerie le matin, PAS dans les bus du Beldi. Dupont-Noel retiré le 11/09 (prolonge son séjour par ses propres moyens) : 10 pax, comme annoncé par Mehdi.",
+   "origine": "Beldi Country Club",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1209-0345",
+   "date": "2026-09-12",
+   "heure": "03:45",
+   "type": "depart",
+   "vol": "AF1777 — décollage 06:10",
+   "pax": [
+    "madre"
+   ],
+   "vehicule": "1 Vito",
+   "note": "",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1209-0645",
+   "date": "2026-09-12",
+   "heure": "06:45",
+   "type": "depart",
+   "vol": "TO3011 — décollage 09:15",
+   "pax": [
+    "balesme"
+   ],
+   "vehicule": "1 Vito",
+   "note": "",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1209-0815",
+   "date": "2026-09-12",
+   "heure": "08:15",
+   "type": "depart",
+   "vol": "AT402 ×5 (10:40) + AF1277 ×3",
+   "pax": [
+    "koundi",
+    "maatoug",
+    "mboup",
+    "mejri",
+    "mtimet",
+    "niang",
+    "sahli",
+    "sall-plantagenet"
+   ],
+   "vehicule": "1 × 17 pl",
+   "note": "8 pax (Bedhiafi annulée). Mboup, Niang, Sall Plantagenet sur AF1277 (CDG)",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1209-1625",
+   "date": "2026-09-12",
+   "heure": "16:25",
+   "type": "depart",
+   "vol": "AT412 — décollage 18:50",
+   "pax": [
+    "bishop"
+   ],
+   "vehicule": "1 Vito",
+   "note": "",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1309-0815",
+   "date": "2026-09-13",
+   "heure": "08:15",
+   "type": "depart",
+   "vol": "AF1277 — décollage 10:40 (CDG)",
+   "pax": [
+    "mavungu"
+   ],
+   "vehicule": "1 Vito",
+   "note": "NOUVEAU (11/09) : vol retour changé, AF1277 10:40 au lieu de AT412 18:20. Dépose aéroport 08:40 (H-2).",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "w1309-1555",
+   "date": "2026-09-13",
+   "heure": "15:55",
+   "type": "depart",
+   "vol": "AF1877 — décollage 18:55 (CDG)",
+   "pax": [
+    "queron"
+   ],
+   "vehicule": "1 Vito",
+   "note": "Mavungu retiré (repart le matin par AF1277). Caroline Queron ⚠️ : départ non communiqué, a priori avec Thierry.",
+   "origine": "Radisson Blu",
+   "destination": "Aéroport RAK",
+   "level": "critique"
+  },
+  {
+   "id": "p0909-1945",
+   "date": "2026-09-09",
+   "heure": "19:45",
+   "type": "programme",
+   "vol": "Radisson → Dar Diaffa — DÉPART ANTICIPÉ",
+   "pax": [
+    "batnini",
+    "boisselier",
+    "de-beauvoir",
+    "depouilly",
+    "elmaleh",
+    "pierron"
+   ],
+   "paxEstime": "6",
+   "vehicule": "1 × 17 pl",
+   "note": "Liste bus du 09/09 (Clémence) : 7 personnes barrées « OK – départ anticipé à 19h45 », moins Dupont-Noel qui rejoint directement le restaurant = 6 pax. Bus accompagné par EVA. Rassemblement lobby 19:35, dépose rue Jbel Lakhdar puis à pied. Ne pas attendre les autres : le groupe principal part à 20:00.",
+   "origine": "Radisson Blu",
+   "destination": "Dar Diaffa (Médina)",
+   "level": "critique"
+  },
+  {
+   "id": "p0909-2000",
+   "date": "2026-09-09",
+   "heure": "20:00",
+   "type": "programme",
+   "vol": "Radisson → Dar Diaffa",
+   "pax": [],
+   "paxEstime": "53",
+   "vehicule": "3 × 17 pl + 1 Vito réserve ⚠️ (4e bus parti à 19:45)",
+   "note": "Dîner — dépose rue Jbel Lakhdar. Groupe principal : 52 hébergés (61 − 6 partis à 19:45 − 3 directement au restaurant : Dupont-Noel, Bellefqih, Belemqadem ; Faouzi ⚠️ compté dans le bus) + Ondias (prend le bus) = 53, + 3 invités externes (mode d'arrivée à confirmer). ⚠️ Véhicules : si le bus de 19:45 est l'un des 4, il reste 3 × 17 pl + Vito réserve = 58 places pour 53 — à valider avec Simohamed.",
+   "origine": "Radisson Blu",
+   "destination": "Dar Diaffa (Médina)",
+   "level": "critique"
+  },
+  {
+   "id": "p0909-2300",
+   "date": "2026-09-09",
+   "heure": "23:00",
+   "type": "programme",
+   "vol": "Dar Diaffa → Radisson",
+   "pax": [],
+   "paxEstime": "62",
+   "vehicule": "4 × 17 pl",
+   "note": "Retour groupé après le dîner (pas d'after).",
+   "origine": "Dar Diaffa (Médina)",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "p1009-1215",
+   "date": "2026-09-10",
+   "heure": "12:15",
+   "type": "programme",
+   "vol": "Radisson → Médina (Grand Bazar)",
+   "pax": [],
+   "paxEstime": "58",
+   "vehicule": "4 × 17 pl",
+   "note": "Déjeuner + Marrakech Express. EFFECTIF EXACT 10/09 : 58 = 57 hébergés + Ondias. Absents : Boisselier (déjeuner VIP salle Gingembre), Kopp (parti le matin), Frery (vol 13:40), Villeminot (parti seul), Benjelloun Touimi (dîner uniquement).",
+   "origine": "Radisson Blu",
+   "destination": "Le Grand Bazar (Médina)",
+   "level": "critique"
+  },
+  {
+   "id": "p1009-1430",
+   "date": "2026-09-10",
+   "heure": "14:30",
+   "type": "programme",
+   "vol": "Médina → Radisson — retour anticipé",
+   "pax": [
+    "batnini",
+    "belemqadem",
+    "bourtourault",
+    "chaghil-brasseur",
+    "de-beauvoir",
+    "depouilly",
+    "dupont-noel",
+    "elmaleh",
+    "gourd",
+    "jacquart",
+    "lucas",
+    "malouche",
+    "niang",
+    "queron",
+    "righi",
+    "sayam",
+    "tonka"
+   ],
+   "paxEstime": "17",
+   "vehicule": "1 × 17 pl + 1 Vito",
+   "note": "Liste nominative : 17 (fichier du 07/09 moins Kopp, parti le matin ; Tonka inclus ⚠️ aussi en équipe 7).",
+   "origine": "Le Grand Bazar (Médina)",
+   "destination": "Radisson Blu",
+   "level": "critique"
+  },
+  {
+   "id": "p1009-1730",
+   "date": "2026-09-10",
+   "heure": "17:30",
+   "type": "programme",
+   "vol": "Médina → Radisson — fin Marrakech Express",
+   "pax": [
+    "akpatigbe",
+    "alaoui",
+    "balesme",
+    "bellefqih",
+    "bencheqroun",
+    "bernardini",
+    "bishop",
+    "bledou",
+    "chaste",
+    "djibo",
+    "faouzi",
+    "foundoux",
+    "guinot",
+    "hassouni",
+    "ibraima",
+    "jebira",
+    "koudou",
+    "koundi",
+    "leyrit",
+    "maatoug",
+    "madre",
+    "mavungu",
+    "mboup",
+    "meizou",
+    "mejri",
+    "mtimet",
+    "n-goran",
+    "n-guessan",
+    "nadem",
+    "ndoye",
+    "nguema",
+    "nzoimbengene",
+    "pierron",
+    "sahli",
+    "sall-plantagenet",
+    "soppo-priso",
+    "tayaa",
+    "thiaw",
+    "tonka",
+    "watat",
+    "zouari",
+    "ondias"
+   ],
+   "paxEstime": "42",
+   "vehicule": "3 × 17 pl",
+   "note": "Retour groupé fin d'activité : les 42 des équipes (41 si Tonka prend la navette 14:30 ⚠️).",
+   "origine": "Riad Dar Essalam (Médina)",
+   "destination": "Radisson Blu",
+   "level": "normal"
+  },
+  {
+   "id": "p1109-1530",
+   "date": "2026-09-11",
+   "heure": "15:30",
+   "type": "programme",
+   "vol": "Beldi → Radisson — retour des personnes qui restent",
+   "pax": [],
+   "paxEstime": "~15",
+   "vehicule": "1 × 17 pl (resté au Beldi)",
+   "note": "HORAIRE À CONFIRMER ⚠️ (après le départ du bus de 14:35). 13 hébergés nuit 11→12 (Balesme, Bishop, Koundi, Maatoug, Madre, Mavungu, Mboup, Mejri, Mtimet, Niang, Queron, Sahli, Sall Plantagenet) + Caroline Queron + Ondias ⚠️ = ~15. Un des 17 pl restés au Beldi.",
+   "origine": "Beldi Country Club",
+   "destination": "Radisson Blu",
+   "level": "important"
+  },
+  {
+   "id": "p1109-1145",
+   "date": "2026-09-11",
+   "heure": "11:45",
+   "type": "programme",
+   "vol": "Radisson → Beldi Country Club — AVEC BAGAGES",
+   "pax": [],
+   "paxEstime": "~55",
+   "vehicule": "4 × 17 pl",
+   "note": "Chargement dès 11:15 (bagagerie hôtel) — bagages UNIQUEMENT des 17 qui vont directement Beldi → RAK. Effectif : 54 hébergés présents après les 5 départs du matin (dont C. Queron ⚠️) + Ondias = ~55 ; les 12 qui repartent par la route (Casa) peuvent partir en voiture depuis le Beldi. Les véhicules restent au Beldi jusqu'aux navettes aéroport.",
+   "origine": "Radisson Blu",
+   "destination": "Beldi Country Club",
+   "level": "critique"
+  }
+ ],
+ "horsDispatch": [
+  "Jacquart Damien — voiture depuis Casa (aucun transfert aller).",
+  "Queron Thierry — voiture personnelle.",
+  "N'Goran Hermann — voiture avec un associé marocain, aller ET retour.",
+  "Malouche Mohamed-Ali — NOUVEAU : arrive en voiture avec un associé marocain (plus de transfert aller), départ 11/09 navette 13:35.",
+  "Kopp Julien — arrivée autonome via Casa ; retour a priori en train le 10/09 au matin (à confirmer).",
+  "Ondias Fanny — gère seule hébergement et transferts (vient accompagnée).",
+  "Dupont-Noel, Bellefqih, Faouzi, Belemqadem — ensemble par la route depuis Casa le 09/09, même véhicule (départ ~17:30, ~18:30 à l'hôtel) — CHANGEMENT 09/09 : Dupont-Noel, Bellefqih et Belemqadem rejoignent DIRECTEMENT Dar Diaffa (Faouzi ⚠️ à confirmer), check-in Radisson après le dîner.",
+  "Dupont-Noel David — TRANSFERT RETOUR ANNULÉ le 11/09 : prolonge son séjour à Marrakech par ses propres moyens (retiré du bus de 14:35).",
+  "Villeminot Julien — départ 10/09 par ses propres moyens (n'a pas pris le Vito de 07:10, U24664).",
+  "Le 08/09, 8 autres arrivées autonomes sans transfert : Alaoui, Jebira (via Casa) ; Bencheqroun, Chaste, Hassouni, Leyrit, Nadem, Tayaa (voiture personnelle depuis Casablanca)."
+ ],
+ "flotte": [
+  {
+   "date": "2026-09-03",
+   "pax": "1",
+   "mouvements": "1 course simple",
+   "flotte": "1 Vito"
+  },
+  {
+   "date": "2026-09-07",
+   "pax": "4",
+   "mouvements": "2 courses Vito (16:40 AT639 Mavungu ; 23:25 AT403 Tonka — Farid) + Clémence & Hajer 17:50 avec le véhicule de Mehdi (Mehdi + Mouad)",
+   "flotte": "1 Vito (2 courses) + véhicule Mehdi"
+  },
+  {
+   "date": "2026-09-08",
+   "pax": "34",
+   "mouvements": "8 vagues, 09:35 → 23:15 — pointe le soir (18 pax à 17:50), Balesme 21:30, Bishop à recaler",
+   "flotte": "1 × 17 pl (2 rotations) + 2 Vitos"
+  },
+  {
+   "date": "2026-09-09",
+   "pax": "~66",
+   "mouvements": "3 arrivées + dîner Diaffa : 6 pax à 19:45 (bus Eva) + 53 pax à 20:00 (3 VIP directement au restaurant), retour 62 à 23:00 (aucun départ)",
+   "flotte": "4 × 17 pl + 1 Vito (3 courses) — 1 bus détaché à 19:45 ⚠️"
+  },
+  {
+   "date": "2026-09-10",
+   "pax": "~61",
+   "mouvements": "1 départ (Frery 11:15 ; Villeminot parti seul) + Médina : 58 aller 12:15 / 17 retour 14:30 / 42 retour 17:30",
+   "flotte": "4 × 17 pl + 2 Vitos"
+  },
+  {
+   "date": "2026-09-11",
+   "pax": "~57",
+   "mouvements": "POINTE ABSOLUE : 3 vagues matin + arrivée C. Queron 09:40 (AF1276) + Beldi 11:45 + 3 navettes vers RAK : 13:35 (17 pl + Vito bagages), 14:00 (Vito), 14:35 (17 pl dédié pour 10 pax via Radisson, dépose RAK 15:50)",
+   "flotte": "4 × 17 pl + 2 Vitos"
+  },
+  {
+   "date": "2026-09-12",
+   "pax": "11",
+   "mouvements": "4 vagues, 03:45 → 16:25",
+   "flotte": "1 × 17 pl + 1 Vito"
+  },
+  {
+   "date": "2026-09-13",
+   "pax": "2 (+1 ⚠️)",
+   "mouvements": "2 courses : 08:15 Mavungu (AF1277 10:40) ; 15:55 Queron (AF1877 18:55, + Caroline ⚠️)",
+   "flotte": "1 Vito (2 courses)"
+  }
+ ]
+}
