@@ -1,5 +1,5 @@
 {
- "version": "V1.4 — 17/09/2026",
+ "version": "V1.5 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "regles": [
   "HEURE : nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — passage définitif à GMT (décret 2.26.530). Tous les horaires des 20 et 21/09 sont en nouvelle heure. Vérification croisée des montres avec Eva / Mehdi avant chaque prise en charge des 20 et 21/09 ; l’app Sightline Ops affiche l’heure légale.",
@@ -107,15 +107,15 @@
    "level": "normal"
   },
   {
-   "id": "p0918-1200",
+   "id": "p0918-1215",
    "date": "2026-09-18",
-   "heure": "12:00",
+   "heure": "12:15",
    "type": "programme",
    "vol": "2Ciels → Le Grand Bazar (Jemaa el-Fna)",
    "pax": [],
    "paxEstime": "19",
    "vehicule": "2 × 17 pl (BUS 1 / BUS 2)",
-   "note": "Dépose au plus proche, zone médina. Véhicules en standby pendant la Medina Quest (14:15–16:15).",
+   "note": "Horaire confirmé par Mehdi le 17/09 : départ 12:15 (au lieu de 12:00). Dépose au plus proche, zone médina. Véhicules en standby pendant la Medina Quest (14:15–16:15).",
    "origine": "2Ciels Boutique Hotel & Spa",
    "destination": "Le Grand Bazar (Médina)",
    "level": "important"
@@ -307,7 +307,7 @@
   {
    "date": "2026-09-18",
    "pax": "19",
-   "mouvements": "Grand Bazar 12:00, standby médina, retour 16:15, Comptoir Darna 20:30, retour 23:30 + disposal",
+   "mouvements": "Grand Bazar 12:15, standby médina, retour 16:15, Comptoir Darna 20:30, retour 23:30 + disposal",
    "flotte": "2 × 17 pl — 11:30 → fin de soirée"
   },
   {

@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.4 — 17/09/2026';
+const VERSION = 'V1.5 — 17/09/2026';
 const UPDATED = '2026-09-17T11:00:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
@@ -78,8 +78,8 @@ const seqs = [
   S('s0917-diner', '2026-09-17', '21:15', '23:45', 'Dîner 4 plats — Petanque Social Club (club secret années 1930)', 'Petanque Social Club', '19', 'restauration', 'important', 'Menu 1. Retour hôtel vers 00:00 (2 × 17 pl). ' + ALLERGIE, ['Heure de retour confirmée aux chauffeurs'], ALL),
   // J2 — vendredi 18/09
   S('s0918-ballon', '2026-09-18', '05:30', '09:30', 'Montgolfière au lever du soleil (transfert opérateur, hors Najib)', '2Ciels → site de vol', '19', 'activite', 'critique', 'DÉPART : Farid + Mehdi (lobby 05:30, transfert opérateur 05:45). Café / thé au départ. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. RETOUR HÔTEL 09:30 : relais Eva + Mouad, qui accueillent le groupe au 2Ciels. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).', ['Réveil / rassemblement lobby 05:30', 'Transfert opérateur présent 05:45', 'Météo : vol confirmé ou annulé', 'Retour hôtel 09:30'], ALL),
-  S('s0918-setup-bazar', '2026-09-18', '11:15', '12:15', 'Mise en place Le Grand Bazar — Farid + Eva', 'Le Grand Bazar (Médina)', '', 'setup', 'important', 'Avant l’arrivée du groupe (transfert 12:00, déjeuner 12:30). Chevalets 3 + menus 3 sur les tables, chef briefé (18 couverts, Wim apporte son repas, régimes), point de dépose et point de rendez-vous de la Medina Quest calés avec les bus.', ['Chevalets et menus posés', 'Chef briefé : 18 couverts + régimes', 'Point de dépose confirmé aux chauffeurs', 'Guides Medina Quest joints pour 14:15']),
-  S('s0918-bazar', '2026-09-18', '12:30', '14:15', 'Déjeuner 3 plats — Le Grand Bazar (Jemaa el-Fna)', 'Le Grand Bazar (Médina)', '19', 'restauration', 'important', 'Dépose au plus près de la médina. Menu 3 + chevalets 3. ' + ALLERGIE, ['Chef briefé : 18 couverts + régimes', 'Menus et chevalets en place'], ALL),
+  S('s0918-setup-bazar', '2026-09-18', '11:15', '12:15', 'Mise en place Le Grand Bazar — Farid + Eva', 'Le Grand Bazar (Médina)', '', 'setup', 'important', 'Avant l’arrivée du groupe (transfert 12:15, déjeuner ~12:45). Chevalets 3 + menus 3 sur les tables, chef briefé (18 couverts, Wim apporte son repas, régimes), point de dépose et point de rendez-vous de la Medina Quest calés avec les bus.', ['Chevalets et menus posés', 'Chef briefé : 18 couverts + régimes', 'Point de dépose confirmé aux chauffeurs', 'Guides Medina Quest joints pour 14:15']),
+  S('s0918-bazar', '2026-09-18', '12:45', '14:15', 'Déjeuner 3 plats — Le Grand Bazar (Jemaa el-Fna)', 'Le Grand Bazar (Médina)', '19', 'restauration', 'important', 'Dépose au plus près de la médina. Menu 3 + chevalets 3. ' + ALLERGIE, ['Chef briefé : 18 couverts + régimes', 'Menus et chevalets en place'], ALL),
   S('s0918-quest', '2026-09-18', '14:15', '16:15', 'Medina Quest Adventure — chasse au trésor 2 h (guides anglophones)', 'Médina — départ Le Grand Bazar', '19', 'activite', 'important', 'Équipes, énigmes, navigation. Véhicules en standby. Retour hôtel ~16:15.', ['Guides en place 14:15', 'Point de rendez-vous fin de jeu fixé', 'Véhicules prévenus'], ALL),
   S('s0918-setup-darna', '2026-09-18', '19:00', '20:00', 'Setup MRCO — Le Comptoir Darna', 'Le Comptoir Darna', '', 'setup', 'important', 'Menus 4 + chevalets 4, sous-verres. Dîner 4 plats avec spectacle (musiciens, danseurs).', ['Menus et chevalets posés', 'Chef briefé : 18 couverts + régimes']),
   S('s0918-darna', '2026-09-18', '21:00', '23:30', 'Dîner 4 plats + spectacle — Le Comptoir Darna', 'Le Comptoir Darna', '19', 'restauration', 'important', 'Menu 4. Retour hôtel 23:30, puis option Babouchka (spectacle et entrées offerts par Uyuni) — véhicules en disposal jusqu\'à la dernière course. ' + ALLERGIE, ['Option Babouchka : qui y va ? (compter)', 'Dernière course annoncée aux chauffeurs'], ALL),
@@ -116,7 +116,7 @@ const waves = [
   prog('p0917-1645', '2026-09-17', '16:45', 'Beldi Country Club → 2Ciels (check-in)', 'Bagages déchargés à l\'hôtel.', '19', BUS, 'important', [], 'Beldi Country Club', '2Ciels Boutique Hotel & Spa'),
   prog('p0917-2030', '2026-09-17', '20:30', '2Ciels → Petanque Social Club', 'Mehdi + Mouad accompagnent le groupe dans les bus. Cocktail 20:45, dîner 21:15.', '19', BUS, 'important', [], '2Ciels Boutique Hotel & Spa', 'Petanque Social Club'),
   prog('p0917-2355', '2026-09-17', '23:55', 'Petanque Social Club → 2Ciels (~00:00)', 'Retour hôtel, fin de mission J1.', '19', BUS, 'normal', [], 'Petanque Social Club', '2Ciels Boutique Hotel & Spa'),
-  prog('p0918-1200', '2026-09-18', '12:00', '2Ciels → Le Grand Bazar (Jemaa el-Fna)', 'Dépose au plus proche, zone médina. Véhicules en standby pendant la Medina Quest (14:15–16:15).', '19', BUS, 'important', [], '2Ciels Boutique Hotel & Spa', 'Le Grand Bazar (Médina)'),
+  prog('p0918-1215', '2026-09-18', '12:15', '2Ciels → Le Grand Bazar (Jemaa el-Fna)', 'Horaire confirmé par Mehdi le 17/09 : départ 12:15 (au lieu de 12:00). Dépose au plus proche, zone médina. Véhicules en standby pendant la Medina Quest (14:15–16:15).', '19', BUS, 'important', [], '2Ciels Boutique Hotel & Spa', 'Le Grand Bazar (Médina)'),
   prog('p0918-1615', '2026-09-18', '16:15', 'Médina → 2Ciels', 'Retour hôtel après la Medina Quest.', '19', BUS, 'normal', [], 'Médina', '2Ciels Boutique Hotel & Spa'),
   prog('p0918-2030', '2026-09-18', '20:30', '2Ciels → Le Comptoir Darna', 'Horaire confirmé à Najib le 17/09 : 20:30 (comme le 17). Dîner spectacle ~21:00.', '19', BUS, 'important', [], '2Ciels Boutique Hotel & Spa', 'Le Comptoir Darna'),
   prog('p0918-2330', '2026-09-18', '23:30', 'Comptoir Darna → 2Ciels + disposal soirée (option Babouchka)', 'Fin de mission à la dernière course.', '19', BUS, 'normal', [], 'Le Comptoir Darna', '2Ciels Boutique Hotel & Spa'),
@@ -155,7 +155,7 @@ const transport = {
   ],
   flotte: [
     { date: '2026-09-17', pax: '19', mouvements: 'Accueil aéroport 13:35 + Beldi + check-in + dîner Petanque (retour ~00:00)', flotte: '2 × 17 pl — 13:30 → ~00:30' },
-    { date: '2026-09-18', pax: '19', mouvements: 'Grand Bazar 12:00, standby médina, retour 16:15, Comptoir Darna 20:30, retour 23:30 + disposal', flotte: '2 × 17 pl — 11:30 → fin de soirée' },
+    { date: '2026-09-18', pax: '19', mouvements: 'Grand Bazar 12:15, standby médina, retour 16:15, Comptoir Darna 20:30, retour 23:30 + disposal', flotte: '2 × 17 pl — 11:30 → fin de soirée' },
     { date: '2026-09-19', pax: '19', mouvements: 'Rallye 4×4 self drive 09:00 → Agafay 17:00 (Ssi Brahim)', flotte: '4 × 4×4 (3 de 5 + 1 de 4) + assistance' },
     { date: '2026-09-20', pax: '19', mouvements: '4×4 avec chauffeurs 11:00 → Kasbah ~17:30 + véhicule bagages 10:30', flotte: '5 × 4×4 (4/4/4/4/3) + 1 véhicule bagages + véhicule MRCO' },
     { date: '2026-09-21', pax: '19', mouvements: 'Transfert aéroport 06:20 → dépose 07:10, vol 09:55', flotte: '2 × 17 pl — en place 05:45' },
