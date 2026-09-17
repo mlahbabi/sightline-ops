@@ -1,5 +1,5 @@
 {
- "version": "V1.1 — 16/09/2026",
+ "version": "V1.2 — 17/09/2026",
  "updatedAt": "2026-09-16T18:00:00+01:00",
  "groupes": [
   {
@@ -47,6 +47,18 @@
      "tel": "",
      "email": "",
      "aConfirmer": true
+    },
+    {
+     "nom": "Nancy Dinnissen",
+     "role": "Contact groupe Sightline (référente sur place) — WhatsApp",
+     "tel": "+31651273284",
+     "email": ""
+    },
+    {
+     "nom": "Romy van Elteren",
+     "role": "Contact groupe Sightline (référente sur place) — WhatsApp",
+     "tel": "+31681725401",
+     "email": ""
     },
     {
      "nom": "Sightline Productions",

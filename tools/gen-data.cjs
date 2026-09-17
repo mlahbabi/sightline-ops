@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.1 — 16/09/2026';
+const VERSION = 'V1.2 — 17/09/2026';
 const UPDATED = '2026-09-16T18:00:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
@@ -38,6 +38,8 @@ const people = P.map(([nom, prenom, genre, passeport, naissance, regime, ch2, t2
   const notes = [];
   if (nom === 'Wildenbeest') notes.push('ALLERGIE CRITIQUE noix / fruits à coque / arachides — EpiPen sur lui. Vigilance à chaque repas : salades marocaines, huiles (argan, arachide), amlou, pâtisseries, garnitures. Aucune trace acceptée. À la Kasbah (20/09) il NE DÎNE PAS : repas et boissons personnels (glacière à garder au frais). Les autres repas : ⚠️ à confirmer avec lui / Pamela.');
   if (ch2 === 2 || ch2 === 3) notes.push('Chambre single depuis les annulations du 16/09.');
+  if (nom === 'Dinnissen') notes.push('CONTACT GROUPE (Mehdi, 17/09) : référente du groupe sur place, WhatsApp +31 6 51 27 32 84 — voir Plus → Contacts.');
+  if (nom === 'van Elteren') notes.push('CONTACT GROUPE (Mehdi, 17/09) : référente du groupe sur place, WhatsApp +31 6 81 72 54 01 — voir Plus → Contacts.');
   return {
     id, nom, prenom, genre, statut: 'participant', vip: '', categorie: '', pays: 'Pays-Bas', passeport, naissance,
     arrivee: '17/09', depart: '21/09', nuitees: 4, regime,
@@ -188,6 +190,8 @@ const contacts = { version: VERSION, updatedAt: UPDATED, groupes: [
   { nom: 'Client & agence', contacts: [
     { nom: 'Uyuni Travels B.V.', role: 'Agence organisatrice (Pays-Bas) — WhatsApp / téléphone', tel: '+31624521504', email: 'contact@uyunitravels.com', note: 'www.uyuni-incentivetravels.nl' },
     { nom: 'Pamela', role: 'Uyuni — liste des régimes finale (cartes allergie) · ne vient pas sur place', tel: '', email: '', aConfirmer: true },
+    { nom: 'Nancy Dinnissen', role: 'Contact groupe Sightline (référente sur place) — WhatsApp', tel: '+31651273284', email: '' },
+    { nom: 'Romy van Elteren', role: 'Contact groupe Sightline (référente sur place) — WhatsApp', tel: '+31681725401', email: '' },
     { nom: 'Sightline Productions', role: 'Client — groupe de 19 (30 ans de l\'entreprise)', tel: '', email: '' },
   ] },
   { nom: 'Transport', contacts: [
