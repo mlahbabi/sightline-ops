@@ -1,5 +1,5 @@
 {
- "version": "V1.8 — 17/09/2026",
+ "version": "V1.9 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "items": [
   {
@@ -39,7 +39,7 @@
   },
   {
    "id": "pd10",
-   "sujet": "Téléphones manquants : Comptoir Darna, Relais du Lac, Yes We Camp Agafay (Petanque et Kasbah trouvés le 17/09)",
+   "sujet": "Téléphones manquants : Comptoir Darna, Yes We Camp Agafay (Petanque, Kasbah et Relais du Lac trouvés)",
    "responsable": "Eva",
    "echeance": "2026-09-18",
    "level": "normal"

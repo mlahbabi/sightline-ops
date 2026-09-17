@@ -1,5 +1,5 @@
 {
- "version": "V1.8 — 17/09/2026",
+ "version": "V1.9 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "diners": [],
  "items": [
@@ -92,7 +92,15 @@
   {
    "id": "relais",
    "nom": "Le Relais du Lac",
-   "adresse": "Lac Lalla Takerkoust",
+   "adresse": "Barrage Lalla Takerkoust, BP 42200, province Al Haouz",
+   "tel": "+212661242454",
+   "tel2": "+212808656700",
+   "email": "contactrelaisdulac@gmail.com",
+   "contacts": [
+    "Daniel +212 661 242 454",
+    "Nathalie +212 661 837 920",
+    "www.relaisdulacmarrakech.com"
+   ],
    "acces": "Terrasse au bord du lac, vue Atlas. 4×4 en standby.",
    "quoi": [
     "19/09 13:00 déjeuner 3 plats — menu 5, chevalets 5"

@@ -1,5 +1,5 @@
 {
- "version": "V1.8 — 17/09/2026",
+ "version": "V1.9 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "groupes": [
   {
@@ -134,11 +134,11 @@
      "aConfirmer": true
     },
     {
-     "nom": "Le Relais du Lac",
-     "role": "Déjeuner 19/09",
-     "tel": "",
-     "email": "",
-     "aConfirmer": true
+     "nom": "Le Relais du Lac — Daniel",
+     "role": "Déjeuner 19/09 · Nathalie +212 661 837 920 · standard +212 808 656 700",
+     "tel": "+212661242454",
+     "tel2": "+212661837920",
+     "email": "contactrelaisdulac@gmail.com"
     },
     {
      "nom": "Yes We Camp Agafay",

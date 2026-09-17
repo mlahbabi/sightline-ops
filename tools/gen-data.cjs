@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.8 — 17/09/2026';
+const VERSION = 'V1.9 — 17/09/2026';
 const UPDATED = '2026-09-17T11:00:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
@@ -172,7 +172,7 @@ const lieux = { version: VERSION, updatedAt: UPDATED, diners: [], items: [
   { id: 'psc', nom: 'Petanque Social Club', adresse: '70 boulevard El Mansour Eddahbi, Guéliz, Marrakech (derrière le Ciné-Palace, porte bleue)', tel: '+212666455380', acces: 'Club secret style années 1930 — porte bleue discrète, derrière le Ciné-Palace.', quoi: ['17/09 20:45 cocktail « 30th Anniversary »', '17/09 21:15 dîner 4 plats — menu 1, chevalets 1, prisme bar A, totem bar B, sous-verres'], jours: ['2026-09-17'] },
   { id: 'grand-bazar', nom: 'Le Grand Bazar', adresse: 'Place Jemaa el-Fna, Médina, Marrakech', acces: 'Dépose au plus proche de la place, puis à pied.', quoi: ['18/09 12:30 déjeuner 3 plats — menu 3, chevalets 3', '18/09 14:15 départ Medina Quest Adventure'], jours: ['2026-09-18'] },
   { id: 'darna', nom: 'Le Comptoir Darna', adresse: 'Avenue Echouhada, Hivernage, Marrakech ⚠️ à confirmer', acces: 'Hivernage.', quoi: ['18/09 20:30 dîner 4 plats + spectacle (musiciens, danseurs) — menu 4, chevalets 4'], jours: ['2026-09-18'], aConfirmer: true },
-  { id: 'relais', nom: 'Le Relais du Lac', adresse: 'Lac Lalla Takerkoust', acces: 'Terrasse au bord du lac, vue Atlas. 4×4 en standby.', quoi: ['19/09 13:00 déjeuner 3 plats — menu 5, chevalets 5'], jours: ['2026-09-19'] },
+  { id: 'relais', nom: 'Le Relais du Lac', adresse: 'Barrage Lalla Takerkoust, BP 42200, province Al Haouz', tel: '+212661242454', tel2: '+212808656700', email: 'contactrelaisdulac@gmail.com', contacts: ['Daniel +212 661 242 454', 'Nathalie +212 661 837 920', 'www.relaisdulacmarrakech.com'], acces: 'Terrasse au bord du lac, vue Atlas. 4×4 en standby.', quoi: ['19/09 13:00 déjeuner 3 plats — menu 5, chevalets 5'], jours: ['2026-09-19'] },
   { id: 'agafay', nom: 'Yes We Camp Agafay', adresse: 'Désert d\'Agafay — accès ⚠️ à confirmer', acces: 'Arrivée du convoi 4×4 vers 17:00.', quoi: ['Nuit du 19 au 20/09 : 12 tentes Top VIP (climatisation, salle de bain privée, staff 24/7) — attribution ⚠️', '19/09 20:00 dîner 4 plats + soirée (tamtam, cracheur de feu, DJ), open bar 3 h — menu 6, chevalets 6', '20/09 08:30 petit-déjeuner, 10:00 dromadaires, 10:30 véhicule bagages, 11:00 convoi'], jours: ['2026-09-19', '2026-09-20'], aConfirmer: true },
   { id: 'imlil', nom: 'Imlil — Sidi Fares (chez Adil)', adresse: 'Vallée d\'Imlil / Sidi Fares, Haut Atlas', acces: 'Par Tahannaout / Asni. Ssi Brahim connaît Adil.', quoi: ['20/09 12:00 marche guidée villages berbères', '20/09 13:30 déjeuner berbère (softs inclus)'], jours: ['2026-09-20'] },
   { id: 'kasbah', nom: 'La Kasbah By Beldi', adresse: 'Lac de Lalla Takerkoust, village de Talet (Kasbah Beldi)', tel: '+212524383950', email: 'contact@kasbahbeldi.com', acces: 'Redescente directe depuis Sidi Fares (~17:30). Vers RAK ~45–50 min.', quoi: ['Nuit du 20 au 21/09 : 13 chambres (8 twins + 4 singles + 1 double staff MRCO)', '20/09 20:30 dîner à Kasbah Talet (sur le domaine) — 18 couverts + 2 staff à part — menu 7, chevalets 7', '21/09 petit-déjeuner 05:15, départ 06:20'], jours: ['2026-09-20', '2026-09-21'] },
@@ -217,7 +217,7 @@ const contacts = { version: VERSION, updatedAt: UPDATED, groupes: [
     { nom: 'Petanque Social Club', role: 'Dîner 17/09 — 70 bd El Mansour Eddahbi, Guéliz', tel: '+212666455380', email: '' },
     { nom: 'Le Grand Bazar', role: 'Déjeuner 18/09', tel: '', email: '', aConfirmer: true },
     { nom: 'Le Comptoir Darna', role: 'Dîner 18/09', tel: '', email: '', aConfirmer: true },
-    { nom: 'Le Relais du Lac', role: 'Déjeuner 19/09', tel: '', email: '', aConfirmer: true },
+    { nom: 'Le Relais du Lac — Daniel', role: 'Déjeuner 19/09 · Nathalie +212 661 837 920 · standard +212 808 656 700', tel: '+212661242454', tel2: '+212661837920', email: 'contactrelaisdulac@gmail.com' },
     { nom: 'Yes We Camp Agafay', role: 'Nuit 19→20/09', tel: '', email: '', aConfirmer: true },
     { nom: 'La Kasbah By Beldi / Kasbah Talet', role: 'Nuit 20→21/09 + dîner — lac Lalla Takerkoust, village de Talet', tel: '+212524383950', email: 'contact@kasbahbeldi.com' },
   ] },
@@ -277,7 +277,7 @@ const pending = { version: VERSION, updatedAt: UPDATED, items: [
   { id: 'pd04', sujet: 'Véhicule bagages J4 : type et capacité à confirmer par Najib (Farid à bord)', responsable: 'Farid → Najib', echeance: '2026-09-18', level: 'normal' },
   { id: 'pd05', sujet: 'Convoi J3 : véhicule d’assistance et place de MRCO à caler avec Ssi Brahim (numéro dans Contacts depuis le 17/09)', responsable: 'Farid', echeance: '2026-09-18', level: 'normal' },
   { id: 'pd07', sujet: 'Chambre 12 (2Ciels et Kasbah) attribuée sur place par le groupe : noter l\'occupant à l\'arrivée', responsable: 'Eva', echeance: '2026-09-17', level: 'normal' },
-  { id: 'pd10', sujet: 'Téléphones manquants : Comptoir Darna, Relais du Lac, Yes We Camp Agafay (Petanque et Kasbah trouvés le 17/09)', responsable: 'Eva', echeance: '2026-09-18', level: 'normal' },
+  { id: 'pd10', sujet: 'Téléphones manquants : Comptoir Darna, Yes We Camp Agafay (Petanque, Kasbah et Relais du Lac trouvés)', responsable: 'Eva', echeance: '2026-09-18', level: 'normal' },
   { id: 'pd12', sujet: 'HV6534 lundi : Flightradar24 affiche 10:55 (nouvelle heure), documents 09:55 — pointer le vol dans l’app le 19 et le 20 au soir, informer Najib et le groupe de l’heure retenue', responsable: 'Farid', echeance: '2026-09-20', level: 'alerte' },
   ] };
 
