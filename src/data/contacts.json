@@ -1,5 +1,5 @@
 {
- "version": "V1.7 — 17/09/2026",
+ "version": "V1.8 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "groupes": [
   {
@@ -82,6 +82,18 @@
      "nom": "Ssi Brahim",
      "role": "Chauffeur-pisteur référent 4×4 (19 et 20/09)",
      "tel": "+212661344597",
+     "email": ""
+    },
+    {
+     "nom": "M. Salah — montgolfière",
+     "role": "Opérateur montgolfière 18/09 (réf. SIGHTLINE, ramassage 05:30 au 2Ciels)",
+     "tel": "+212662302515",
+     "email": ""
+    },
+    {
+     "nom": "Mme Najat — montgolfière",
+     "role": "Opérateur montgolfière 18/09",
+     "tel": "+212668442763",
      "email": ""
     }
    ]

@@ -1,5 +1,5 @@
 {
- "version": "V1.7 — 17/09/2026",
+ "version": "V1.8 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "sequences": [
   {
@@ -532,15 +532,15 @@
    "effectif": "19",
    "type": "activite",
    "level": "critique",
-   "details": "DÉPART : Farid + Mehdi (lobby 05:30, transfert opérateur 05:45). Café / thé au départ. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. RETOUR HÔTEL 09:30 : relais Eva + Mouad, qui accueillent le groupe au 2Ciels. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).",
+   "details": "CONFIRMATION OPÉRATEUR (17/09) : référence SIGHTLINE, 19 pax, vol classique, ramassage 05:30 à l’hôtel 2Ciels. Contacts opérateur : M. Salah +212 662 302 515, Mme Najat +212 668 442 763. DÉPART : Farid + Mehdi (lobby 05:20, ramassage 05:30). Café / thé au départ. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. RETOUR HÔTEL 09:30 : relais Eva + Mouad, qui accueillent le groupe au 2Ciels. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).",
    "checklist": [
     {
      "id": "s0918-ballon-c1",
-     "label": "Réveil / rassemblement lobby 05:30"
+     "label": "Réveil / rassemblement lobby 05:20 (19 pax)"
     },
     {
      "id": "s0918-ballon-c2",
-     "label": "Transfert opérateur présent 05:45"
+     "label": "Transfert opérateur présent 05:30 (Salah / Najat)"
     },
     {
      "id": "s0918-ballon-c3",

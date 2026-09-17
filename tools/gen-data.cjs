@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.7 — 17/09/2026';
+const VERSION = 'V1.8 — 17/09/2026';
 const UPDATED = '2026-09-17T11:00:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
@@ -79,7 +79,7 @@ const seqs = [
   S('s0917-cocktail', '2026-09-17', '20:45', '21:15', 'Cocktail « 30th Anniversary »', 'Petanque Social Club', '19', 'vip', 'important', 'Moment marquant des 30 ans de Sightline Productions. Boissons réglées par le groupe.', [], ALL),
   S('s0917-diner', '2026-09-17', '21:15', '23:45', 'Dîner 4 plats — Petanque Social Club (club secret années 1930)', 'Petanque Social Club', '19', 'restauration', 'important', 'Menu 1. Retour hôtel vers 00:00 (2 × 17 pl). ' + ALLERGIE, ['Heure de retour confirmée aux chauffeurs'], ALL),
   // J2 — vendredi 18/09
-  S('s0918-ballon', '2026-09-18', '05:30', '09:30', 'Montgolfière au lever du soleil (transfert opérateur, hors Najib)', '2Ciels → site de vol', '19', 'activite', 'critique', 'DÉPART : Farid + Mehdi (lobby 05:30, transfert opérateur 05:45). Café / thé au départ. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. RETOUR HÔTEL 09:30 : relais Eva + Mouad, qui accueillent le groupe au 2Ciels. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).', ['Réveil / rassemblement lobby 05:30', 'Transfert opérateur présent 05:45', 'Météo : vol confirmé ou annulé', 'Retour hôtel 09:30'], ALL),
+  S('s0918-ballon', '2026-09-18', '05:30', '09:30', 'Montgolfière au lever du soleil (transfert opérateur, hors Najib)', '2Ciels → site de vol', '19', 'activite', 'critique', 'CONFIRMATION OPÉRATEUR (17/09) : référence SIGHTLINE, 19 pax, vol classique, ramassage 05:30 à l’hôtel 2Ciels. Contacts opérateur : M. Salah +212 662 302 515, Mme Najat +212 668 442 763. DÉPART : Farid + Mehdi (lobby 05:20, ramassage 05:30). Café / thé au départ. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. RETOUR HÔTEL 09:30 : relais Eva + Mouad, qui accueillent le groupe au 2Ciels. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).', ['Réveil / rassemblement lobby 05:20 (19 pax)', 'Transfert opérateur présent 05:30 (Salah / Najat)', 'Météo : vol confirmé ou annulé', 'Retour hôtel 09:30'], ALL),
   S('s0918-setup-bazar', '2026-09-18', '11:15', '12:15', 'Mise en place Le Grand Bazar — Farid + Eva', 'Le Grand Bazar (Médina)', '', 'setup', 'important', 'Avant l’arrivée du groupe (transfert 12:15, déjeuner ~12:45). Chevalets 3 + menus 3 sur les tables, chef briefé (18 couverts, Wim apporte son repas, régimes), point de dépose et point de rendez-vous de la Medina Quest calés avec les bus.', ['Chevalets et menus posés', 'Chef briefé : 18 couverts + régimes', 'Point de dépose confirmé aux chauffeurs', 'Guides Medina Quest joints pour 14:15']),
   S('s0918-bazar', '2026-09-18', '12:45', '14:15', 'Déjeuner 3 plats — Le Grand Bazar (Jemaa el-Fna)', 'Le Grand Bazar (Médina)', '19', 'restauration', 'important', 'Dépose au plus près de la médina. Menu 3 + chevalets 3. ' + ALLERGIE, ['Chef briefé : 18 couverts + régimes', 'Menus et chevalets en place'], ALL),
   S('s0918-quest', '2026-09-18', '14:15', '16:15', 'Medina Quest Adventure — chasse au trésor 2 h (guides anglophones)', 'Médina — départ Le Grand Bazar', '19', 'activite', 'important', 'Équipes, énigmes, navigation. Véhicules en standby. Retour hôtel ~16:15.', ['Guides en place 14:15', 'Point de rendez-vous fin de jeu fixé', 'Véhicules prévenus'], ALL),
@@ -151,7 +151,7 @@ const transport = {
   contactDispatch: { nom: 'Najib', role: 'Transporteur', tel: '+212663298773' },
   vagues: waves,
   horsDispatch: [
-    'Montgolfière 18/09 (départ 05:45) : transferts assurés par l\'opérateur de l\'activité.',
+    'Montgolfière 18/09 : ramassage 05:30 au 2Ciels par l’opérateur (réf. SIGHTLINE, 19 pax) — M. Salah +212 662 302 515, Mme Najat +212 668 442 763.',
     'Bagages 19/09 : 2Ciels → Yes We Camp Agafay par le transporteur du 2Ciels.',
     'Ssi Brahim : chauffeur-pisteur référent des journées 4×4 (19 et 20/09), coordination via Najib.',
   ],
@@ -208,6 +208,8 @@ const contacts = { version: VERSION, updatedAt: UPDATED, groupes: [
   { nom: 'Transport', contacts: [
     { nom: 'Najib', role: 'Transporteur — 2 × 17 pl, 4×4, véhicule bagages', tel: '+212663298773', email: '', note: 'Même numéro que Simohamed (Deloitte)' },
     { nom: 'Ssi Brahim', role: 'Chauffeur-pisteur référent 4×4 (19 et 20/09)', tel: '+212661344597', email: '' },
+    { nom: 'M. Salah — montgolfière', role: 'Opérateur montgolfière 18/09 (réf. SIGHTLINE, ramassage 05:30 au 2Ciels)', tel: '+212662302515', email: '' },
+    { nom: 'Mme Najat — montgolfière', role: 'Opérateur montgolfière 18/09', tel: '+212668442763', email: '' },
   ] },
   { nom: 'Lieux', contacts: [
     { nom: '2Ciels Boutique Hotel & Spa', role: 'Hôtel 17→19/09', tel: '+212524359550', email: '' },
