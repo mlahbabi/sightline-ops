@@ -1,5 +1,5 @@
 {
- "version": "V1.5 — 17/09/2026",
+ "version": "V1.6 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "items": [
   {
@@ -680,7 +680,7 @@
    "prenom": "Nancy",
    "genre": "F",
    "statut": "participant",
-   "vip": "",
+   "vip": "Contact groupe",
    "categorie": "",
    "pays": "Pays-Bas",
    "passeport": "NT77F47F7",
@@ -714,6 +714,7 @@
     "mode": "vol"
    },
    "a_confirmer": [],
+   "tel": "+31651273284",
    "vehicule_j4": 3
   },
   {
@@ -722,7 +723,7 @@
    "prenom": "Romy",
    "genre": "F",
    "statut": "participant",
-   "vip": "",
+   "vip": "Contact groupe",
    "categorie": "",
    "pays": "Pays-Bas",
    "passeport": "NX4CCHF19",
@@ -756,6 +757,7 @@
     "mode": "vol"
    },
    "a_confirmer": [],
+   "tel": "+31681725401",
    "vehicule_j4": 5
   },
   {

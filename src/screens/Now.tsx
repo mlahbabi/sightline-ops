@@ -48,6 +48,7 @@ export default function Now() {
           <button type="button" className="chip" onClick={() => setSimOpen(o => !o)}>🗓️ {simulated ? 'Simulation' : 'Simuler'}</button>
         </div>
         <div className="text-[11px] text-warm mt-1">Données {DATA_VERSION}</div>
+        {people.some(p => p.tel) && <div className="flex flex-wrap gap-2 mt-2">{people.filter(p => p.tel).map(p => <a key={p.id} href={`https://wa.me/${p.tel!.replace(/D/g, '')}`} target="_blank" rel="noreferrer" className="chip">💬 {p.prenom} {p.nom} · contact groupe</a>)}</div>}
         {!simulated && phoneDriftMin(now) !== 0 && <div className="card border-alert-red bg-alert-red/10 p-3 mt-3 text-sm font-semibold">⏰ Ce téléphone n’est pas à l’heure légale du Maroc (écart {phoneDriftMin(now) > 0 ? '+' : ''}{phoneDriftMin(now)} min). L’app affiche la bonne heure : suivre l’app, pas l’horloge du téléphone.</div>}
         {!simulated && parts.date === '2026-09-19' && <div className="card border-alert-orange/70 bg-alert-orange/10 p-3 mt-3 text-sm">⏰ Cette nuit à 02:00, le Maroc recule à 01:00 et passe à GMT (définitif). L’app bascule seule ; vérifier les téléphones au réveil.</div>}
         {simOpen && (

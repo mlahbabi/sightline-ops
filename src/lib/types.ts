@@ -8,7 +8,7 @@ export type Person = {
   diaffa_table?: number | string | null; diaffa_place?: number | null
   rotisserie_table?: number | string | null; rotisserie_place?: number | null
   arr?: Leg; dep?: Leg; transferts?: string[]; a_confirmer?: string[]
-  passeport?: string; naissance?: string
+  passeport?: string; naissance?: string; tel?: string
 }
 
 export type Level = 'normal' | 'important' | 'critique'

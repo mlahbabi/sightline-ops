@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.5 — 17/09/2026';
+const VERSION = 'V1.6 — 17/09/2026';
 const UPDATED = '2026-09-17T11:00:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
@@ -55,6 +55,8 @@ const pid = k => { const a = people.find(x => x.id === k); if (!a) throw new Err
 const ALL = people.map(a => a.id);
 const JEEP = n => people.filter(a => a.equipe_tb === n).map(a => a.id);
 const WIM = pid('wildenbeest');
+// Contacts à l’intérieur du groupe (Mehdi, 17/09) : badge sur toutes les listes + appel / WhatsApp sur la fiche et l’écran Maintenant
+people.forEach(a => { if (a.nom === 'Dinnissen') { a.vip = 'Contact groupe'; a.tel = '+31651273284'; } if (a.nom === 'van Elteren') { a.vip = 'Contact groupe'; a.tel = '+31681725401'; } });
 // Dimanche 20/09 — 5 × 4×4 avec chauffeur, 4/4/4/4/3, dérivés des jeeps du samedi (proposition MRCO du 17/09, à valider)
 const CAR_J4 = { 1: ['van-brakel', 'hofma', 'rintjema-pascal', 'vellekoop'], 2: ['van-der-ham', 'rintjema', 'dokter', 'ruigrok'], 3: ['van-der-hoeven', 'pet', 'wildenbeest', 'dinnissen'], 4: ['van-oudenallen', 'van-der-klauw', 'vogel', 'van-der-haagen'], 5: ['stoltenborg', 'de-rijk', 'van-elteren'] };
 people.forEach(a => { const n = Object.keys(CAR_J4).find(k => CAR_J4[k].includes(a.id)); if (!n) throw new Error('CAR_J4 ' + a.id); a.vehicule_j4 = Number(n); a.note_app = (a.note_app ? a.note_app + ' ' : '') + 'Samedi 19/09 : Jeep ' + a.equipe_tb + ' (self drive). Dimanche 20/09 : CAR ' + n + ' avec chauffeur (proposition MRCO, à valider).'; });

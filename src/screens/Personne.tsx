@@ -1,7 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { personById, fullName, civ, waveById, diners, isPlaced, people, pending } from '../lib/data'
 import type { Leg } from '../lib/types'
-import { Badge, CheckRow, Empty, Section, VipBadge, Warn } from '../components/ui'
+import { Badge, CheckRow, Empty, Section, VipBadge, Warn, TelButtons } from '../components/ui'
 import { useApp } from '../context'
 import { fr24Url } from '../lib/flights'
 
@@ -33,6 +33,7 @@ export default function Personne() {
         </div>
         <h1 className="text-2xl font-bold leading-tight"><span className="text-warm text-base font-medium mr-1">{civ(p) || '⚠️'}</span>{p.nom} <span className="font-medium">{p.prenom}</span></h1>
         <div className="text-sm text-warm mt-1">{[p.fonction, p.metier_tb, p.bureau, p.pays].filter(Boolean).join(' · ') || '—'}</div>
+        {p.tel && <div className="mt-3"><div className="text-xs text-warm mb-1">Contact groupe · {p.tel}</div><TelButtons tel={p.tel} /></div>}
         {p.regime && <div className="mt-3 rounded-xl bg-alert-red/15 border border-alert-red px-3 py-2 font-semibold">🥗 Régime : {p.regime}</div>}
         {(p.a_confirmer?.length || 0) > 0 && (
           <div className="mt-3 rounded-xl bg-alert-yellow/10 border border-alert-yellow/60 px-3 py-2 text-sm">
