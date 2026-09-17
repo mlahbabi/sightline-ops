@@ -1,6 +1,6 @@
 {
- "version": "V1.3 — 17/09/2026",
- "updatedAt": "2026-09-17T09:30:00+01:00",
+ "version": "V1.4 — 17/09/2026",
+ "updatedAt": "2026-09-17T11:00:00+01:00",
  "membres": [
   "Mehdi",
   "Eva",
@@ -59,6 +59,36 @@
    "role": "transfert hôtel → PSC avec le groupe"
   },
   {
+   "sequenceId": "s0918-ballon",
+   "owner": "Farid",
+   "role": "départ montgolfière 05:30 avec le groupe"
+  },
+  {
+   "sequenceId": "s0918-ballon",
+   "owner": "Mehdi",
+   "role": "départ montgolfière 05:30 avec le groupe"
+  },
+  {
+   "sequenceId": "s0918-ballon",
+   "owner": "Eva",
+   "role": "relais retour hôtel 09:30"
+  },
+  {
+   "sequenceId": "s0918-ballon",
+   "owner": "Mouad",
+   "role": "relais retour hôtel 09:30"
+  },
+  {
+   "sequenceId": "s0918-setup-bazar",
+   "owner": "Farid",
+   "role": "mise en place Grand Bazar"
+  },
+  {
+   "sequenceId": "s0918-setup-bazar",
+   "owner": "Eva",
+   "role": "mise en place Grand Bazar"
+  },
+  {
    "sequenceId": "s0920-luggage",
    "owner": "Farid",
    "role": "à bord du véhicule bagages Agafay → Kasbah"
@@ -94,7 +124,11 @@
   },
   {
    "sequenceId": "s0918-ballon",
-   "label": "Montgolfière 18/09 05:30"
+   "label": "Montgolfière 18/09 05:30 (départ Farid + Mehdi, retour Eva + Mouad)"
+  },
+  {
+   "sequenceId": "s0918-setup-bazar",
+   "label": "Mise en place Grand Bazar 18/09 11:15"
   },
   {
    "sequenceId": "s0919-brief4x4",

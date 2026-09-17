@@ -1,6 +1,6 @@
 {
- "version": "V1.3 — 17/09/2026",
- "updatedAt": "2026-09-17T09:30:00+01:00",
+ "version": "V1.4 — 17/09/2026",
+ "updatedAt": "2026-09-17T11:00:00+01:00",
  "sequences": [
   {
    "id": "s0916-pack",
@@ -532,7 +532,7 @@
    "effectif": "19",
    "type": "activite",
    "level": "critique",
-   "details": "Café / thé au départ 05:45. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. Retour hôtel 09:30. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).",
+   "details": "DÉPART : Farid + Mehdi (lobby 05:30, transfert opérateur 05:45). Café / thé au départ. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. RETOUR HÔTEL 09:30 : relais Eva + Mouad, qui accueillent le groupe au 2Ciels. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).",
    "checklist": [
     {
      "id": "s0918-ballon-c1",
@@ -572,6 +572,38 @@
     "van-elteren",
     "ruigrok"
    ],
+   "owner": ""
+  },
+  {
+   "id": "s0918-setup-bazar",
+   "date": "2026-09-18",
+   "start": "11:15",
+   "end": "12:15",
+   "title": "Mise en place Le Grand Bazar — Farid + Eva",
+   "lieu": "Le Grand Bazar (Médina)",
+   "effectif": "",
+   "type": "setup",
+   "level": "important",
+   "details": "Avant l’arrivée du groupe (transfert 12:00, déjeuner 12:30). Chevalets 3 + menus 3 sur les tables, chef briefé (18 couverts, Wim apporte son repas, régimes), point de dépose et point de rendez-vous de la Medina Quest calés avec les bus.",
+   "checklist": [
+    {
+     "id": "s0918-setup-bazar-c1",
+     "label": "Chevalets et menus posés"
+    },
+    {
+     "id": "s0918-setup-bazar-c2",
+     "label": "Chef briefé : 18 couverts + régimes"
+    },
+    {
+     "id": "s0918-setup-bazar-c3",
+     "label": "Point de dépose confirmé aux chauffeurs"
+    },
+    {
+     "id": "s0918-setup-bazar-c4",
+     "label": "Guides Medina Quest joints pour 14:15"
+    }
+   ],
+   "persons": [],
    "owner": ""
   },
   {

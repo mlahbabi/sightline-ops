@@ -5,8 +5,8 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.3 — 17/09/2026';
-const UPDATED = '2026-09-17T09:30:00+01:00';
+const VERSION = 'V1.4 — 17/09/2026';
+const UPDATED = '2026-09-17T11:00:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
 // ch2 = chambre 2Ciels (17→19), tente Agafay ⚠️ non communiquée, chK = chambre Kasbah (20→21). jeep3 = 4×4 self drive J3.
@@ -77,7 +77,8 @@ const seqs = [
   S('s0917-cocktail', '2026-09-17', '20:45', '21:15', 'Cocktail « 30th Anniversary »', 'Petanque Social Club', '19', 'vip', 'important', 'Moment marquant des 30 ans de Sightline Productions. Boissons réglées par le groupe.', [], ALL),
   S('s0917-diner', '2026-09-17', '21:15', '23:45', 'Dîner 4 plats — Petanque Social Club (club secret années 1930)', 'Petanque Social Club', '19', 'restauration', 'important', 'Menu 1. Retour hôtel vers 00:00 (2 × 17 pl). ' + ALLERGIE, ['Heure de retour confirmée aux chauffeurs'], ALL),
   // J2 — vendredi 18/09
-  S('s0918-ballon', '2026-09-18', '05:30', '09:30', 'Montgolfière au lever du soleil (transfert opérateur, hors Najib)', '2Ciels → site de vol', '19', 'activite', 'critique', 'Café / thé au départ 05:45. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. Retour hôtel 09:30. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).', ['Réveil / rassemblement lobby 05:30', 'Transfert opérateur présent 05:45', 'Météo : vol confirmé ou annulé', 'Retour hôtel 09:30'], ALL),
+  S('s0918-ballon', '2026-09-18', '05:30', '09:30', 'Montgolfière au lever du soleil (transfert opérateur, hors Najib)', '2Ciels → site de vol', '19', 'activite', 'critique', 'DÉPART : Farid + Mehdi (lobby 05:30, transfert opérateur 05:45). Café / thé au départ. Vol ~60 min à 06:30, météo dépendante. Petit-déjeuner berbère sous tente caïdale. RETOUR HÔTEL 09:30 : relais Eva + Mouad, qui accueillent le groupe au 2Ciels. ⚠️ Attention allergie Wim au petit-déjeuner (amlou, fruits secs).', ['Réveil / rassemblement lobby 05:30', 'Transfert opérateur présent 05:45', 'Météo : vol confirmé ou annulé', 'Retour hôtel 09:30'], ALL),
+  S('s0918-setup-bazar', '2026-09-18', '11:15', '12:15', 'Mise en place Le Grand Bazar — Farid + Eva', 'Le Grand Bazar (Médina)', '', 'setup', 'important', 'Avant l’arrivée du groupe (transfert 12:00, déjeuner 12:30). Chevalets 3 + menus 3 sur les tables, chef briefé (18 couverts, Wim apporte son repas, régimes), point de dépose et point de rendez-vous de la Medina Quest calés avec les bus.', ['Chevalets et menus posés', 'Chef briefé : 18 couverts + régimes', 'Point de dépose confirmé aux chauffeurs', 'Guides Medina Quest joints pour 14:15']),
   S('s0918-bazar', '2026-09-18', '12:30', '14:15', 'Déjeuner 3 plats — Le Grand Bazar (Jemaa el-Fna)', 'Le Grand Bazar (Médina)', '19', 'restauration', 'important', 'Dépose au plus près de la médina. Menu 3 + chevalets 3. ' + ALLERGIE, ['Chef briefé : 18 couverts + régimes', 'Menus et chevalets en place'], ALL),
   S('s0918-quest', '2026-09-18', '14:15', '16:15', 'Medina Quest Adventure — chasse au trésor 2 h (guides anglophones)', 'Médina — départ Le Grand Bazar', '19', 'activite', 'important', 'Équipes, énigmes, navigation. Véhicules en standby. Retour hôtel ~16:15.', ['Guides en place 14:15', 'Point de rendez-vous fin de jeu fixé', 'Véhicules prévenus'], ALL),
   S('s0918-setup-darna', '2026-09-18', '19:00', '20:00', 'Setup MRCO — Le Comptoir Darna', 'Le Comptoir Darna', '', 'setup', 'important', 'Menus 4 + chevalets 4, sous-verres. Dîner 4 plats avec spectacle (musiciens, danseurs).', ['Menus et chevalets posés', 'Chef briefé : 18 couverts + régimes']),
@@ -242,6 +243,12 @@ const team = { version: VERSION, updatedAt: UPDATED, membres: ['Mehdi', 'Eva', '
     { sequenceId: 's0917-setup-psc', owner: 'Farid', role: 'setup Petanque + cocktail 30 ans' },
     { sequenceId: 'p0917-2030', owner: 'Mehdi', role: 'transfert hôtel → PSC avec le groupe' },
     { sequenceId: 'p0917-2030', owner: 'Mouad', role: 'transfert hôtel → PSC avec le groupe' },
+    { sequenceId: 's0918-ballon', owner: 'Farid', role: 'départ montgolfière 05:30 avec le groupe' },
+    { sequenceId: 's0918-ballon', owner: 'Mehdi', role: 'départ montgolfière 05:30 avec le groupe' },
+    { sequenceId: 's0918-ballon', owner: 'Eva', role: 'relais retour hôtel 09:30' },
+    { sequenceId: 's0918-ballon', owner: 'Mouad', role: 'relais retour hôtel 09:30' },
+    { sequenceId: 's0918-setup-bazar', owner: 'Farid', role: 'mise en place Grand Bazar' },
+    { sequenceId: 's0918-setup-bazar', owner: 'Eva', role: 'mise en place Grand Bazar' },
     { sequenceId: 's0920-luggage', owner: 'Farid', role: 'à bord du véhicule bagages Agafay → Kasbah' },
     { sequenceId: 's0919-hv', owner: 'Farid', role: 'pointage HV6534' },
     { sequenceId: 's0920-hv', owner: 'Farid', role: 'pointage HV6534' },
@@ -251,7 +258,8 @@ const team = { version: VERSION, updatedAt: UPDATED, membres: ['Mehdi', 'Eva', '
     { sequenceId: 's0917-setup-beldi', label: 'Mise en place Beldi 17/09 13:15' },
     { sequenceId: 's0917-rak', label: 'Accueil aéroport 17/09 13:35' },
     { sequenceId: 's0917-setup-psc', label: 'Setup Petanque Social Club 17/09' },
-    { sequenceId: 's0918-ballon', label: 'Montgolfière 18/09 05:30' },
+    { sequenceId: 's0918-ballon', label: 'Montgolfière 18/09 05:30 (départ Farid + Mehdi, retour Eva + Mouad)' },
+    { sequenceId: 's0918-setup-bazar', label: 'Mise en place Grand Bazar 18/09 11:15' },
     { sequenceId: 's0919-brief4x4', label: 'Rallye 4×4 self drive 19/09' },
     { sequenceId: 's0920-luggage', label: 'Véhicule bagages 20/09 (encadrant MRCO à bord)' },
     { sequenceId: 's0920-convoi', label: 'Convoi 4×4 chauffeurs 20/09' },
