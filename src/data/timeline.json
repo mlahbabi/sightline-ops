@@ -1,5 +1,5 @@
 {
- "version": "V1.9 — 17/09/2026",
+ "version": "V1.10 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "sequences": [
   {
@@ -274,7 +274,7 @@
    "effectif": "19",
    "type": "orga",
    "level": "critique",
-   "details": "Rooming V5 du 16/09 : 12 chambres maintenues, ch. 2 et 3 en single (Erwin, Arjen), ch. 12 attribuée sur place par le groupe. Bagages déchargés à l'hôtel. Briefer petit-déjeuner et room service sur l'allergie de Wim (viennoiseries, fruits secs, amlou, huiles). Temps libre rooftop / spa ensuite.",
+   "details": "Chambres hôtel (fiche 2Ciels 17/09) : 304 Tammo + Dennis · 505 Erwin · 117 Arjen · 404 Sander + Pascal · 412 Jos + Michaël · 212 Christiaan + Wim · 417 Jasper + Marcel · 503 Mischa + Hjalmar · 411 Roel + Otte · 504 Nancy + Romy · 111 Adriana · 511 chambre maintenue, occupant désigné sur place. Bagages déchargés à l'hôtel. Briefer petit-déjeuner et room service sur l'allergie de Wim (viennoiseries, fruits secs, amlou, huiles). Temps libre rooftop / spa ensuite.",
    "checklist": [
     {
      "id": "s0917-checkin-c1",
