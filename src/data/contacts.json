@@ -1,6 +1,6 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "groupes": [
   {
    "nom": "MRCO",
@@ -74,10 +74,9 @@
     {
      "nom": "Najib",
      "role": "Transporteur — 2 × 17 pl, 4×4, véhicule bagages",
-     "tel": "",
+     "tel": "+212663298773",
      "email": "",
-     "aConfirmer": true,
-     "note": "Numéro à renseigner"
+     "note": "Même numéro que Simohamed (Deloitte)"
     },
     {
      "nom": "Ssi Brahim",
@@ -105,10 +104,9 @@
     },
     {
      "nom": "Petanque Social Club",
-     "role": "Dîner 17/09",
-     "tel": "",
-     "email": "",
-     "aConfirmer": true
+     "role": "Dîner 17/09 — 70 bd El Mansour Eddahbi, Guéliz",
+     "tel": "+212666455380",
+     "email": ""
     },
     {
      "nom": "Le Grand Bazar",
@@ -140,10 +138,9 @@
     },
     {
      "nom": "La Kasbah By Beldi / Kasbah Talet",
-     "role": "Nuit 20→21/09 + dîner",
-     "tel": "",
-     "email": "",
-     "aConfirmer": true
+     "role": "Nuit 20→21/09 + dîner — lac Lalla Takerkoust, village de Talet",
+     "tel": "+212524383950",
+     "email": "contact@kasbahbeldi.com"
     }
    ]
   }

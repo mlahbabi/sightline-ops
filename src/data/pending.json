@@ -1,6 +1,6 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "items": [
   {
    "id": "pd01",
@@ -10,49 +10,25 @@
    "level": "alerte"
   },
   {
-   "id": "pd02",
-   "sujet": "Jeep 1 (J3) déduite par différence : Tammo van Brakel, Arjen Hofma, Pascal Rintjema, Marcel Vellekoop, Otte Stoltenborg — à confirmer",
-   "responsable": "Mehdi",
-   "echeance": "2026-09-18",
-   "level": "alerte",
-   "persons": [
-    "van-brakel",
-    "hofma",
-    "rintjema-pascal",
-    "vellekoop",
-    "stoltenborg"
-   ]
-  },
-  {
    "id": "pd03",
-   "sujet": "J4 (20/09) : répartition nominative 5 véhicules de 4/4/4/4/3 à établir et transmettre à Najib / Ssi Brahim (les jeeps du J3 sont à 5)",
-   "responsable": "Mehdi / Eva",
+   "sujet": "J4 (20/09) : répartition proposée par MRCO — CAR 1 Tammo, Arjen, Pascal, Marcel · CAR 2 Sander, Erwin, Michaël, Adriana · CAR 3 Jos, Mischa, Wim, Nancy · CAR 4 Christiaan, Jasper, Hjalmar, Dennis · CAR 5 Otte, Roel, Romy — à valider puis transmettre à Najib / Ssi Brahim",
+   "responsable": "Mehdi → Farid",
    "echeance": "2026-09-19",
    "level": "alerte"
   },
   {
    "id": "pd04",
-   "sujet": "Véhicule bagages J4 : type et capacité à confirmer par Najib (bagages 19 pax + MRCO) ; encadrant MRCO à bord à désigner",
+   "sujet": "Véhicule bagages J4 : type et capacité à confirmer par Najib (Farid à bord)",
    "responsable": "Farid → Najib",
    "echeance": "2026-09-18",
-   "level": "alerte"
+   "level": "normal"
   },
   {
    "id": "pd05",
-   "sujet": "Convoi J3 : véhicule d'assistance et position de l'encadrement MRCO à caler avec Ssi Brahim ; numéro de Ssi Brahim et de Najib à renseigner dans Contacts",
-   "responsable": "Mehdi",
+   "sujet": "Ssi Brahim : numéro à obtenir via Najib ; configuration du convoi J3 (assistance, place de MRCO) à caler avec lui",
+   "responsable": "Farid",
    "echeance": "2026-09-18",
    "level": "alerte"
-  },
-  {
-   "id": "pd06",
-   "sujet": "Cartes allergie (8 ex.) : faire reconfirmer la liste des régimes par Pamela avant impression ; Wim mange-t-il aux autres repas (il ne dîne pas à la Kasbah, repas personnel) ?",
-   "responsable": "Eva → Pamela",
-   "echeance": "2026-09-16",
-   "level": "alerte",
-   "persons": [
-    "wildenbeest"
-   ]
   },
   {
    "id": "pd07",
@@ -62,31 +38,17 @@
    "level": "normal"
   },
   {
-   "id": "pd08",
-   "sujet": "Attribution des 12 tentes Top VIP à Yes We Camp Agafay non communiquée",
+   "id": "pd10",
+   "sujet": "Téléphones manquants : Comptoir Darna, Relais du Lac, Yes We Camp Agafay (Petanque et Kasbah trouvés le 17/09)",
    "responsable": "Eva",
    "echeance": "2026-09-18",
-   "level": "normal"
-  },
-  {
-   "id": "pd09",
-   "sujet": "Horaires des soirées J1 et J2 à réconfirmer à J-1 à Najib (fiche V3)",
-   "responsable": "Eva",
-   "echeance": "2026-09-16",
-   "level": "normal"
-  },
-  {
-   "id": "pd10",
-   "sujet": "Adresses et téléphones manquants : Petanque Social Club, Comptoir Darna, Relais du Lac, Yes We Camp, La Kasbah By Beldi",
-   "responsable": "Eva",
-   "echeance": "2026-09-17",
    "level": "normal"
   },
   {
    "id": "pd12",
-   "sujet": "HV6534 du 21/09 : itinéraire et fiche transport disent décollage 09:55 (nouvelle heure) ; Flightradar24 affiche un horaire programmé de 10:55 GMT (arrivée Eindhoven 15:35 inchangée) — faire confirmer l’heure du billet par Uyuni ; la prise en charge 06:20 reste valable dans les deux cas",
-   "responsable": "Mehdi → Uyuni",
-   "echeance": "2026-09-18",
+   "sujet": "HV6534 lundi : Flightradar24 affiche 10:55 (nouvelle heure), documents 09:55 — pointer le vol dans l’app le 19 et le 20 au soir, informer Najib et le groupe de l’heure retenue",
+   "responsable": "Farid",
+   "echeance": "2026-09-20",
    "level": "alerte"
   }
  ]

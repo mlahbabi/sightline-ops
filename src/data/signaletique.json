@@ -1,6 +1,6 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "note": "Pack imprimeur SIGHTLINE 30 (30 PDF, 15/09) : palette orange #EB5E12 / noir / blanc cassé. Quantités du lisez-moi imprimeur.",
  "items": [
   {
@@ -52,15 +52,6 @@
    "lieu": "Véhicules Najib",
    "date": "2026-09-17",
    "note": "Plastifiées"
-  },
-  {
-   "id": "sig-allergie",
-   "label": "Cartes allergie cuisine (A6)",
-   "qte": 8,
-   "lieu": "Une par restaurant",
-   "date": "2026-09-16",
-   "note": "Reconfirmer la liste régimes avec Pamela AVANT impression",
-   "aConfirmer": true
   }
  ]
 }

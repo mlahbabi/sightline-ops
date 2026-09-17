@@ -1,6 +1,6 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "items": [
   {
    "id": "van-brakel",
@@ -17,8 +17,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 1 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 1 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 1 (Twin, lits séparés) · Agafay tente 1 (même numéro que la chambre 2Ciels) · Kasbah ch. 1 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 1 (self drive). Dimanche 20/09 : CAR 1 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 1,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -41,11 +41,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "Jeep 1 déduite (non listée par Mehdi)",
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 1
   },
   {
    "id": "van-der-haagen",
@@ -62,8 +59,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 1 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 1 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 1 (Twin, lits séparés) · Agafay tente 1 (même numéro que la chambre 2Ciels) · Kasbah ch. 1 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 4 (self drive). Dimanche 20/09 : CAR 4 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 4,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -86,10 +83,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 4
   },
   {
    "id": "rintjema",
@@ -106,8 +101,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Pas de poisson",
-   "note_hotel": "2Ciels ch. 2 (Single, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 2 (Single)",
-   "note_app": "Chambre single depuis les annulations du 16/09.",
+   "note_hotel": "2Ciels ch. 2 (Single, lits séparés) · Agafay tente 2 (même numéro que la chambre 2Ciels) · Kasbah ch. 2 (Single)",
+   "note_app": "Chambre single depuis les annulations du 16/09. Samedi 19/09 : Jeep 2 (self drive). Dimanche 20/09 : CAR 2 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 2,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -130,10 +125,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 2
   },
   {
    "id": "hofma",
@@ -150,8 +143,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 3 (Single, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 3 (Single)",
-   "note_app": "Chambre single depuis les annulations du 16/09.",
+   "note_hotel": "2Ciels ch. 3 (Single, lits séparés) · Agafay tente 3 (même numéro que la chambre 2Ciels) · Kasbah ch. 3 (Single)",
+   "note_app": "Chambre single depuis les annulations du 16/09. Samedi 19/09 : Jeep 1 (self drive). Dimanche 20/09 : CAR 1 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 1,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -174,11 +167,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "Jeep 1 déduite (non listée par Mehdi)",
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 1
   },
   {
    "id": "van-der-ham",
@@ -195,8 +185,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 4 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 4 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 4 (Twin, lits séparés) · Agafay tente 4 (même numéro que la chambre 2Ciels) · Kasbah ch. 4 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 2 (self drive). Dimanche 20/09 : CAR 2 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 2,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -219,10 +209,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 2
   },
   {
    "id": "rintjema-pascal",
@@ -239,8 +227,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 4 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 4 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 4 (Twin, lits séparés) · Agafay tente 4 (même numéro que la chambre 2Ciels) · Kasbah ch. 4 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 1 (self drive). Dimanche 20/09 : CAR 1 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 1,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -263,11 +251,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "Jeep 1 déduite (non listée par Mehdi)",
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 1
   },
   {
    "id": "van-der-hoeven",
@@ -284,8 +269,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 5 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 5 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 5 (Twin, lits séparés) · Agafay tente 5 (même numéro que la chambre 2Ciels) · Kasbah ch. 5 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 3 (self drive). Dimanche 20/09 : CAR 3 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 3,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -308,10 +293,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 3
   },
   {
    "id": "dokter",
@@ -328,8 +311,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Pas de poisson, beurre, champignons",
-   "note_hotel": "2Ciels ch. 5 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 5 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 5 (Twin, lits séparés) · Agafay tente 5 (même numéro que la chambre 2Ciels) · Kasbah ch. 5 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 2 (self drive). Dimanche 20/09 : CAR 2 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 2,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -352,10 +335,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 2
   },
   {
    "id": "van-oudenallen",
@@ -372,8 +353,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 6 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 6 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 6 (Twin, lits séparés) · Agafay tente 6 (même numéro que la chambre 2Ciels) · Kasbah ch. 6 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 4 (self drive). Dimanche 20/09 : CAR 4 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 4,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -396,10 +377,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 4
   },
   {
    "id": "wildenbeest",
@@ -416,8 +395,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "⚠️ ALLERGIE SÉVÈRE noix / fruits à coque + arachides (EpiPen) · pas de fruits de mer",
-   "note_hotel": "2Ciels ch. 6 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 6 (Twin)",
-   "note_app": "ALLERGIE CRITIQUE noix / fruits à coque / arachides — EpiPen sur lui. Vigilance à chaque repas : salades marocaines, huiles (argan, arachide), amlou, pâtisseries, garnitures. Aucune trace acceptée. À la Kasbah (20/09) il NE DÎNE PAS : repas et boissons personnels (glacière à garder au frais). Les autres repas : ⚠️ à confirmer avec lui / Pamela.",
+   "note_hotel": "2Ciels ch. 6 (Twin, lits séparés) · Agafay tente 6 (même numéro que la chambre 2Ciels) · Kasbah ch. 6 (Twin)",
+   "note_app": "ALLERGIE CRITIQUE noix / fruits à coque / arachides — EpiPen sur lui. NE MANGE PAS avec le groupe : il apporte sa propre nourriture à TOUS les repas (Mehdi, 17/09). Lui garder une place à table et ses boissons, glacière au frais à chaque hôtel (2Ciels, Agafay, Kasbah). Aucune trace de noix dans ce qui lui est offert (thé, pâtisseries). Samedi 19/09 : Jeep 3 (self drive). Dimanche 20/09 : CAR 3 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 3,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -440,10 +419,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 3
   },
   {
    "id": "van-der-klauw",
@@ -460,8 +437,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 7 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 7 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 7 (Twin, lits séparés) · Agafay tente 7 (même numéro que la chambre 2Ciels) · Kasbah ch. 7 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 4 (self drive). Dimanche 20/09 : CAR 4 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 4,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -484,10 +461,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 4
   },
   {
    "id": "vellekoop",
@@ -504,8 +479,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Pas de fruits de mer, pas de viande crue",
-   "note_hotel": "2Ciels ch. 7 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 7 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 7 (Twin, lits séparés) · Agafay tente 7 (même numéro que la chambre 2Ciels) · Kasbah ch. 7 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 1 (self drive). Dimanche 20/09 : CAR 1 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 1,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -528,11 +503,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "Jeep 1 déduite (non listée par Mehdi)",
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 1
   },
   {
    "id": "pet",
@@ -549,8 +521,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Pas de coriandre, champignons",
-   "note_hotel": "2Ciels ch. 8 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 8 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 8 (Twin, lits séparés) · Agafay tente 8 (même numéro que la chambre 2Ciels) · Kasbah ch. 8 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 3 (self drive). Dimanche 20/09 : CAR 3 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 3,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -573,10 +545,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 3
   },
   {
    "id": "vogel",
@@ -593,8 +563,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Pas de fromage",
-   "note_hotel": "2Ciels ch. 8 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 8 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 8 (Twin, lits séparés) · Agafay tente 8 (même numéro que la chambre 2Ciels) · Kasbah ch. 8 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 4 (self drive). Dimanche 20/09 : CAR 4 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 4,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -617,10 +587,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 4
   },
   {
    "id": "de-rijk",
@@ -637,8 +605,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Ni poisson ni viande",
-   "note_hotel": "2Ciels ch. 9 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 9 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 9 (Twin, lits séparés) · Agafay tente 9 (même numéro que la chambre 2Ciels) · Kasbah ch. 9 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 2 (self drive). Dimanche 20/09 : CAR 5 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 2,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -661,10 +629,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 5
   },
   {
    "id": "stoltenborg",
@@ -681,8 +647,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Sans gluten",
-   "note_hotel": "2Ciels ch. 9 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 9 (Twin)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 9 (Twin, lits séparés) · Agafay tente 9 (même numéro que la chambre 2Ciels) · Kasbah ch. 9 (Twin)",
+   "note_app": "Samedi 19/09 : Jeep 1 (self drive). Dimanche 20/09 : CAR 5 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 1,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -705,11 +671,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "Jeep 1 déduite (non listée par Mehdi)",
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 5
   },
   {
    "id": "dinnissen",
@@ -726,8 +689,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 10 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 10 (Twin)",
-   "note_app": "CONTACT GROUPE (Mehdi, 17/09) : référente du groupe sur place, WhatsApp +31 6 51 27 32 84 — voir Plus → Contacts.",
+   "note_hotel": "2Ciels ch. 10 (Twin, lits séparés) · Agafay tente 10 (même numéro que la chambre 2Ciels) · Kasbah ch. 10 (Twin)",
+   "note_app": "CONTACT GROUPE (Mehdi, 17/09) : référente du groupe sur place, WhatsApp +31 6 51 27 32 84 — voir Plus → Contacts. Samedi 19/09 : Jeep 3 (self drive). Dimanche 20/09 : CAR 3 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 3,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -750,10 +713,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 3
   },
   {
    "id": "van-elteren",
@@ -770,8 +731,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "",
-   "note_hotel": "2Ciels ch. 10 (Twin, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 10 (Twin)",
-   "note_app": "CONTACT GROUPE (Mehdi, 17/09) : référente du groupe sur place, WhatsApp +31 6 81 72 54 01 — voir Plus → Contacts.",
+   "note_hotel": "2Ciels ch. 10 (Twin, lits séparés) · Agafay tente 10 (même numéro que la chambre 2Ciels) · Kasbah ch. 10 (Twin)",
+   "note_app": "CONTACT GROUPE (Mehdi, 17/09) : référente du groupe sur place, WhatsApp +31 6 81 72 54 01 — voir Plus → Contacts. Samedi 19/09 : Jeep 4 (self drive). Dimanche 20/09 : CAR 5 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 4,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -794,10 +755,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 5
   },
   {
    "id": "ruigrok",
@@ -814,8 +773,8 @@
    "depart": "21/09",
    "nuitees": 4,
    "regime": "Sans gluten",
-   "note_hotel": "2Ciels ch. 11 (Single, lits séparés) · Agafay tente ⚠️ non communiquée · Kasbah ch. 11 (Single)",
-   "note_app": "",
+   "note_hotel": "2Ciels ch. 11 (Single, lits séparés) · Agafay tente 11 (même numéro que la chambre 2Ciels) · Kasbah ch. 11 (Single)",
+   "note_app": "Samedi 19/09 : Jeep 2 (self drive). Dimanche 20/09 : CAR 2 avec chauffeur (proposition MRCO, à valider).",
    "equipe_tb": 2,
    "retour_radisson_1430": false,
    "diaffa_table": null,
@@ -838,10 +797,8 @@
     "cie": "Transavia",
     "mode": "vol"
    },
-   "a_confirmer": [
-    "tente Agafay",
-    "véhicule 4×4 du 20/09"
-   ]
+   "a_confirmer": [],
+   "vehicule_j4": 2
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "diners": [],
  "items": [
   {
@@ -52,16 +52,16 @@
   {
    "id": "psc",
    "nom": "Petanque Social Club",
-   "adresse": "Marrakech — adresse ⚠️ à confirmer",
-   "acces": "Club secret style années 1930.",
+   "adresse": "70 boulevard El Mansour Eddahbi, Guéliz, Marrakech (derrière le Ciné-Palace, porte bleue)",
+   "tel": "+212666455380",
+   "acces": "Club secret style années 1930 — porte bleue discrète, derrière le Ciné-Palace.",
    "quoi": [
     "17/09 20:45 cocktail « 30th Anniversary »",
     "17/09 21:15 dîner 4 plats — menu 1, chevalets 1, prisme bar A, totem bar B, sous-verres"
    ],
    "jours": [
     "2026-09-17"
-   ],
-   "aConfirmer": true
+   ]
   },
   {
    "id": "grand-bazar",
@@ -133,7 +133,9 @@
   {
    "id": "kasbah",
    "nom": "La Kasbah By Beldi",
-   "adresse": "Route de Lalla Takerkoust — adresse exacte ⚠️ à confirmer",
+   "adresse": "Lac de Lalla Takerkoust, village de Talet (Kasbah Beldi)",
+   "tel": "+212524383950",
+   "email": "contact@kasbahbeldi.com",
    "acces": "Redescente directe depuis Sidi Fares (~17:30). Vers RAK ~45–50 min.",
    "quoi": [
     "Nuit du 20 au 21/09 : 13 chambres (8 twins + 4 singles + 1 double staff MRCO)",
@@ -143,8 +145,7 @@
    "jours": [
     "2026-09-20",
     "2026-09-21"
-   ],
-   "aConfirmer": true
+   ]
   }
  ]
 }

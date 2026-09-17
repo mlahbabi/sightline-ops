@@ -1,6 +1,6 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "membres": [
   "Mehdi",
   "Eva",
@@ -11,12 +11,67 @@
   {
    "sequenceId": "s0917-rak",
    "owner": "Mehdi",
-   "role": "accueil aéroport (MRCO 2 pax)"
+   "role": "accueil aéroport"
   },
   {
    "sequenceId": "s0917-rak",
+   "owner": "Mouad",
+   "role": "accueil aéroport"
+  },
+  {
+   "sequenceId": "s0917-setup-beldi",
    "owner": "Eva",
-   "role": "accueil aéroport (MRCO 2 pax)"
+   "role": "mise en place Beldi + thé d’accueil (Toyota, 13:15)"
+  },
+  {
+   "sequenceId": "s0917-setup-beldi",
+   "owner": "Farid",
+   "role": "mise en place Beldi + thé d’accueil (Toyota, 13:15)"
+  },
+  {
+   "sequenceId": "s0917-checkin",
+   "owner": "Eva",
+   "role": "check-in 2Ciels : clés, signalétique, thé"
+  },
+  {
+   "sequenceId": "s0917-checkin",
+   "owner": "Farid",
+   "role": "check-in 2Ciels : clés, signalétique, thé"
+  },
+  {
+   "sequenceId": "s0917-setup-psc",
+   "owner": "Eva",
+   "role": "setup Petanque + cocktail 30 ans"
+  },
+  {
+   "sequenceId": "s0917-setup-psc",
+   "owner": "Farid",
+   "role": "setup Petanque + cocktail 30 ans"
+  },
+  {
+   "sequenceId": "p0917-2030",
+   "owner": "Mehdi",
+   "role": "transfert hôtel → PSC avec le groupe"
+  },
+  {
+   "sequenceId": "p0917-2030",
+   "owner": "Mouad",
+   "role": "transfert hôtel → PSC avec le groupe"
+  },
+  {
+   "sequenceId": "s0920-luggage",
+   "owner": "Farid",
+   "role": "à bord du véhicule bagages Agafay → Kasbah"
+  },
+  {
+   "sequenceId": "s0919-hv",
+   "owner": "Farid",
+   "role": "pointage HV6534"
+  },
+  {
+   "sequenceId": "s0920-hv",
+   "owner": "Farid",
+   "role": "pointage HV6534"
   },
   {
    "sequenceId": "s0916-najib",
@@ -25,6 +80,10 @@
   }
  ],
  "moments": [
+  {
+   "sequenceId": "s0917-setup-beldi",
+   "label": "Mise en place Beldi 17/09 13:15"
+  },
   {
    "sequenceId": "s0917-rak",
    "label": "Accueil aéroport 17/09 13:35"

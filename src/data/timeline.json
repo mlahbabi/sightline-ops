@@ -1,6 +1,6 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "sequences": [
   {
    "id": "s0916-pack",
@@ -36,10 +36,6 @@
     },
     {
      "id": "s0916-pack-c6",
-     "label": "Cartes allergie ×8 (après reconfirmation Pamela)"
-    },
-    {
-     "id": "s0916-pack-c7",
      "label": "Brief Farid / Mouad : rôles J1"
     }
    ],
@@ -83,7 +79,7 @@
    "date": "2026-09-17",
    "start": "12:30",
    "end": "13:35",
-   "title": "MRCO en place à l'aéroport (2 pers.) + pancarte Sightline",
+   "title": "Mehdi + Mouad à l’aéroport + pancarte Sightline",
    "lieu": "Aéroport RAK — zone arrivées",
    "effectif": "19",
    "type": "setup",
@@ -105,6 +101,38 @@
     {
      "id": "s0917-rak-c4",
      "label": "Vol suivi (ETA)"
+    }
+   ],
+   "persons": [],
+   "owner": ""
+  },
+  {
+   "id": "s0917-setup-beldi",
+   "date": "2026-09-17",
+   "start": "13:15",
+   "end": "14:30",
+   "title": "Mise en place Beldi — Eva + Farid (Toyota)",
+   "lieu": "Beldi Country Club",
+   "effectif": "",
+   "type": "setup",
+   "level": "critique",
+   "details": "Départ 13:15 en voiture. Thé d’accueil et pâtisseries prêts pour ~14:30, chevalets 2 + menus 2 sur les tables, chef briefé (18 couverts, Wim apporte son repas, régimes). Dès l’arrivée du groupe, Eva et Farid repartent au 2Ciels préparer le check-in.",
+   "checklist": [
+    {
+     "id": "s0917-setup-beldi-c1",
+     "label": "Thé d’accueil prêt (pâtisseries sans noix à portée de Wim)"
+    },
+    {
+     "id": "s0917-setup-beldi-c2",
+     "label": "Chevalets et menus posés"
+    },
+    {
+     "id": "s0917-setup-beldi-c3",
+     "label": "Chef briefé : 18 couverts + régimes"
+    },
+    {
+     "id": "s0917-setup-beldi-c4",
+     "label": "Repartis vers le 2Ciels"
     }
    ],
    "persons": [],
@@ -198,11 +226,11 @@
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Thé à la menthe et pâtisseries à l'arrivée (~14:30). Boissons réglées par le groupe. Menu 2 + chevalets 2. ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Thé à la menthe et pâtisseries à l'arrivée (~14:30). Boissons réglées par le groupe. Menu 2 + chevalets 2. COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0917-beldi-c1",
-     "label": "Chef briefé allergie + régimes"
+     "label": "Chef briefé : 18 couverts + régimes"
     },
     {
      "id": "s0917-beldi-c2",
@@ -250,22 +278,30 @@
    "checklist": [
     {
      "id": "s0917-checkin-c1",
-     "label": "12 clés remises"
+     "label": "Eva + Farid en place AVANT le groupe : clés prêtes, signalétique correcte"
     },
     {
      "id": "s0917-checkin-c2",
-     "label": "Ch. 12 : occupant noté"
+     "label": "Thé d’accueil servi pour patienter"
     },
     {
      "id": "s0917-checkin-c3",
-     "label": "Bagages montés (19)"
+     "label": "12 clés remises"
     },
     {
      "id": "s0917-checkin-c4",
-     "label": "Allergie briefée (petit-déj + room service)"
+     "label": "Ch. 12 : occupant noté"
     },
     {
      "id": "s0917-checkin-c5",
+     "label": "Bagages montés (19)"
+    },
+    {
+     "id": "s0917-checkin-c6",
+     "label": "Allergie briefée (petit-déj + room service)"
+    },
+    {
+     "id": "s0917-checkin-c7",
      "label": "Heure du départ dîner 20:30 annoncée au groupe"
     }
    ],
@@ -331,7 +367,7 @@
    "effectif": "",
    "type": "setup",
    "level": "important",
-   "details": "Menus 1 + chevalets 1 sur les tables, prisme bar A « 30 Years » + totem bar B « Access All Areas », sous-verres Backstage / Proost. Cocktail « 30th Anniversary » à 20:45.",
+   "details": "Eva + Farid. SOIGNER LE COCKTAIL 30 ANS (mise en scène du bar, prisme, totem, sous-verres). Menus 1 + chevalets 1 sur les tables, prisme bar A « 30 Years » + totem bar B « Access All Areas », sous-verres Backstage / Proost. Cocktail « 30th Anniversary » à 20:45.",
    "checklist": [
     {
      "id": "s0917-setup-psc-c1",
@@ -347,7 +383,7 @@
     },
     {
      "id": "s0917-setup-psc-c4",
-     "label": "Chef briefé allergie + régimes"
+     "label": "Chef briefé : 18 couverts + régimes"
     }
    ],
    "persons": [],
@@ -363,7 +399,7 @@
    "effectif": "19",
    "type": "transport",
    "level": "important",
-   "details": "Véhicule : 2 × 17 pl (BUS 1 / BUS 2). Cocktail 20:45, dîner 21:15.",
+   "details": "Véhicule : 2 × 17 pl (BUS 1 / BUS 2). Mehdi + Mouad accompagnent le groupe dans les bus. Cocktail 20:45, dîner 21:15.",
    "checklist": [
     {
      "id": "p0917-2030-c1",
@@ -427,7 +463,7 @@
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Menu 1. Retour hôtel vers 00:00 (2 × 17 pl). ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Menu 1. Retour hôtel vers 00:00 (2 × 17 pl). COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0917-diner-c1",
@@ -577,11 +613,11 @@
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Dépose au plus près de la médina. Menu 3 + chevalets 3. ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Dépose au plus près de la médina. Menu 3 + chevalets 3. COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0918-bazar-c1",
-     "label": "Chef briefé allergie + régimes"
+     "label": "Chef briefé : 18 couverts + régimes"
     },
     {
      "id": "s0918-bazar-c2",
@@ -706,52 +742,52 @@
     },
     {
      "id": "s0918-setup-darna-c2",
-     "label": "Chef briefé allergie + régimes"
+     "label": "Chef briefé : 18 couverts + régimes"
     }
    ],
    "persons": [],
    "owner": ""
   },
   {
-   "id": "p0918-2000",
+   "id": "p0918-2030",
    "date": "2026-09-18",
-   "start": "20:00",
+   "start": "20:30",
    "end": null,
    "title": "Transfert 2Ciels → Le Comptoir Darna — 19 pax",
    "lieu": "2Ciels Boutique Hotel & Spa → Le Comptoir Darna",
    "effectif": "19",
    "type": "transport",
    "level": "important",
-   "details": "Véhicule : 2 × 17 pl (BUS 1 / BUS 2). Dîner spectacle 20:30.",
+   "details": "Véhicule : 2 × 17 pl (BUS 1 / BUS 2). Horaire confirmé à Najib le 17/09 : 20:30 (comme le 17). Dîner spectacle ~21:00.",
    "checklist": [
     {
-     "id": "p0918-2000-c1",
+     "id": "p0918-2030-c1",
      "label": "Chauffeur(s) en place"
     },
     {
-     "id": "p0918-2000-c2",
+     "id": "p0918-2030-c2",
      "label": "Passagers complets"
     },
     {
-     "id": "p0918-2000-c3",
+     "id": "p0918-2030-c3",
      "label": "Parti"
     }
    ],
    "persons": [],
    "owner": "",
-   "waveId": "p0918-2000"
+   "waveId": "p0918-2030"
   },
   {
    "id": "s0918-darna",
    "date": "2026-09-18",
-   "start": "20:30",
+   "start": "21:00",
    "end": "23:30",
    "title": "Dîner 4 plats + spectacle — Le Comptoir Darna",
    "lieu": "Le Comptoir Darna",
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Menu 4. Retour hôtel 23:30, puis option Babouchka (spectacle et entrées offerts par Uyuni) — véhicules en disposal jusqu'à la dernière course. ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Menu 4. Retour hôtel 23:30, puis option Babouchka (spectacle et entrées offerts par Uyuni) — véhicules en disposal jusqu'à la dernière course. COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0918-darna-c1",
@@ -977,11 +1013,11 @@
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Terrasse au bord du lac, vue Atlas. Menu 5 + chevalets 5. Véhicules en standby. ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Terrasse au bord du lac, vue Atlas. Menu 5 + chevalets 5. Véhicules en standby. COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0919-relais-c1",
-     "label": "Chef briefé allergie + régimes"
+     "label": "Chef briefé : 18 couverts + régimes"
     },
     {
      "id": "s0919-relais-c2",
@@ -1104,11 +1140,11 @@
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0919-desert-c1",
-     "label": "Chef briefé allergie + régimes"
+     "label": "Chef briefé : 18 couverts + régimes"
     },
     {
      "id": "s0919-desert-c2",
@@ -1136,6 +1172,26 @@
     "van-elteren",
     "ruigrok"
    ],
+   "owner": ""
+  },
+  {
+   "id": "s0919-hv",
+   "date": "2026-09-19",
+   "start": "21:30",
+   "end": "21:45",
+   "title": "Pointer HV6534 sur Flightradar24 (Transport → 21/09) : 09:55 ou 10:55 ?",
+   "lieu": "Yes We Camp Agafay",
+   "effectif": "",
+   "type": "orga",
+   "level": "important",
+   "details": "Consigne Mehdi 17/09 : vérifier l’horaire GMT du vol retour l’avant-veille et la veille. Prise en charge 06:20 inchangée. Farid.",
+   "checklist": [
+    {
+     "id": "s0919-hv-c1",
+     "label": "Horaire relevé et noté en note terrain"
+    }
+   ],
+   "persons": [],
    "owner": ""
   },
   {
@@ -1215,7 +1271,7 @@
    "effectif": "19 bagages",
    "type": "transport",
    "level": "critique",
-   "details": "Véhicule LUGGAGE (pancarte 10), type à confirmer par Najib. Part directement au lodge. Passagers SANS bagages dans les 4×4. Encadrant MRCO à bord : ⚠️ à désigner.",
+   "details": "Véhicule LUGGAGE (pancarte 10), type à confirmer par Najib. Part directement au lodge. Passagers SANS bagages dans les 4×4. Encadrant MRCO à bord : FARID.",
    "checklist": [
     {
      "id": "s0920-luggage-c1",
@@ -1223,7 +1279,7 @@
     },
     {
      "id": "s0920-luggage-c2",
-     "label": "Encadrant désigné et à bord"
+     "label": "Farid à bord"
     },
     {
      "id": "s0920-luggage-c3",
@@ -1243,7 +1299,7 @@
    "effectif": "bagages",
    "type": "transport",
    "level": "critique",
-   "details": "Véhicule : 1 véhicule LUGGAGE. 1 encadrant MRCO à bord (⚠️ à désigner). Type de véhicule à confirmer par Najib. Bagages des 19 + MRCO.",
+   "details": "Véhicule : 1 véhicule LUGGAGE. Farid à bord. Type de véhicule à confirmer par Najib. Bagages des 19 + MRCO.",
    "checklist": [
     {
      "id": "p0920-1030-c1",
@@ -1272,7 +1328,7 @@
    "effectif": "19",
    "type": "transport",
    "level": "critique",
-   "details": "Max 4 pax par véhicule : 4 / 4 / 4 / 4 / 3 + 1 véhicule MRCO. Itinéraire différent de la veille (pas Moulay Brahim / Agafay). Répartition nominative ⚠️ à établir (les jeeps du J3 sont à 5). Pancartes CAR 1 à 5.",
+   "details": "Max 4 pax par véhicule : 4 / 4 / 4 / 4 / 3 + 1 véhicule MRCO. Itinéraire différent de la veille (pas Moulay Brahim / Agafay). Répartition (proposition MRCO du 17/09, à valider) : CAR 1 Tammo, Arjen, Pascal, Marcel · CAR 2 Sander, Erwin, Michaël, Adriana · CAR 3 Jos, Mischa, Wim, Nancy · CAR 4 Christiaan, Jasper, Hjalmar, Dennis · CAR 5 Otte, Roel, Romy. Pancartes CAR 1 à 5.",
    "checklist": [
     {
      "id": "s0920-convoi-c1",
@@ -1320,7 +1376,7 @@
    "effectif": "19",
    "type": "transport",
    "level": "critique",
-   "details": "Véhicule : 5 × 4×4 (CAR 1-5) + véhicule MRCO. Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition nominative ⚠️ à établir. Heure : nouvelle heure (GMT).",
+   "details": "Véhicule : 5 × 4×4 (CAR 1-5) + véhicule MRCO. Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition (proposition MRCO, à valider) : CAR 1 Tammo, Arjen, Pascal, Marcel · CAR 2 Sander, Erwin, Michaël, Adriana · CAR 3 Jos, Mischa, Wim, Nancy · CAR 4 Christiaan, Jasper, Hjalmar, Dennis · CAR 5 Otte, Roel, Romy. Heure : nouvelle heure (GMT).",
    "checklist": [
     {
      "id": "p0920-1100-c1",
@@ -1404,11 +1460,11 @@
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Softs inclus. Pas de menu imprimé pour ce déjeuner. ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Softs inclus. Pas de menu imprimé pour ce déjeuner. COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0920-dej-c1",
-     "label": "Cuisinier briefé allergie + régimes"
+     "label": "Cuisinier briefé : 18 couverts + régimes"
     }
    ],
    "persons": [
@@ -1529,7 +1585,7 @@
    "effectif": "18 (+2 staff à part)",
    "type": "restauration",
    "level": "important",
-   "details": "Court transfert ou marche à 20:15. 18 couverts groupe : Wim ne dîne pas (repas personnel). 2 repas staff MRCO à part. Menu 7 + chevalets 7. Retour lodge 23:00. ALLERGIE Wim Wildenbeest (noix / arachides, EpiPen) : briefer le chef à l'arrivée, carte allergie remise, aucune trace. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Court transfert ou marche à 20:15. 18 couverts groupe : Wim ne dîne pas (repas personnel). 2 repas staff MRCO à part. Menu 7 + chevalets 7. Retour lodge 23:00. COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0920-talet-c1",
@@ -1565,6 +1621,34 @@
     "van-elteren",
     "ruigrok"
    ],
+   "owner": ""
+  },
+  {
+   "id": "s0920-hv",
+   "date": "2026-09-20",
+   "start": "21:00",
+   "end": "21:15",
+   "title": "Pointer HV6534 sur Flightradar24 — dernière vérification",
+   "lieu": "La Kasbah By Beldi",
+   "effectif": "",
+   "type": "orga",
+   "level": "critique",
+   "details": "Horaire du décollage (nouvelle heure) à confirmer au groupe et aux chauffeurs. Prise en charge 06:20, chauffeurs 05:45.",
+   "checklist": [
+    {
+     "id": "s0920-hv-c1",
+     "label": "Horaire relevé"
+    },
+    {
+     "id": "s0920-hv-c2",
+     "label": "Najib prévenu de l’heure exacte"
+    },
+    {
+     "id": "s0920-hv-c3",
+     "label": "Groupe informé du réveil"
+    }
+   ],
+   "persons": [],
    "owner": ""
   },
   {

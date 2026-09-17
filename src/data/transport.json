@@ -1,8 +1,9 @@
 {
- "version": "V1.2 — 17/09/2026",
- "updatedAt": "2026-09-16T18:00:00+01:00",
+ "version": "V1.3 — 17/09/2026",
+ "updatedAt": "2026-09-17T09:30:00+01:00",
  "regles": [
   "HEURE : nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — passage définitif à GMT (décret 2.26.530). Tous les horaires des 20 et 21/09 sont en nouvelle heure. Vérification croisée des montres avec Eva / Mehdi avant chaque prise en charge des 20 et 21/09 ; l’app Sightline Ops affiche l’heure légale.",
+  "Référent horaires transport côté MRCO : Farid Lourida (+212 656 966 260) — tout changement d’horaire passe par lui.",
   "Départ aéroport : dépose à RAK au minimum 2 h avant décollage (La Kasbah By Beldi → RAK ~45–50 min).",
   "Arrivée J1 : accueil en zone arrivées avec pancarte « Sightline », chauffeurs en place à l'atterrissage, sortie passagers +30 à 40 min. Suivi du vol en temps réel.",
   "4×4 : J3 = self drive (invités au volant, 5 pax max par véhicule, aucun alcool pour les conducteurs) · J4 = 4 pax max par véhicule avec chauffeur, sans bagages, sans exception.",
@@ -13,7 +14,7 @@
  "contactDispatch": {
   "nom": "Najib",
   "role": "Transporteur",
-  "tel": ""
+  "tel": "+212663298773"
  },
  "vagues": [
   {
@@ -86,7 +87,7 @@
    "pax": [],
    "paxEstime": "19",
    "vehicule": "2 × 17 pl (BUS 1 / BUS 2)",
-   "note": "Cocktail 20:45, dîner 21:15.",
+   "note": "Mehdi + Mouad accompagnent le groupe dans les bus. Cocktail 20:45, dîner 21:15.",
    "origine": "2Ciels Boutique Hotel & Spa",
    "destination": "Petanque Social Club",
    "level": "important"
@@ -134,15 +135,15 @@
    "level": "normal"
   },
   {
-   "id": "p0918-2000",
+   "id": "p0918-2030",
    "date": "2026-09-18",
-   "heure": "20:00",
+   "heure": "20:30",
    "type": "programme",
    "vol": "2Ciels → Le Comptoir Darna",
    "pax": [],
    "paxEstime": "19",
    "vehicule": "2 × 17 pl (BUS 1 / BUS 2)",
-   "note": "Dîner spectacle 20:30.",
+   "note": "Horaire confirmé à Najib le 17/09 : 20:30 (comme le 17). Dîner spectacle ~21:00.",
    "origine": "2Ciels Boutique Hotel & Spa",
    "destination": "Le Comptoir Darna",
    "level": "important"
@@ -204,7 +205,7 @@
    "pax": [],
    "paxEstime": "bagages",
    "vehicule": "1 véhicule LUGGAGE",
-   "note": "1 encadrant MRCO à bord (⚠️ à désigner). Type de véhicule à confirmer par Najib. Bagages des 19 + MRCO.",
+   "note": "Farid à bord. Type de véhicule à confirmer par Najib. Bagages des 19 + MRCO.",
    "origine": "Yes We Camp Agafay",
    "destination": "La Kasbah By Beldi",
    "level": "critique"
@@ -238,7 +239,7 @@
    ],
    "paxEstime": "19",
    "vehicule": "5 × 4×4 (CAR 1-5) + véhicule MRCO",
-   "note": "Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition nominative ⚠️ à établir. Heure : nouvelle heure (GMT).",
+   "note": "Max 4 pax par véhicule (4/4/4/4/3), SANS bagages, + 1 véhicule MRCO. Circuit différent du J3. Répartition (proposition MRCO, à valider) : CAR 1 Tammo, Arjen, Pascal, Marcel · CAR 2 Sander, Erwin, Michaël, Adriana · CAR 3 Jos, Mischa, Wim, Nancy · CAR 4 Christiaan, Jasper, Hjalmar, Dennis · CAR 5 Otte, Roel, Romy. Heure : nouvelle heure (GMT).",
    "origine": "Yes We Camp Agafay",
    "destination": "La Kasbah By Beldi",
    "level": "critique"
@@ -306,7 +307,7 @@
   {
    "date": "2026-09-18",
    "pax": "19",
-   "mouvements": "Grand Bazar 12:00, standby médina, retour 16:15, Comptoir Darna 20:00, retour 23:30 + disposal",
+   "mouvements": "Grand Bazar 12:00, standby médina, retour 16:15, Comptoir Darna 20:30, retour 23:30 + disposal",
    "flotte": "2 × 17 pl — 11:30 → fin de soirée"
   },
   {
