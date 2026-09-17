@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.6 — 17/09/2026';
+const VERSION = 'V1.7 — 17/09/2026';
 const UPDATED = '2026-09-17T11:00:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
@@ -207,7 +207,7 @@ const contacts = { version: VERSION, updatedAt: UPDATED, groupes: [
   ] },
   { nom: 'Transport', contacts: [
     { nom: 'Najib', role: 'Transporteur — 2 × 17 pl, 4×4, véhicule bagages', tel: '+212663298773', email: '', note: 'Même numéro que Simohamed (Deloitte)' },
-    { nom: 'Ssi Brahim', role: 'Chauffeur-pisteur référent 4×4 (19 et 20/09)', tel: '', email: '', aConfirmer: true },
+    { nom: 'Ssi Brahim', role: 'Chauffeur-pisteur référent 4×4 (19 et 20/09)', tel: '+212661344597', email: '' },
   ] },
   { nom: 'Lieux', contacts: [
     { nom: '2Ciels Boutique Hotel & Spa', role: 'Hôtel 17→19/09', tel: '+212524359550', email: '' },
@@ -273,7 +273,7 @@ const pending = { version: VERSION, updatedAt: UPDATED, items: [
   { id: 'pd01', sujet: 'HEURE : passage à GMT confirmé (décret 2.26.530, vérifié en ligne le 16/09) dans la nuit du 19 au 20/09 — les téléphones non mis à jour resteront à UTC+1 : au réveil du 20/09, aligner les 4 téléphones MRCO sur l’heure de l’app (bandeau rouge si écart) et rappeler la nouvelle heure à Najib, Ssi Brahim, le camp Agafay (petit-déj 08:30) et La Kasbah (petit-déj 05:15)', responsable: 'Mehdi / Eva', echeance: '2026-09-19', level: 'alerte' },
   { id: 'pd03', sujet: 'J4 (20/09) : répartition proposée par MRCO — CAR 1 Tammo, Arjen, Pascal, Marcel · CAR 2 Sander, Erwin, Michaël, Adriana · CAR 3 Jos, Mischa, Wim, Nancy · CAR 4 Christiaan, Jasper, Hjalmar, Dennis · CAR 5 Otte, Roel, Romy — à valider puis transmettre à Najib / Ssi Brahim', responsable: 'Mehdi → Farid', echeance: '2026-09-19', level: 'alerte' },
   { id: 'pd04', sujet: 'Véhicule bagages J4 : type et capacité à confirmer par Najib (Farid à bord)', responsable: 'Farid → Najib', echeance: '2026-09-18', level: 'normal' },
-  { id: 'pd05', sujet: 'Ssi Brahim : numéro à obtenir via Najib ; configuration du convoi J3 (assistance, place de MRCO) à caler avec lui', responsable: 'Farid', echeance: '2026-09-18', level: 'alerte' },
+  { id: 'pd05', sujet: 'Convoi J3 : véhicule d’assistance et place de MRCO à caler avec Ssi Brahim (numéro dans Contacts depuis le 17/09)', responsable: 'Farid', echeance: '2026-09-18', level: 'normal' },
   { id: 'pd07', sujet: 'Chambre 12 (2Ciels et Kasbah) attribuée sur place par le groupe : noter l\'occupant à l\'arrivée', responsable: 'Eva', echeance: '2026-09-17', level: 'normal' },
   { id: 'pd10', sujet: 'Téléphones manquants : Comptoir Darna, Relais du Lac, Yes We Camp Agafay (Petanque et Kasbah trouvés le 17/09)', responsable: 'Eva', echeance: '2026-09-18', level: 'normal' },
   { id: 'pd12', sujet: 'HV6534 lundi : Flightradar24 affiche 10:55 (nouvelle heure), documents 09:55 — pointer le vol dans l’app le 19 et le 20 au soir, informer Najib et le groupe de l’heure retenue', responsable: 'Farid', echeance: '2026-09-20', level: 'alerte' },

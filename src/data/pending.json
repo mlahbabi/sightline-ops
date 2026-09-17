@@ -1,5 +1,5 @@
 {
- "version": "V1.6 — 17/09/2026",
+ "version": "V1.7 — 17/09/2026",
  "updatedAt": "2026-09-17T11:00:00+01:00",
  "items": [
   {
@@ -25,10 +25,10 @@
   },
   {
    "id": "pd05",
-   "sujet": "Ssi Brahim : numéro à obtenir via Najib ; configuration du convoi J3 (assistance, place de MRCO) à caler avec lui",
+   "sujet": "Convoi J3 : véhicule d’assistance et place de MRCO à caler avec Ssi Brahim (numéro dans Contacts depuis le 17/09)",
    "responsable": "Farid",
    "echeance": "2026-09-18",
-   "level": "alerte"
+   "level": "normal"
   },
   {
    "id": "pd07",
