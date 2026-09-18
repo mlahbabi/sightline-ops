@@ -1,6 +1,6 @@
 {
- "version": "V1.11 — 18/09/2026",
- "updatedAt": "2026-09-18T18:35:00+01:00",
+ "version": "V1.12 — 18/09/2026",
+ "updatedAt": "2026-09-18T19:00:00+01:00",
  "sequences": [
   {
    "id": "s0916-pack",
@@ -790,7 +790,7 @@
    "effectif": "",
    "type": "setup",
    "level": "critique",
-   "details": "Demain samedi, le setup du briefing doit être PRÊT À 08:15 à l’hôtel (briefing technique 09:00, Ssi Brahim). À préparer dès ce soir : écran, projecteur avec ses câbles, enceinte JBL à mettre en charge cette nuit. L’enceinte JBL part ensuite au camp d’Agafay pour la soirée.",
+   "details": "Demain samedi, le setup du briefing doit être PRÊT À 08:15 à l’hôtel (briefing technique 08:45, Ssi Brahim). À préparer dès ce soir : écran, projecteur avec ses câbles, enceinte JBL à mettre en charge cette nuit. L’enceinte JBL part ensuite au camp d’Agafay pour la soirée.",
    "checklist": [
     {
      "id": "s0918-rappel-brief-c1",
@@ -928,7 +928,7 @@
    "effectif": "",
    "type": "setup",
    "level": "critique",
-   "details": "Tout doit être installé et testé à 08:15, avant le petit-déjeuner du groupe et le briefing technique de 09:00. Après le briefing, l’enceinte JBL est embarquée pour Yes We Camp Agafay (soirée du camp) : désigner qui l’emporte, elle ne part pas avec les bagages de 08:30 puisqu’elle sert au briefing.",
+   "details": "Tout doit être installé et testé à 08:15, avant le check-out du groupe (dès 08:00 au fil de l’eau) et le briefing technique de 08:45. Après le briefing, l’enceinte JBL est embarquée pour Yes We Camp Agafay (soirée du camp) : désigner qui l’emporte, elle ne part pas avec les bagages de 08:30 puisqu’elle sert au briefing de 08:45.",
    "checklist": [
     {
      "id": "s0919-setup-brief-c1",
@@ -963,28 +963,28 @@
    "date": "2026-09-19",
    "start": "08:00",
    "end": "08:45",
-   "title": "Petit-déjeuner, check-out 2Ciels, bagages hors chambres 08:30",
+   "title": "Check-out dès 08:00 + petit-déjeuner — bagages déposés à la RÉCEPTION",
    "lieu": "2Ciels Boutique Hotel & Spa",
    "effectif": "19",
    "type": "orga",
    "level": "critique",
-   "details": "Transfert des bagages 2Ciels → Yes We Camp Agafay par le transporteur du 2Ciels (hors Najib) : ils arrivent avant le groupe. Compter et étiqueter.",
+   "details": "Consigne Mehdi du 18/09 : les clients font leur check-out à partir de 08:00 en descendant au petit-déjeuner et laissent leurs bagages à la réception. Les bagages partent ensuite vers Yes We Camp Agafay avec le transporteur du 2Ciels (hors Najib) et arrivent avant le groupe — heure d’enlèvement ⚠️ à confirmer avec l’hôtel. Compter et étiqueter. Briefing 4×4 à 08:45.",
    "checklist": [
     {
      "id": "s0919-bagages-c1",
-     "label": "12 chambres libérées"
+     "label": "Consigne donnée au groupe la veille (check-out 08:00, bagages à la réception)"
     },
     {
      "id": "s0919-bagages-c2",
-     "label": "Bagages comptés (19) et chargés"
+     "label": "12 chambres libérées, extras réglés"
     },
     {
      "id": "s0919-bagages-c3",
-     "label": "Transporteur bagages parti"
+     "label": "Bagages comptés (19) à la réception"
     },
     {
      "id": "s0919-bagages-c4",
-     "label": "Extras réglés par le groupe"
+     "label": "Transporteur bagages parti vers Agafay"
     }
    ],
    "persons": [
@@ -1013,8 +1013,8 @@
   {
    "id": "s0919-brief4x4",
    "date": "2026-09-19",
-   "start": "09:00",
-   "end": "09:30",
+   "start": "08:45",
+   "end": "09:00",
    "title": "Rallye 4×4 SELF DRIVE — briefing technique (Ssi Brahim)",
    "lieu": "2Ciels — départ convoi",
    "effectif": "19",
