@@ -1,6 +1,6 @@
 {
- "version": "V1.10 — 17/09/2026",
- "updatedAt": "2026-09-17T11:00:00+01:00",
+ "version": "V1.11 — 18/09/2026",
+ "updatedAt": "2026-09-18T18:35:00+01:00",
  "sequences": [
   {
    "id": "s0916-pack",
@@ -781,6 +781,42 @@
    "owner": ""
   },
   {
+   "id": "s0918-rappel-brief",
+   "date": "2026-09-18",
+   "start": "19:15",
+   "end": "19:45",
+   "title": "RAPPEL CE SOIR — Mouad + Farid : matériel du briefing 4×4 de demain (écran, projecteur, enceinte JBL)",
+   "lieu": "2Ciels Boutique Hotel & Spa",
+   "effectif": "",
+   "type": "setup",
+   "level": "critique",
+   "details": "Demain samedi, le setup du briefing doit être PRÊT À 08:15 à l’hôtel (briefing technique 09:00, Ssi Brahim). À préparer dès ce soir : écran, projecteur avec ses câbles, enceinte JBL à mettre en charge cette nuit. L’enceinte JBL part ensuite au camp d’Agafay pour la soirée.",
+   "checklist": [
+    {
+     "id": "s0918-rappel-brief-c1",
+     "label": "Écran localisé et disponible"
+    },
+    {
+     "id": "s0918-rappel-brief-c2",
+     "label": "Projecteur + câble HDMI + rallonge / multiprise rassemblés"
+    },
+    {
+     "id": "s0918-rappel-brief-c3",
+     "label": "Enceinte JBL mise en charge pour la nuit"
+    },
+    {
+     "id": "s0918-rappel-brief-c4",
+     "label": "Emplacement du briefing calé avec le 2Ciels"
+    },
+    {
+     "id": "s0918-rappel-brief-c5",
+     "label": "Support du briefing (ordinateur / fichier) prévu et testé"
+    }
+   ],
+   "persons": [],
+   "owner": ""
+  },
+  {
    "id": "p0918-2030",
    "date": "2026-09-18",
    "start": "20:30",
@@ -883,6 +919,46 @@
    "waveId": "p0918-2330"
   },
   {
+   "id": "s0919-setup-brief",
+   "date": "2026-09-19",
+   "start": "07:30",
+   "end": "08:15",
+   "title": "Setup briefing 4×4 au 2Ciels — PRÊT À 08:15 (écran + projecteur + enceinte JBL) — Mouad + Farid",
+   "lieu": "2Ciels Boutique Hotel & Spa",
+   "effectif": "",
+   "type": "setup",
+   "level": "critique",
+   "details": "Tout doit être installé et testé à 08:15, avant le petit-déjeuner du groupe et le briefing technique de 09:00. Après le briefing, l’enceinte JBL est embarquée pour Yes We Camp Agafay (soirée du camp) : désigner qui l’emporte, elle ne part pas avec les bagages de 08:30 puisqu’elle sert au briefing.",
+   "checklist": [
+    {
+     "id": "s0919-setup-brief-c1",
+     "label": "Écran installé"
+    },
+    {
+     "id": "s0919-setup-brief-c2",
+     "label": "Projecteur branché, image testée"
+    },
+    {
+     "id": "s0919-setup-brief-c3",
+     "label": "Enceinte JBL chargée, son testé"
+    },
+    {
+     "id": "s0919-setup-brief-c4",
+     "label": "Tout prêt à 08:15"
+    },
+    {
+     "id": "s0919-setup-brief-c5",
+     "label": "Après le briefing : enceinte JBL embarquée pour le camp"
+    },
+    {
+     "id": "s0919-setup-brief-c6",
+     "label": "Écran et projecteur rangés / rendus"
+    }
+   ],
+   "persons": [],
+   "owner": ""
+  },
+  {
    "id": "s0919-bagages",
    "date": "2026-09-19",
    "start": "08:00",
@@ -944,7 +1020,7 @@
    "effectif": "19",
    "type": "activite",
    "level": "critique",
-   "details": "4 × 4×4, les invités conduisent : Jeep 1 (5), Jeep 2 (5), Jeep 3 (4), Jeep 4 (5) — voir Personnes → Jeep. Règles : pas de conduite risquée, rester dans le convoi, AUCUN alcool pour les conducteurs (assurance). Ssi Brahim en tête. Pancartes véhicules CAR 1 à 4. HEURE : dans la nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — le Maroc passe définitivement à GMT (décret 2.26.530, vérifié en ligne le 16/09). Les horaires des 20 et 21/09 sont en nouvelle heure. Les téléphones non mis à jour peuvent rester à UTC+1 : l’app calcule l’heure légale et fait foi.",
+   "details": "Matériel installé par Mouad + Farid dès 08:15 (écran, projecteur, enceinte JBL). 4 × 4×4, les invités conduisent : Jeep 1 (5), Jeep 2 (5), Jeep 3 (4), Jeep 4 (5) — voir Personnes → Jeep. Règles : pas de conduite risquée, rester dans le convoi, AUCUN alcool pour les conducteurs (assurance). Ssi Brahim en tête. Pancartes véhicules CAR 1 à 4. HEURE : dans la nuit du 19 au 20/09, à 02:00 les horloges reculent à 01:00 — le Maroc passe définitivement à GMT (décret 2.26.530, vérifié en ligne le 16/09). Les horaires des 20 et 21/09 sont en nouvelle heure. Les téléphones non mis à jour peuvent rester à UTC+1 : l’app calcule l’heure légale et fait foi.",
    "checklist": [
     {
      "id": "s0919-brief4x4-c1",
@@ -1172,7 +1248,7 @@
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "Enceinte JBL MRCO sur place (apportée du 2Ciels après le briefing). Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0919-desert-c1",

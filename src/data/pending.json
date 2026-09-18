@@ -1,6 +1,6 @@
 {
- "version": "V1.10 — 17/09/2026",
- "updatedAt": "2026-09-17T11:00:00+01:00",
+ "version": "V1.11 — 18/09/2026",
+ "updatedAt": "2026-09-18T18:35:00+01:00",
  "items": [
   {
    "id": "pd01",
@@ -43,6 +43,13 @@
    "responsable": "Eva",
    "echeance": "2026-09-18",
    "level": "normal"
+  },
+  {
+   "id": "pd13",
+   "sujet": "Soirée du 19/09 au camp : Mehdi a écrit « soirée balance » (18/09) — thème à préciser (soirée blanche ? consigne vestimentaire à annoncer au groupe ?) ; qui emporte l’enceinte JBL au camp après le briefing",
+   "responsable": "Mehdi",
+   "echeance": "2026-09-19",
+   "level": "alerte"
   },
   {
    "id": "pd12",

@@ -5,8 +5,8 @@
 const fs = require('fs');
 const path = require('path');
 const OUT = path.join(__dirname, '..', 'src', 'data');
-const VERSION = 'V1.10 — 17/09/2026';
-const UPDATED = '2026-09-17T11:00:00+01:00';
+const VERSION = 'V1.11 — 18/09/2026';
+const UPDATED = '2026-09-18T18:35:00+01:00';
 
 // ---------- Participants (19 clients — rooming 2Ciels V5 + Kasbah 16/09) ----------
 // ch2 = chambre 2Ciels (17→19), tente Agafay ⚠️ non communiquée, chK = chambre Kasbah (20→21). jeep3 = 4×4 self drive J3.
@@ -87,13 +87,15 @@ const seqs = [
   S('s0918-quest', '2026-09-18', '14:15', '16:15', 'Medina Quest Adventure — chasse au trésor 2 h (guides anglophones)', 'Médina — départ Le Grand Bazar', '19', 'activite', 'important', 'Équipes, énigmes, navigation. Véhicules en standby. Retour hôtel ~16:15.', ['Guides en place 14:15', 'Point de rendez-vous fin de jeu fixé', 'Véhicules prévenus'], ALL),
   S('s0918-setup-darna', '2026-09-18', '19:00', '20:00', 'Setup MRCO — Le Comptoir Darna', 'Le Comptoir Darna', '', 'setup', 'important', 'Menus 4 + chevalets 4, sous-verres. Dîner 4 plats avec spectacle (musiciens, danseurs).', ['Menus et chevalets posés', 'Chef briefé : 18 couverts + régimes']),
   S('s0918-darna', '2026-09-18', '21:00', '23:30', 'Dîner 4 plats + spectacle — Le Comptoir Darna', 'Le Comptoir Darna', '19', 'restauration', 'important', 'Menu 4. Retour hôtel 23:30, puis option Babouchka (spectacle et entrées offerts par Uyuni) — véhicules en disposal jusqu\'à la dernière course. ' + ALLERGIE, ['Option Babouchka : qui y va ? (compter)', 'Dernière course annoncée aux chauffeurs'], ALL),
+  S('s0918-rappel-brief', '2026-09-18', '19:15', '19:45', 'RAPPEL CE SOIR — Mouad + Farid : matériel du briefing 4×4 de demain (écran, projecteur, enceinte JBL)', '2Ciels Boutique Hotel & Spa', '', 'setup', 'critique', 'Demain samedi, le setup du briefing doit être PRÊT À 08:15 à l’hôtel (briefing technique 09:00, Ssi Brahim). À préparer dès ce soir : écran, projecteur avec ses câbles, enceinte JBL à mettre en charge cette nuit. L’enceinte JBL part ensuite au camp d’Agafay pour la soirée.', ['Écran localisé et disponible', 'Projecteur + câble HDMI + rallonge / multiprise rassemblés', 'Enceinte JBL mise en charge pour la nuit', 'Emplacement du briefing calé avec le 2Ciels', 'Support du briefing (ordinateur / fichier) prévu et testé']),
   // J3 — samedi 19/09
+  S('s0919-setup-brief', '2026-09-19', '07:30', '08:15', 'Setup briefing 4×4 au 2Ciels — PRÊT À 08:15 (écran + projecteur + enceinte JBL) — Mouad + Farid', '2Ciels Boutique Hotel & Spa', '', 'setup', 'critique', 'Tout doit être installé et testé à 08:15, avant le petit-déjeuner du groupe et le briefing technique de 09:00. Après le briefing, l’enceinte JBL est embarquée pour Yes We Camp Agafay (soirée du camp) : désigner qui l’emporte, elle ne part pas avec les bagages de 08:30 puisqu’elle sert au briefing.', ['Écran installé', 'Projecteur branché, image testée', 'Enceinte JBL chargée, son testé', 'Tout prêt à 08:15', 'Après le briefing : enceinte JBL embarquée pour le camp', 'Écran et projecteur rangés / rendus']),
   S('s0919-bagages', '2026-09-19', '08:00', '08:45', 'Petit-déjeuner, check-out 2Ciels, bagages hors chambres 08:30', '2Ciels Boutique Hotel & Spa', '19', 'orga', 'critique', 'Transfert des bagages 2Ciels → Yes We Camp Agafay par le transporteur du 2Ciels (hors Najib) : ils arrivent avant le groupe. Compter et étiqueter.', ['12 chambres libérées', 'Bagages comptés (19) et chargés', 'Transporteur bagages parti', 'Extras réglés par le groupe'], ALL),
-  S('s0919-brief4x4', '2026-09-19', '09:00', '09:30', 'Rallye 4×4 SELF DRIVE — briefing technique (Ssi Brahim)', '2Ciels — départ convoi', '19', 'activite', 'critique', '4 × 4×4, les invités conduisent : Jeep 1 (5), Jeep 2 (5), Jeep 3 (4), Jeep 4 (5) — voir Personnes → Jeep. Règles : pas de conduite risquée, rester dans le convoi, AUCUN alcool pour les conducteurs (assurance). Ssi Brahim en tête. Pancartes véhicules CAR 1 à 4. ' + NOTE_HEURE, ['Répartition Jeep 1 confirmée (déduite ⚠️)', 'Conducteurs désignés par jeep', 'Briefing fait, règles alcool rappelées', 'Pancartes CAR 1-4 posées'], ALL),
+  S('s0919-brief4x4', '2026-09-19', '09:00', '09:30', 'Rallye 4×4 SELF DRIVE — briefing technique (Ssi Brahim)', '2Ciels — départ convoi', '19', 'activite', 'critique', 'Matériel installé par Mouad + Farid dès 08:15 (écran, projecteur, enceinte JBL). 4 × 4×4, les invités conduisent : Jeep 1 (5), Jeep 2 (5), Jeep 3 (4), Jeep 4 (5) — voir Personnes → Jeep. Règles : pas de conduite risquée, rester dans le convoi, AUCUN alcool pour les conducteurs (assurance). Ssi Brahim en tête. Pancartes véhicules CAR 1 à 4. ' + NOTE_HEURE, ['Répartition Jeep 1 confirmée (déduite ⚠️)', 'Conducteurs désignés par jeep', 'Briefing fait, règles alcool rappelées', 'Pancartes CAR 1-4 posées'], ALL),
   S('s0919-relais', '2026-09-19', '13:00', '14:30', 'Déjeuner 3 plats — Le Relais du Lac (Lalla Takerkoust)', 'Le Relais du Lac', '19', 'restauration', 'important', 'Terrasse au bord du lac, vue Atlas. Menu 5 + chevalets 5. Véhicules en standby. ' + ALLERGIE, ['Chef briefé : 18 couverts + régimes', 'Menus et chevalets en place'], ALL),
   S('s0919-surprise', '2026-09-19', '14:30', '17:00', 'Rallye vers l\'Agafay — arrêt surprise marocain', 'Piste vers Agafay', '19', 'activite', 'normal', 'Arrêt surprise à thème marocain en route. Arrivée au camp 17:00.', [], ALL),
   S('s0919-camp', '2026-09-19', '17:00', '17:30', 'Arrivée Yes We Camp Agafay — check-in 12 tentes Top VIP', 'Yes We Camp Agafay', '19', 'orga', 'critique', 'Thé de bienvenue. Bagages déjà livrés (transporteur 2Ciels). Attribution des tentes ⚠️ non communiquée (même logique que les chambres : 12). Piscine et coucher de soleil 17:30–19:30.', ['Bagages présents (19)', 'Tentes attribuées', 'Setup dîner : menus 6 + chevalets 6'], ALL),
-  S('s0919-desert', '2026-09-19', '20:00', '00:30', 'Dîner du désert + soirée (tamtam, cracheur de feu, DJ)', 'Yes We Camp Agafay — piscine privatisée', '19', 'restauration', 'important', 'Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). ' + ALLERGIE, ['Chef briefé : 18 couverts + régimes', 'Fin de l\'open bar annoncée (3 h)'], ALL),
+  S('s0919-desert', '2026-09-19', '20:00', '00:30', 'Dîner du désert + soirée (tamtam, cracheur de feu, DJ)', 'Yes We Camp Agafay — piscine privatisée', '19', 'restauration', 'important', 'Enceinte JBL MRCO sur place (apportée du 2Ciels après le briefing). Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). ' + ALLERGIE, ['Chef briefé : 18 couverts + régimes', 'Fin de l\'open bar annoncée (3 h)'], ALL),
   S('s0919-heure', '2026-09-19', '22:00', '22:15', 'RAPPEL HEURE : cette nuit 02:00 → 01:00, passage à GMT', 'Yes We Camp Agafay', '', 'orga', 'critique', NOTE_HEURE + ' Confirmer par message à Najib et Ssi Brahim : véhicule bagages 10:30 et convoi 11:00 en NOUVELLE heure (GMT). Au réveil, comparer l’heure du téléphone à celle de l’app (bandeau rouge si écart).', ['Message envoyé à Najib', 'Message envoyé à Ssi Brahim', 'Groupe prévenu (réveil, petit-déjeuner 08:30 nouvelle heure)', 'Au réveil : téléphones MRCO à l’heure de l’app']),
   S('s0919-hv', '2026-09-19', '21:30', '21:45', 'Pointer HV6534 sur Flightradar24 (Transport → 21/09) : 09:55 ou 10:55 ?', 'Yes We Camp Agafay', '', 'orga', 'important', 'Consigne Mehdi 17/09 : vérifier l’horaire GMT du vol retour l’avant-veille et la veille. Prise en charge 06:20 inchangée. Farid.', ['Horaire relevé et noté en note terrain']),
   // J4 — dimanche 20/09
@@ -256,6 +258,10 @@ const team = { version: VERSION, updatedAt: UPDATED, membres: ['Mehdi', 'Eva', '
     { sequenceId: 's0918-setup-bazar', owner: 'Farid', role: 'mise en place Grand Bazar' },
     { sequenceId: 's0918-setup-bazar', owner: 'Eva', role: 'mise en place Grand Bazar' },
     { sequenceId: 's0920-luggage', owner: 'Farid', role: 'à bord du véhicule bagages Agafay → Kasbah' },
+    { sequenceId: 's0918-rappel-brief', owner: 'Mouad', role: 'préparer ce soir le matériel du briefing 4×4' },
+    { sequenceId: 's0918-rappel-brief', owner: 'Farid', role: 'préparer ce soir le matériel du briefing 4×4' },
+    { sequenceId: 's0919-setup-brief', owner: 'Mouad', role: 'setup briefing prêt à 08:15 (écran, projecteur, JBL)' },
+    { sequenceId: 's0919-setup-brief', owner: 'Farid', role: 'setup briefing prêt à 08:15 (écran, projecteur, JBL)' },
     { sequenceId: 's0919-hv', owner: 'Farid', role: 'pointage HV6534' },
     { sequenceId: 's0920-hv', owner: 'Farid', role: 'pointage HV6534' },
     { sequenceId: 's0916-najib', owner: 'Mehdi', role: 'appel Najib : flotte + correction heure' },
@@ -266,6 +272,7 @@ const team = { version: VERSION, updatedAt: UPDATED, membres: ['Mehdi', 'Eva', '
     { sequenceId: 's0917-setup-psc', label: 'Setup Petanque Social Club 17/09' },
     { sequenceId: 's0918-ballon', label: 'Montgolfière 18/09 05:30 (départ Farid + Mehdi, retour Eva + Mouad)' },
     { sequenceId: 's0918-setup-bazar', label: 'Mise en place Grand Bazar 18/09 11:15' },
+    { sequenceId: 's0919-setup-brief', label: 'Setup briefing 4×4 — prêt à 08:15 le 19/09' },
     { sequenceId: 's0919-brief4x4', label: 'Rallye 4×4 self drive 19/09' },
     { sequenceId: 's0920-luggage', label: 'Véhicule bagages 20/09 (encadrant MRCO à bord)' },
     { sequenceId: 's0920-convoi', label: 'Convoi 4×4 chauffeurs 20/09' },
@@ -280,6 +287,7 @@ const pending = { version: VERSION, updatedAt: UPDATED, items: [
   { id: 'pd05', sujet: 'Convoi J3 : véhicule d’assistance et place de MRCO à caler avec Ssi Brahim (numéro dans Contacts depuis le 17/09)', responsable: 'Farid', echeance: '2026-09-18', level: 'normal' },
   { id: 'pd07', sujet: 'Chambre 12 (2Ciels et Kasbah) attribuée sur place par le groupe : noter l\'occupant à l\'arrivée', responsable: 'Eva', echeance: '2026-09-17', level: 'normal' },
   { id: 'pd10', sujet: 'Téléphones manquants : Comptoir Darna, Yes We Camp Agafay (Petanque, Kasbah et Relais du Lac trouvés)', responsable: 'Eva', echeance: '2026-09-18', level: 'normal' },
+  { id: 'pd13', sujet: 'Soirée du 19/09 au camp : Mehdi a écrit « soirée balance » (18/09) — thème à préciser (soirée blanche ? consigne vestimentaire à annoncer au groupe ?) ; qui emporte l’enceinte JBL au camp après le briefing', responsable: 'Mehdi', echeance: '2026-09-19', level: 'alerte' },
   { id: 'pd12', sujet: 'HV6534 lundi : Flightradar24 affiche 10:55 (nouvelle heure), documents 09:55 — pointer le vol dans l’app le 19 et le 20 au soir, informer Najib et le groupe de l’heure retenue', responsable: 'Farid', echeance: '2026-09-20', level: 'alerte' },
   ] };
 

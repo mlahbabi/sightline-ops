@@ -1,6 +1,6 @@
 {
- "version": "V1.10 — 17/09/2026",
- "updatedAt": "2026-09-17T11:00:00+01:00",
+ "version": "V1.11 — 18/09/2026",
+ "updatedAt": "2026-09-18T18:35:00+01:00",
  "membres": [
   "Mehdi",
   "Eva",
@@ -94,6 +94,26 @@
    "role": "à bord du véhicule bagages Agafay → Kasbah"
   },
   {
+   "sequenceId": "s0918-rappel-brief",
+   "owner": "Mouad",
+   "role": "préparer ce soir le matériel du briefing 4×4"
+  },
+  {
+   "sequenceId": "s0918-rappel-brief",
+   "owner": "Farid",
+   "role": "préparer ce soir le matériel du briefing 4×4"
+  },
+  {
+   "sequenceId": "s0919-setup-brief",
+   "owner": "Mouad",
+   "role": "setup briefing prêt à 08:15 (écran, projecteur, JBL)"
+  },
+  {
+   "sequenceId": "s0919-setup-brief",
+   "owner": "Farid",
+   "role": "setup briefing prêt à 08:15 (écran, projecteur, JBL)"
+  },
+  {
    "sequenceId": "s0919-hv",
    "owner": "Farid",
    "role": "pointage HV6534"
@@ -129,6 +149,10 @@
   {
    "sequenceId": "s0918-setup-bazar",
    "label": "Mise en place Grand Bazar 18/09 11:15"
+  },
+  {
+   "sequenceId": "s0919-setup-brief",
+   "label": "Setup briefing 4×4 — prêt à 08:15 le 19/09"
   },
   {
    "sequenceId": "s0919-brief4x4",
