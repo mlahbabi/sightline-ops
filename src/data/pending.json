@@ -1,6 +1,6 @@
 {
- "version": "V1.12 — 18/09/2026",
- "updatedAt": "2026-09-18T19:00:00+01:00",
+ "version": "V1.13 — 18/09/2026",
+ "updatedAt": "2026-09-18T19:20:00+01:00",
  "items": [
   {
    "id": "pd01",
@@ -46,7 +46,7 @@
   },
   {
    "id": "pd13",
-   "sujet": "Soirée du 19/09 au camp : Mehdi a écrit « soirée balance » (18/09) — thème à préciser (soirée blanche ? consigne vestimentaire à annoncer au groupe ?) ; qui emporte l’enceinte JBL au camp après le briefing",
+   "sujet": "Enceinte JBL : qui l’emporte au camp après le briefing de 08:45, et dans quel véhicule ; le groupe a-t-il bien été prévenu de la tenue blanche pour la soirée du 19/09 ?",
    "responsable": "Mehdi",
    "echeance": "2026-09-19",
    "level": "alerte"

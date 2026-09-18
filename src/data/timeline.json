@@ -1,6 +1,6 @@
 {
- "version": "V1.12 — 18/09/2026",
- "updatedAt": "2026-09-18T19:00:00+01:00",
+ "version": "V1.13 — 18/09/2026",
+ "updatedAt": "2026-09-18T19:20:00+01:00",
  "sequences": [
   {
    "id": "s0916-pack",
@@ -972,7 +972,7 @@
    "checklist": [
     {
      "id": "s0919-bagages-c1",
-     "label": "Consigne donnée au groupe la veille (check-out 08:00, bagages à la réception)"
+     "label": "Consigne donnée au groupe la veille (check-out 08:00, bagages à la réception, tenue BLANCHE dans la valise pour la soirée du camp)"
     },
     {
      "id": "s0919-bagages-c2",
@@ -1200,7 +1200,7 @@
    "effectif": "19",
    "type": "orga",
    "level": "critique",
-   "details": "Thé de bienvenue. Bagages déjà livrés (transporteur 2Ciels). Attribution des tentes ⚠️ non communiquée (même logique que les chambres : 12). Piscine et coucher de soleil 17:30–19:30.",
+   "details": "Thé de bienvenue. Bagages déjà livrés (transporteur 2Ciels). Attribution des tentes ⚠️ non communiquée (même logique que les chambres : 12). Piscine et coucher de soleil 17:30–19:30. Rappeler la SOIRÉE BLANCHE de 20:00 : tenue blanche.",
    "checklist": [
     {
      "id": "s0919-camp-c1",
@@ -1243,12 +1243,12 @@
    "date": "2026-09-19",
    "start": "20:00",
    "end": "00:30",
-   "title": "Dîner du désert + soirée (tamtam, cracheur de feu, DJ)",
+   "title": "SOIRÉE BLANCHE — dîner du désert + soirée (tamtam, cracheur de feu, DJ)",
    "lieu": "Yes We Camp Agafay — piscine privatisée",
    "effectif": "19",
    "type": "restauration",
    "level": "important",
-   "details": "Enceinte JBL MRCO sur place (apportée du 2Ciels après le briefing). Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
+   "details": "SOIRÉE BLANCHE : les convives sont habillés en blanc (Mehdi, 18/09). Enceinte JBL MRCO sur place (apportée du 2Ciels après le briefing). Menu 6, 4 plats. Open bar 3 h inclus (vin, bière, whisky, gin, vodka, softs ; cocktails et spiritueux deluxe en supplément réglé par le groupe). COUVERTS : 18 — Wim Wildenbeest apporte sa propre nourriture à tous les repas (allergie noix / arachides, EpiPen) : lui garder une place, ses boissons, glacière au frais. Régimes : Erwin (pas de poisson), Michaël (poisson, beurre, champignons), Marcel (fruits de mer, viande crue), Mischa (coriandre, champignons), Hjalmar (fromage), Roel (ni poisson ni viande), Otte et Adriana (sans gluten).",
    "checklist": [
     {
      "id": "s0919-desert-c1",
@@ -1256,7 +1256,11 @@
     },
     {
      "id": "s0919-desert-c2",
-     "label": "Fin de l'open bar annoncée (3 h)"
+     "label": "Tenue blanche rappelée au groupe à l’arrivée au camp (17:00)"
+    },
+    {
+     "id": "s0919-desert-c3",
+     "label": "Fin de l’open bar annoncée (3 h)"
     }
    ],
    "persons": [
